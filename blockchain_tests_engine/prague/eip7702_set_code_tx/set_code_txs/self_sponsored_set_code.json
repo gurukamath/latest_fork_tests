@@ -182,22 +182,16 @@
                 "balance": "0x00",
                 "code": "0x32600055336001553460025500",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0xff0565355494accc7876a07b6e84df3c0c79916aaf4cc14065f4cd090a6dc10d",
+        "lastblockhash": "0x4a1d45e70dca056cc3dfb25b9f7fc1db327e4926b767b9f9605c301bfa9ad55c",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x4b8643b1438e7d8df5cc0468b019f080c6c923719f8c604e35cab893bf52e8fa",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x1575123cff65bbb91cc8d8f8c6dc86e27aeee53ff59e6a4a74ce396a725267e5",
+                        "stateRoot": "0x47da4cbae5eafdedff5be2c5012e7df13de407bc87f7256e79d2fbc9c06f5f2d",
                         "receiptsRoot": "0x5b2f603e87d41c89738b69b672d0b61f80f838a4c7e3351203a7590316205030",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -209,7 +203,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xff0565355494accc7876a07b6e84df3c0c79916aaf4cc14065f4cd090a6dc10d",
+                        "blockHash": "0x4a1d45e70dca056cc3dfb25b9f7fc1db327e4926b767b9f9605c301bfa9ad55c",
                         "transactions": [
                             "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080c0f85cf85a809400000000000000000000000000000000000010000101a0e074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2fa01dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e5590280a036a9506913cdfc177c404e49598872dca1ddc14d1b6342134f1b8c09cd63fc58a06de3d53d2d7159047a0f8b0c3175e033c541f6071ffa7fda2a80225429071f15"
                         ],
@@ -226,11 +220,11 @@
             }
         ],
         "_info": {
-            "hash": "0x23fc53b9e833586dca09ef95ba1cc4cb89fda120166947efc3342189342cb632",
+            "hash": "0x2208f9a85fe61f7ecec7ecb3dea100a50d69bd66ed03a68b6a6672953845b43f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -419,22 +413,16 @@
                 "balance": "0x00",
                 "code": "0x32600055336001553460025500",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0xb43f7999d6345c05d6f478b1e4cf6e18ccb83b216e3b18ff511332cae2d84732",
+        "lastblockhash": "0xe58960836dd15163f85ac52599d2a0d98e664dfdff0ccafe56dd20390a10a4fc",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x4b8643b1438e7d8df5cc0468b019f080c6c923719f8c604e35cab893bf52e8fa",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x109f7ab53ae35559004bac0d8f18e418ce3bd549d6f6260e3d2c60a3adeedfe3",
+                        "stateRoot": "0x1fc42da741b6098e2bbb20e7c5eec1dc826ae7f14415f9162f66dc36f724a3b6",
                         "receiptsRoot": "0x6141ba65caf24c306ca455d643abd2cb27c629b760d3756437ecffa4ce0b88df",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -446,7 +434,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xb43f7999d6345c05d6f478b1e4cf6e18ccb83b216e3b18ff511332cae2d84732",
+                        "blockHash": "0xe58960836dd15163f85ac52599d2a0d98e664dfdff0ccafe56dd20390a10a4fc",
                         "transactions": [
                             "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180c0f85cf85a809400000000000000000000000000000000000010000101a0e074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2fa01dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e5590201a0234b0f324388f83d13660f63eebc1d11be8f9931a45be19daff0a2ffa81da168a0296b5cfd1a8b572ae21ea2ffd33896fae861cb56af06cc5aa84db811b6e14b73"
                         ],
@@ -463,11 +451,11 @@
             }
         ],
         "_info": {
-            "hash": "0xd54061fff257d7f3b2ff1f0ea3ae64674062827512ff9a4b62400f9c74830363",
+            "hash": "0xd2f3f56766bc9476b05b662585cdee3065d325e0db639979acddf06cccde1fa3",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -655,22 +643,16 @@
                 "balance": "0x00",
                 "code": "0x32600055336001553460025560006000f3",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0x01563d06f8f5fc59e1138ac708dd8e39a047ef8d245913c5181aa92f416372c0",
+        "lastblockhash": "0x1031b5ff35b7acc2e8a970a726a6df260c1c9d82e5ca372cb91a86d57d5ee6dc",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x0bbd336183fbe209924358c4091fab2c10e7d4759d29bb660eb5fd4907d44982",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x4cd80342d612986ab329703a7857258f07c1d6fac9e7a1650e44d5645e1b4dc5",
+                        "stateRoot": "0x959343b6d8595394ba43c48cc9570f5d5cfc98e9916d3813083291963cf07927",
                         "receiptsRoot": "0x359cf7e20163d3203a9a773a40f953e9917cf0f468dee7113ea825f25efc82ca",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -682,7 +664,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x01563d06f8f5fc59e1138ac708dd8e39a047ef8d245913c5181aa92f416372c0",
+                        "blockHash": "0x1031b5ff35b7acc2e8a970a726a6df260c1c9d82e5ca372cb91a86d57d5ee6dc",
                         "transactions": [
                             "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080c0f85cf85a809400000000000000000000000000000000000010000101a0e074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2fa01dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e5590280a036a9506913cdfc177c404e49598872dca1ddc14d1b6342134f1b8c09cd63fc58a06de3d53d2d7159047a0f8b0c3175e033c541f6071ffa7fda2a80225429071f15"
                         ],
@@ -699,11 +681,11 @@
             }
         ],
         "_info": {
-            "hash": "0x81bdae7827ce9eb21d845b01275e7d29d983822fe20f036a83c9c4a697bb5cd1",
+            "hash": "0x945cecb9bfa617b55237671f7c6c5f6551668ac4e90a6923fa4a5c31fb62ba3c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -892,22 +874,16 @@
                 "balance": "0x00",
                 "code": "0x32600055336001553460025560006000f3",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0x2b782513d94cf3867c0ba3943e131ea1975d0a28973633ed4b67a4ec27bb03d6",
+        "lastblockhash": "0x48b67ea65376bcc02cb393f780b72a9b7457afb25aaf06bd7322c111c1a2c43f",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x0bbd336183fbe209924358c4091fab2c10e7d4759d29bb660eb5fd4907d44982",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0xb67e672bb01d7e065763577b1d5147a19d6ad4c65bd4e161b12fda6e7495ff88",
+                        "stateRoot": "0x66b6814b42dbe1eb8d2f3850fbdf946dccb4b09e25f160fe77d88dd033a29346",
                         "receiptsRoot": "0xa5e01e11f75ee701ea2ddd17c678389f7243d8dbba96da7faf0ad8cf2f6e211c",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -919,7 +895,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x2b782513d94cf3867c0ba3943e131ea1975d0a28973633ed4b67a4ec27bb03d6",
+                        "blockHash": "0x48b67ea65376bcc02cb393f780b72a9b7457afb25aaf06bd7322c111c1a2c43f",
                         "transactions": [
                             "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180c0f85cf85a809400000000000000000000000000000000000010000101a0e074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2fa01dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e5590201a0234b0f324388f83d13660f63eebc1d11be8f9931a45be19daff0a2ffa81da168a0296b5cfd1a8b572ae21ea2ffd33896fae861cb56af06cc5aa84db811b6e14b73"
                         ],
@@ -936,11 +912,11 @@
             }
         ],
         "_info": {
-            "hash": "0x7d240c0e21fd5dfea681e9234d7597945443c9f18edc05c90b654178078dc1fc",
+            "hash": "0x9da1b4caa2a84e38c5cc019b1d892a4d29444387c2a7507a9126ad777f9e1af2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -1125,22 +1101,16 @@
                 "balance": "0x00",
                 "code": "0x326000553360015534600255fd",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0x7d8f298043e512d56b7c9dccd56ce926d5f8eb7393b7ce2688b8384f4cc2e4f2",
+        "lastblockhash": "0x4c69190f2c7eb8e6c8b2a0cb69c6cd4b2425c9835f8711f6ee0e5403c6c745e8",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x900a074705b70fabf138eb75bddcf33347127a026e9d6c9e4cd9763c39047106",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0xe66ef2d933bf27899401f3a725d5b82632f6121a242315f105af65103aa0e78c",
+                        "stateRoot": "0xc2f52bb23b796acc6553423fbe6960728059419b8923d17fffa68ea710827b74",
                         "receiptsRoot": "0x5c35a81c95a2a0e9f3bc6007b4e1732be7727fa56c20e5959e59469d2b3d98a8",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -1152,7 +1122,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x7d8f298043e512d56b7c9dccd56ce926d5f8eb7393b7ce2688b8384f4cc2e4f2",
+                        "blockHash": "0x4c69190f2c7eb8e6c8b2a0cb69c6cd4b2425c9835f8711f6ee0e5403c6c745e8",
                         "transactions": [
                             "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080c0f85cf85a809400000000000000000000000000000000000010000101a0e074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2fa01dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e5590280a036a9506913cdfc177c404e49598872dca1ddc14d1b6342134f1b8c09cd63fc58a06de3d53d2d7159047a0f8b0c3175e033c541f6071ffa7fda2a80225429071f15"
                         ],
@@ -1169,11 +1139,11 @@
             }
         ],
         "_info": {
-            "hash": "0x47d7fdf4f007d9704d3274132274fe8bd029d8a000720d9f3d03762f1fb62f7a",
+            "hash": "0xac6d5983bf9bc6b6bfd71ef67191996c51254284572716e2b1266d39ceb482b3",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -1358,22 +1328,16 @@
                 "balance": "0x00",
                 "code": "0x326000553360015534600255fd",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0x78a73b5054e54c823704b6a2244dfe74ce2d73d7f10bbc53c1a58251c8d01e1c",
+        "lastblockhash": "0x1faef364122fe81ce6d5844b3533c24ef1d87318796f79a4d7b38803714f8933",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x900a074705b70fabf138eb75bddcf33347127a026e9d6c9e4cd9763c39047106",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0xe66ef2d933bf27899401f3a725d5b82632f6121a242315f105af65103aa0e78c",
+                        "stateRoot": "0xc2f52bb23b796acc6553423fbe6960728059419b8923d17fffa68ea710827b74",
                         "receiptsRoot": "0x5c35a81c95a2a0e9f3bc6007b4e1732be7727fa56c20e5959e59469d2b3d98a8",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -1385,7 +1349,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x78a73b5054e54c823704b6a2244dfe74ce2d73d7f10bbc53c1a58251c8d01e1c",
+                        "blockHash": "0x1faef364122fe81ce6d5844b3533c24ef1d87318796f79a4d7b38803714f8933",
                         "transactions": [
                             "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180c0f85cf85a809400000000000000000000000000000000000010000101a0e074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2fa01dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e5590201a0234b0f324388f83d13660f63eebc1d11be8f9931a45be19daff0a2ffa81da168a0296b5cfd1a8b572ae21ea2ffd33896fae861cb56af06cc5aa84db811b6e14b73"
                         ],
@@ -1402,11 +1366,11 @@
             }
         ],
         "_info": {
-            "hash": "0x423551ff8f6b1e6ddfc90ced1598d41b6f89bfde1ad515bf4b68269875b934da",
+            "hash": "0x4e3717b037d1c5cb989d529c3b2573861838181dd68986288398643628b9dea4",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -1591,22 +1555,16 @@
                 "balance": "0x00",
                 "code": "0x326000553360015534600255fe",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0xafb07c98eee58d36e7f17ebcc5bdcffac6bf1f76b23ce8a30ab1f9e11b835188",
+        "lastblockhash": "0xd140234f1e694e43c8a731d68a5c0d3add24b32288a513bd4b33f9b8094c1b6a",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x6b63c91cf64bb0b8d9c6bbb85c388570efb004cd8463999c3145b76920f302b6",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0xc52cd940522b6bec211530b6b12cc86c62d2ceef6d0fb9c20112821dcfc31d39",
+                        "stateRoot": "0xeb2c27e8fdc26cb2e1b65c4b1959ecbb47d1d98846873d2188f94bb8d44fc6bc",
                         "receiptsRoot": "0x5c35a81c95a2a0e9f3bc6007b4e1732be7727fa56c20e5959e59469d2b3d98a8",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -1618,7 +1576,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xafb07c98eee58d36e7f17ebcc5bdcffac6bf1f76b23ce8a30ab1f9e11b835188",
+                        "blockHash": "0xd140234f1e694e43c8a731d68a5c0d3add24b32288a513bd4b33f9b8094c1b6a",
                         "transactions": [
                             "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080c0f85cf85a809400000000000000000000000000000000000010000101a0e074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2fa01dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e5590280a036a9506913cdfc177c404e49598872dca1ddc14d1b6342134f1b8c09cd63fc58a06de3d53d2d7159047a0f8b0c3175e033c541f6071ffa7fda2a80225429071f15"
                         ],
@@ -1635,11 +1593,11 @@
             }
         ],
         "_info": {
-            "hash": "0x61b5d27c77f8258468818f816ef822b6c50fba4d07c90be817d9e189c510bad2",
+            "hash": "0x2741a0581af28f7a9ea574f2f63cac0f88f152a655a95c8cd67c2484eef2bd68",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -1824,22 +1782,16 @@
                 "balance": "0x00",
                 "code": "0x326000553360015534600255fe",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0xed4fab61902c2b46a66163d85f0bbde741dc1b2d4700b200a11c8ad54968afc2",
+        "lastblockhash": "0xa6118b55a2f63673c2baf64f95423f9f61cc60730d197a6c35cf3419b6e5063f",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x6b63c91cf64bb0b8d9c6bbb85c388570efb004cd8463999c3145b76920f302b6",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0xc52cd940522b6bec211530b6b12cc86c62d2ceef6d0fb9c20112821dcfc31d39",
+                        "stateRoot": "0xeb2c27e8fdc26cb2e1b65c4b1959ecbb47d1d98846873d2188f94bb8d44fc6bc",
                         "receiptsRoot": "0x5c35a81c95a2a0e9f3bc6007b4e1732be7727fa56c20e5959e59469d2b3d98a8",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -1851,7 +1803,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xed4fab61902c2b46a66163d85f0bbde741dc1b2d4700b200a11c8ad54968afc2",
+                        "blockHash": "0xa6118b55a2f63673c2baf64f95423f9f61cc60730d197a6c35cf3419b6e5063f",
                         "transactions": [
                             "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180c0f85cf85a809400000000000000000000000000000000000010000101a0e074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2fa01dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e5590201a0234b0f324388f83d13660f63eebc1d11be8f9931a45be19daff0a2ffa81da168a0296b5cfd1a8b572ae21ea2ffd33896fae861cb56af06cc5aa84db811b6e14b73"
                         ],
@@ -1868,11 +1820,11 @@
             }
         ],
         "_info": {
-            "hash": "0xa66147c1a50bb4052dcb858be5943751d61eaf1227ccada152172b2fcffc023b",
+            "hash": "0x93615c470d681e90ae509ebb947bae40fd7eb3f39f5fdceb0f1b97f363c6e8bb",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -2057,22 +2009,16 @@
                 "balance": "0x00",
                 "code": "0x32600055336001553460025564174876e800600020",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0x8f9da7b79c3bfa201669b66ca21e1a8f4ea06a6cf6d8394a7d59c3f0d6acbd9c",
+        "lastblockhash": "0x925f8c5835cd58514615d42dda5b3331378d404ced8d91c464ef5f43f36f987e",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x366a1c7b2026ec110889083f6cca9496725772eed2a4cdeb225e47f733067cbe",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x4df039d4e98fd92195b23cb91bf00901f029a00f980c027f2c6cd4c8c13dcbeb",
+                        "stateRoot": "0x63c1b68202000055d347897d8458b0f45a6801dd38e49d318def85787d06c355",
                         "receiptsRoot": "0x5c35a81c95a2a0e9f3bc6007b4e1732be7727fa56c20e5959e59469d2b3d98a8",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -2084,7 +2030,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x8f9da7b79c3bfa201669b66ca21e1a8f4ea06a6cf6d8394a7d59c3f0d6acbd9c",
+                        "blockHash": "0x925f8c5835cd58514615d42dda5b3331378d404ced8d91c464ef5f43f36f987e",
                         "transactions": [
                             "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080c0f85cf85a809400000000000000000000000000000000000010000101a0e074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2fa01dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e5590280a036a9506913cdfc177c404e49598872dca1ddc14d1b6342134f1b8c09cd63fc58a06de3d53d2d7159047a0f8b0c3175e033c541f6071ffa7fda2a80225429071f15"
                         ],
@@ -2101,11 +2047,11 @@
             }
         ],
         "_info": {
-            "hash": "0x3b811fab1b89648d03f87e77edbcb0696df7c01a9cf278691f0a58c7b8856113",
+            "hash": "0x368a57f04c7286f9e65757804affe314728cd301580a4feae34f2b724cf40cef",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -2290,22 +2236,16 @@
                 "balance": "0x00",
                 "code": "0x32600055336001553460025564174876e800600020",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0x07c8c336172fba4040e626f3be848e917c38eed8a8f81fb7ea18347b3ac132ba",
+        "lastblockhash": "0xc2072f030a2f4c2701ce51ab92c352036fb07f98e50a117e101fba3c6d36774b",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x366a1c7b2026ec110889083f6cca9496725772eed2a4cdeb225e47f733067cbe",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x4df039d4e98fd92195b23cb91bf00901f029a00f980c027f2c6cd4c8c13dcbeb",
+                        "stateRoot": "0x63c1b68202000055d347897d8458b0f45a6801dd38e49d318def85787d06c355",
                         "receiptsRoot": "0x5c35a81c95a2a0e9f3bc6007b4e1732be7727fa56c20e5959e59469d2b3d98a8",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -2317,7 +2257,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x07c8c336172fba4040e626f3be848e917c38eed8a8f81fb7ea18347b3ac132ba",
+                        "blockHash": "0xc2072f030a2f4c2701ce51ab92c352036fb07f98e50a117e101fba3c6d36774b",
                         "transactions": [
                             "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180c0f85cf85a809400000000000000000000000000000000000010000101a0e074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2fa01dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e5590201a0234b0f324388f83d13660f63eebc1d11be8f9931a45be19daff0a2ffa81da168a0296b5cfd1a8b572ae21ea2ffd33896fae861cb56af06cc5aa84db811b6e14b73"
                         ],
@@ -2334,11 +2274,11 @@
             }
         ],
         "_info": {
-            "hash": "0x1afa1fc439b685f3cdc654cf86fff43887765b38e32cd7a78f6da38fd9b5c444",
+            "hash": "0x9745a03304debd3e28e4b2c2a8aaf974e78666d0cbb7804ba667befd593ad3cc",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L59",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }

@@ -190,22 +190,16 @@
                 "balance": "0x021e2e",
                 "code": "0x",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0x24f16130d6431e540607eee620816102dbadd1d41fbf7397a6ffa0deed4267a1",
+        "lastblockhash": "0x432e7ba5bb1f469c7e1384e1d8419ef8bec5680aea80bb503889858430fcbd64",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0xcdf0fc75a77699ae9ab2ff9da64751e1e8f90989734c04c76dc04c38cd6bd384",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x97ed7085160b0bce5a5c3d4c28854437098b49ea85f39a9d0aac56c51247b5a2",
+                        "stateRoot": "0x87db21b8057d969ae7a1501a1295a41c0f5bff8f40ddec6eee4812f6d8cd6721",
                         "receiptsRoot": "0x95575028ee5a242b490164a913a061da5c051cd44cbe0e530371a448df9128af",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -217,7 +211,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x24f16130d6431e540607eee620816102dbadd1d41fbf7397a6ffa0deed4267a1",
+                        "blockHash": "0x432e7ba5bb1f469c7e1384e1d8419ef8bec5680aea80bb503889858430fcbd64",
                         "transactions": [
                             "0xf860800a83989680940000000000000000000000000000000000001000808026a0e5d462429669f661291a8dc4c49a092cfd4922b6f3f31c9189a2f4adf5ecd730a001494afaf472fbb80bcb107ffeb918a2b9115f454027840615d6d20d63c69ac0"
                         ],
@@ -234,11 +228,11 @@
             }
         ],
         "_info": {
-            "hash": "0x46545e9cdbb1e6fe0403752ecc06aeaf5cc312f42f1c69e0bc928a9eae6626b5",
+            "hash": "0x8e7df5577b813a535bfb16e39a5988a151ad22fdb4a5576b7c82ca3be3923579",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test calling the history contract with invalid block numbers, such as blocks from the future\n    or overflowing block numbers.\n\n    Also test the BLOCKHASH opcode with the same block numbers, which should not affect the\n    behavior of the opcode, even after verkle.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L302",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L302",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2935.md",
             "reference-spec-version": "68d54a80a4f5b9c0cf4ae3a10586d63ef221de36"
         }
@@ -434,22 +428,16 @@
                 "balance": "0x021e2e",
                 "code": "0x",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0x204d01be7ff5845f6cfb002d1eaa59ede7ef894970c19d8f2eeaf4acc2d7260a",
+        "lastblockhash": "0x7a83c34148aa9af3f2b7a883aef5976daf27d9dbe8b9ebd879f505ec72db9600",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0xa6800da90d864d9385dc3f34ba99642726082cea0e2574fb7ca4d429cd207190",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x001ebb0175925b73c5ce2416a0923de6d0f10ec188596adaadcdc5d48ecfef72",
+                        "stateRoot": "0xcb88f8d77749dfe67821ede9b24d021346b810cef21ed5c3449c10c07b5fcaf9",
                         "receiptsRoot": "0x95575028ee5a242b490164a913a061da5c051cd44cbe0e530371a448df9128af",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -461,7 +449,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x204d01be7ff5845f6cfb002d1eaa59ede7ef894970c19d8f2eeaf4acc2d7260a",
+                        "blockHash": "0x7a83c34148aa9af3f2b7a883aef5976daf27d9dbe8b9ebd879f505ec72db9600",
                         "transactions": [
                             "0xf860800a83989680940000000000000000000000000000000000001000808026a0e5d462429669f661291a8dc4c49a092cfd4922b6f3f31c9189a2f4adf5ecd730a001494afaf472fbb80bcb107ffeb918a2b9115f454027840615d6d20d63c69ac0"
                         ],
@@ -478,11 +466,11 @@
             }
         ],
         "_info": {
-            "hash": "0x1ddb40ef70e66a4389498ef575b58319d593aa5776f43c2b6306a4f94d7ba743",
+            "hash": "0xe0e0a0e3c5ee0f4e36a22f2af8dec5308f80c1fe471f09a4369ed5027260d082",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test calling the history contract with invalid block numbers, such as blocks from the future\n    or overflowing block numbers.\n\n    Also test the BLOCKHASH opcode with the same block numbers, which should not affect the\n    behavior of the opcode, even after verkle.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L302",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L302",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2935.md",
             "reference-spec-version": "68d54a80a4f5b9c0cf4ae3a10586d63ef221de36"
         }
@@ -678,22 +666,16 @@
                 "balance": "0x021e2e",
                 "code": "0x",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0x008a10495719177169f1c46029416bae71aca82ee799413d8ba135a01cf6fb09",
+        "lastblockhash": "0xe0abdc5a8d061d6a4de00c8f11a476df95ccc6c7ae484e054eb3b3b0d4896382",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0xcccdc4e5628ed14a9dcac7130f7be02471f4c372bbbea44b58ff4c131dc641aa",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0xab56048b63cb7c4ffe953c60911fd862fbad5f88bfb03c26193b7b7c745e5116",
+                        "stateRoot": "0x323bf9fe82bb50d863b181760fb3299a0ea400674ba79838a33b03a2606e4b8e",
                         "receiptsRoot": "0x95575028ee5a242b490164a913a061da5c051cd44cbe0e530371a448df9128af",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -705,7 +687,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x008a10495719177169f1c46029416bae71aca82ee799413d8ba135a01cf6fb09",
+                        "blockHash": "0xe0abdc5a8d061d6a4de00c8f11a476df95ccc6c7ae484e054eb3b3b0d4896382",
                         "transactions": [
                             "0xf860800a83989680940000000000000000000000000000000000001000808026a0e5d462429669f661291a8dc4c49a092cfd4922b6f3f31c9189a2f4adf5ecd730a001494afaf472fbb80bcb107ffeb918a2b9115f454027840615d6d20d63c69ac0"
                         ],
@@ -722,11 +704,11 @@
             }
         ],
         "_info": {
-            "hash": "0x3839d6ecceac868a55506ce1dbb3b97f7d9ae6a6370ade0c034e962c22a670d6",
+            "hash": "0x6d4a02acb03d5c507a6bf76efcf34d280458a215410baa2eeaa1b2fe108d31c3",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test calling the history contract with invalid block numbers, such as blocks from the future\n    or overflowing block numbers.\n\n    Also test the BLOCKHASH opcode with the same block numbers, which should not affect the\n    behavior of the opcode, even after verkle.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L302",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L302",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2935.md",
             "reference-spec-version": "68d54a80a4f5b9c0cf4ae3a10586d63ef221de36"
         }
@@ -921,22 +903,16 @@
                 "balance": "0x016b0f",
                 "code": "0x",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0x286c5267f1969300bcd140477128e16a867b388fb85d4206db15c7a5aa7e9432",
+        "lastblockhash": "0xa51ec385e79d45a8d7e4da893c6efe2110476a4c2feed697f6d95a5726cab352",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0xc4711d7deab042c83a645a0d9b8494745ac41186a4635dc4dad070893cb8f598",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0xa25cc19fb897a583b92c75111ca5d64b4b5f56c972cf33ad10192d7ffc266344",
+                        "stateRoot": "0x757b76d7c7b1309545dff3ef8042a9e60332ba1602b10191a5d0b2e6608f95e1",
                         "receiptsRoot": "0xe2d860cac97735f69ea3247215273dff7d4eadf9d3c52a54eb8694d8579759c4",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -948,7 +924,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x286c5267f1969300bcd140477128e16a867b388fb85d4206db15c7a5aa7e9432",
+                        "blockHash": "0xa51ec385e79d45a8d7e4da893c6efe2110476a4c2feed697f6d95a5726cab352",
                         "transactions": [
                             "0xf860800a83989680940000000000000000000000000000000000001000808026a0e5d462429669f661291a8dc4c49a092cfd4922b6f3f31c9189a2f4adf5ecd730a001494afaf472fbb80bcb107ffeb918a2b9115f454027840615d6d20d63c69ac0"
                         ],
@@ -965,11 +941,11 @@
             }
         ],
         "_info": {
-            "hash": "0xff2f276af6157ca04558bf228563dee42914c41b048df7f5805481624b6717a1",
+            "hash": "0x8e1c0c7135123d9d6d9841ba44aba26394ae49b626aec26f4d89dc4689275b87",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Test calling the history contract with invalid block numbers, such as blocks from the future\n    or overflowing block numbers.\n\n    Also test the BLOCKHASH opcode with the same block numbers, which should not affect the\n    behavior of the opcode, even after verkle.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L302",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L302",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2935.md",
             "reference-spec-version": "68d54a80a4f5b9c0cf4ae3a10586d63ef221de36"
         }

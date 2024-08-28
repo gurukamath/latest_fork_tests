@@ -187,22 +187,16 @@
                 "balance": "0x02667f",
                 "code": "0x",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0xe085b3661c182cafa19136644948aeead789caa6ce17f9fd06a73a469f167321",
+        "lastblockhash": "0x1accc5a43f6d4d0bcd1457f98fb3081fce5b36a8a744488291c429fc21acde56",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0x1433418d3cf70087a25ed8205b64ee2914f29b11c06c73d395211e22ebe2d753",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x60e4a18d09c38a71bb4349e2b4512852f9e119019e1f840815fa37713c2b46f9",
+                        "stateRoot": "0x29d42f3c2d0aa0bb4f5ea33656ab136a43bbbc243da5d8d5eb9923b4964f6820",
                         "receiptsRoot": "0xe6c99152c7d6432d45e97e20704809bd3c417410593a173c7815e31d54afcc8d",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -214,7 +208,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xe085b3661c182cafa19136644948aeead789caa6ce17f9fd06a73a469f167321",
+                        "blockHash": "0x1accc5a43f6d4d0bcd1457f98fb3081fce5b36a8a744488291c429fc21acde56",
                         "transactions": [
                             "0xf860800a83989680940000000000000000000000000000000000001000808026a0e5d462429669f661291a8dc4c49a092cfd4922b6f3f31c9189a2f4adf5ecd730a001494afaf472fbb80bcb107ffeb918a2b9115f454027840615d6d20d63c69ac0"
                         ],
@@ -231,11 +225,11 @@
             }
         ],
         "_info": {
-            "hash": "0xfebda7f4f3f819f4802dd38188c510b23174e833fc85e704e7adf5a69cf69f6e",
+            "hash": "0xe2d5a58c3b5e4427a1560a7fc105e55243a575b58a54ce19ea562af2e4eac38c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Tests that block hashes are stored correctly at the system contract address after the fork\n    transition. Block hashes are stored incrementally at the transition until the\n    `HISTORY_SERVE_WINDOW` ring buffer is full. Afterwards the oldest block hash is replaced by the\n    new one.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L190",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L190",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2935.md",
             "reference-spec-version": "68d54a80a4f5b9c0cf4ae3a10586d63ef221de36"
         }
@@ -428,22 +422,16 @@
                 "balance": "0x02667f",
                 "code": "0x",
                 "storage": {}
-            },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x02",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
             }
         },
-        "lastblockhash": "0xc4a7eeaeb8ab4c0a78a621ea54b92dd5df9c589101f738ba63c745ef1fdf472a",
+        "lastblockhash": "0xaa99f054c62acfe992d2678f18c163acde4bfb1d400e3dd42dfd954baced7ffa",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0xbe413708b3f007634c8ffa9cf3dea5367d7117fe7ebecf3c8412ee6ddd100a51",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x4b94b15383a68bb71cd04d5b71fd4813bfc2de791f8f92aec998883f5cc58a54",
+                        "stateRoot": "0x735c6b259ef8a2f759a780d0ef7be5d581aefebde79c288d510070514d88308d",
                         "receiptsRoot": "0xe6c99152c7d6432d45e97e20704809bd3c417410593a173c7815e31d54afcc8d",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -455,7 +443,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xc4a7eeaeb8ab4c0a78a621ea54b92dd5df9c589101f738ba63c745ef1fdf472a",
+                        "blockHash": "0xaa99f054c62acfe992d2678f18c163acde4bfb1d400e3dd42dfd954baced7ffa",
                         "transactions": [
                             "0xf860800a83989680940000000000000000000000000000000000001000808026a0e5d462429669f661291a8dc4c49a092cfd4922b6f3f31c9189a2f4adf5ecd730a001494afaf472fbb80bcb107ffeb918a2b9115f454027840615d6d20d63c69ac0"
                         ],
@@ -472,11 +460,11 @@
             }
         ],
         "_info": {
-            "hash": "0x84734e502b6dd0df69cd45cc029ec9d7dcb272b3d37b93f52f5afda5ad238429",
+            "hash": "0x4cdb8aff0182a7a7ac26c9ced3865631648aaafd157c124cadfedcb7c6c4dc17",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Tests that block hashes are stored correctly at the system contract address after the fork\n    transition. Block hashes are stored incrementally at the transition until the\n    `HISTORY_SERVE_WINDOW` ring buffer is full. Afterwards the oldest block hash is replaced by the\n    new one.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L190",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L190",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2935.md",
             "reference-spec-version": "68d54a80a4f5b9c0cf4ae3a10586d63ef221de36"
         }
@@ -640,7 +628,7 @@
                 "code": "0x3373fffffffffffffffffffffffffffffffffffffffe1460575767ffffffffffffffff5f3511605357600143035f3511604b575f35612000014311604b57611fff5f3516545f5260205ff35b5f5f5260205ff35b5f5ffd5b5f35611fff60014303165500",
                 "storage": {
                     "0x00": "0xdf76f590c4d5fc999549a5fb3dbb7936a13edea22ae9284176d1f7cfd8e5d0c9",
-                    "0x01": "0x749ae21fadcc6ab17d7d15ceba2227c4b4e861abfacaadb759f1c4177a312197"
+                    "0x01": "0x21cf35bfbe4b86f605ffac69d9a9ab9b0969788fd3bd1fdafa3ef4bbb241e506"
                 }
             },
             "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
@@ -666,12 +654,6 @@
                     "0x02": "0x01"
                 }
             },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x04",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
-            },
             "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
                 "nonce": "0x00",
                 "balance": "0x02667f",
@@ -679,14 +661,14 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x99434f1d208c50e9bd155337a457f23867e003f7801a9953848fed9f81af5813",
+        "lastblockhash": "0x3ba0b856c65fe1c190af815858aae5d09f495b9c93cfc336cdd516c0a63c6f3d",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0xdf76f590c4d5fc999549a5fb3dbb7936a13edea22ae9284176d1f7cfd8e5d0c9",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x6e10946858bc8cfbfdfbfbff36c0f4bd03aec04cd4a392355fe3f3ab768342c7",
+                        "stateRoot": "0x1738410439d72fd0b1b81a475be64df8e56a18bcbd51d471d4c92a3663d17f18",
                         "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -698,7 +680,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x749ae21fadcc6ab17d7d15ceba2227c4b4e861abfacaadb759f1c4177a312197",
+                        "blockHash": "0x21cf35bfbe4b86f605ffac69d9a9ab9b0969788fd3bd1fdafa3ef4bbb241e506",
                         "transactions": [],
                         "withdrawals": [],
                         "depositRequests": [],
@@ -714,9 +696,9 @@
             {
                 "params": [
                     {
-                        "parentHash": "0x749ae21fadcc6ab17d7d15ceba2227c4b4e861abfacaadb759f1c4177a312197",
+                        "parentHash": "0x21cf35bfbe4b86f605ffac69d9a9ab9b0969788fd3bd1fdafa3ef4bbb241e506",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x8f7b7e15e0a688419888bc425c568af2e4047f2a175ca7de557d1b3731bfc57c",
+                        "stateRoot": "0xb65d7c25eaa4e6062f9660eb04b945af101eb1dc81b9e30a26f2cedb09a367ee",
                         "receiptsRoot": "0xe6c99152c7d6432d45e97e20704809bd3c417410593a173c7815e31d54afcc8d",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x2",
@@ -728,7 +710,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x99434f1d208c50e9bd155337a457f23867e003f7801a9953848fed9f81af5813",
+                        "blockHash": "0x3ba0b856c65fe1c190af815858aae5d09f495b9c93cfc336cdd516c0a63c6f3d",
                         "transactions": [
                             "0xf860800a83989680940000000000000000000000000000000000001000808026a0e5d462429669f661291a8dc4c49a092cfd4922b6f3f31c9189a2f4adf5ecd730a001494afaf472fbb80bcb107ffeb918a2b9115f454027840615d6d20d63c69ac0"
                         ],
@@ -745,11 +727,11 @@
             }
         ],
         "_info": {
-            "hash": "0xdad05ca2634e75a3df6a28fd93c91ac2484e65cdd487293ddefa6e60090df11c",
+            "hash": "0xf900dcde5ed05eeb14a6df01cc123580ab748099644da9a4f59483980c8bef48",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Tests that block hashes are stored correctly at the system contract address after the fork\n    transition. Block hashes are stored incrementally at the transition until the\n    `HISTORY_SERVE_WINDOW` ring buffer is full. Afterwards the oldest block hash is replaced by the\n    new one.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L190",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L190",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2935.md",
             "reference-spec-version": "68d54a80a4f5b9c0cf4ae3a10586d63ef221de36"
         }
@@ -913,7 +895,7 @@
                 "code": "0x3373fffffffffffffffffffffffffffffffffffffffe1460575767ffffffffffffffff5f3511605357600143035f3511604b575f35612000014311604b57611fff5f3516545f5260205ff35b5f5f5260205ff35b5f5ffd5b5f35611fff60014303165500",
                 "storage": {
                     "0x00": "0xa90908e34f6677299495fef1d4f8d5467f4a2041c8a58a77ac9a331aac692477",
-                    "0x01": "0x39af1cf2ef0201eb690635dcf8c7c5c6a56c7d399e88fe6104c882435169e976"
+                    "0x01": "0x631e144d7f3658cc33048e377fc584f96c4ccb3a74552de78c261b3c11977e2a"
                 }
             },
             "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
@@ -939,12 +921,6 @@
                     "0x02": "0x01"
                 }
             },
-            "0xfffffffffffffffffffffffffffffffffffffffe": {
-                "nonce": "0x04",
-                "balance": "0x00",
-                "code": "0x",
-                "storage": {}
-            },
             "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
                 "nonce": "0x00",
                 "balance": "0x02667f",
@@ -952,14 +928,14 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xb091b966cced33d7c0acf1038b55903c6cea482114cad8cb6e1df9023294bed1",
+        "lastblockhash": "0xd86d6313fef7115b32203fab1324e2edad3dc938bd4c21139a323389bc2ee0b6",
         "engineNewPayloads": [
             {
                 "params": [
                     {
                         "parentHash": "0xa90908e34f6677299495fef1d4f8d5467f4a2041c8a58a77ac9a331aac692477",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0xa62e5464d4468ec5a3b8f6bc08f3190e1b3ed99f223308be2bf48213c94520e6",
+                        "stateRoot": "0xe693f214d56182b1f7923a8dae2195035afffd3deb8289d8852a58696a6fbb2a",
                         "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -971,7 +947,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x39af1cf2ef0201eb690635dcf8c7c5c6a56c7d399e88fe6104c882435169e976",
+                        "blockHash": "0x631e144d7f3658cc33048e377fc584f96c4ccb3a74552de78c261b3c11977e2a",
                         "transactions": [],
                         "withdrawals": [],
                         "depositRequests": [],
@@ -987,9 +963,9 @@
             {
                 "params": [
                     {
-                        "parentHash": "0x39af1cf2ef0201eb690635dcf8c7c5c6a56c7d399e88fe6104c882435169e976",
+                        "parentHash": "0x631e144d7f3658cc33048e377fc584f96c4ccb3a74552de78c261b3c11977e2a",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0xefa13b2a69da7398bf0b3645d70dd29aaa34cc8742da2076628fefb5dec81746",
+                        "stateRoot": "0x8c591e4525b81b3b90838cffffca8b183cd6e6b5d15495ef6aa0d006a2538a06",
                         "receiptsRoot": "0xe6c99152c7d6432d45e97e20704809bd3c417410593a173c7815e31d54afcc8d",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x2",
@@ -1001,7 +977,7 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xb091b966cced33d7c0acf1038b55903c6cea482114cad8cb6e1df9023294bed1",
+                        "blockHash": "0xd86d6313fef7115b32203fab1324e2edad3dc938bd4c21139a323389bc2ee0b6",
                         "transactions": [
                             "0xf860800a83989680940000000000000000000000000000000000001000808026a0e5d462429669f661291a8dc4c49a092cfd4922b6f3f31c9189a2f4adf5ecd730a001494afaf472fbb80bcb107ffeb918a2b9115f454027840615d6d20d63c69ac0"
                         ],
@@ -1018,11 +994,11 @@
             }
         ],
         "_info": {
-            "hash": "0x3cb9b6edaa720801a7805e2847cd8ddf4272a6c9aeb103cc4ebde53f09967ab7",
+            "hash": "0x011afd2534acdb210662b992971edf46c5a0ad272c18a440148f66a4c618dc9f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
             "description": "Test function documentation:\n\n    Tests that block hashes are stored correctly at the system contract address after the fork\n    transition. Block hashes are stored incrementally at the transition until the\n    `HISTORY_SERVE_WINDOW` ring buffer is full. Afterwards the oldest block hash is replaced by the\n    new one.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.2.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L190",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.3.0/tests/prague/eip2935_historical_block_hashes_from_state/test_block_hashes.py#L190",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2935.md",
             "reference-spec-version": "68d54a80a4f5b9c0cf4ae3a10586d63ef221de36"
         }
