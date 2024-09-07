@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-no_allowances-opcode_EXTCALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-no_allowances-extcall_without_value]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -121,14 +121,143 @@
         "_info": {
             "hash": "0xd68f9de7ca67c5ead5f47ff0b9210a3aca5f5731fb3be9dbbeed73659ce8e593",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-no_allowances-opcode_EXTSTATICCALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-no_allowances-extcall_with_value]": {
+        "network": "Prague",
+        "genesisBlockHeader": {
+            "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "coinbase": "0x0000000000000000000000000000000000000000",
+            "stateRoot": "0xcc0d23e98a49a36ca6a8a264de1529d4329bc028884435b00d6705795f77c246",
+            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "difficulty": "0x00",
+            "number": "0x00",
+            "gasLimit": "0x016345785d8a0000",
+            "gasUsed": "0x00",
+            "timestamp": "0x00",
+            "extraData": "0x00",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "baseFeePerGas": "0x07",
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "blobGasUsed": "0x00",
+            "excessBlobGas": "0x00",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "hash": "0x28d014267c5b176987d2ac27b98de2dfad5f61702ac93fdf2e8bb80a4123846e"
+        },
+        "pre": {
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0xef00010100040200010001040000000080000000",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001100": {
+                "nonce": "0x01",
+                "balance": "0x01",
+                "code": "0xef0001010004020001001c04000000008000056120156001556001600160006000611000f814e1000560006000fd00",
+                "storage": {}
+            }
+        },
+        "postState": {
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0xef00010100040200010001040000000080000000",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001100": {
+                "nonce": "0x01",
+                "balance": "0x01",
+                "code": "0xef0001010004020001001c04000000008000056120156001556001600160006000611000f814e1000560006000fd00",
+                "storage": {
+                    "0x01": "0x2015"
+                }
+            },
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {
+                    "0x03e8": "0x03e8"
+                }
+            },
+            "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                "nonce": "0x00",
+                "balance": "0x028158",
+                "code": "0x",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x01",
+                "balance": "0x3635c9adc5de97a630",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "lastblockhash": "0xc99e736e378673dc2279e68c2925cb606e8ce376977825796880550b4767f8af",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x28d014267c5b176987d2ac27b98de2dfad5f61702ac93fdf2e8bb80a4123846e",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x92c292a2de8281a4e99503e12898bb7176bd1122ce0afa2ed5454ab041d7c644",
+                        "receiptsRoot": "0x7ff21c45e171ab5708bd888a42965897e8b9142aa0f619930dcf79e1b633d117",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x16345785d8a0000",
+                        "gasUsed": "0xd5c8",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0xc99e736e378673dc2279e68c2925cb606e8ce376977825796880550b4767f8af",
+                        "transactions": [
+                            "0xf85f800a82d5c8940000000000000000000000000000000000001100808026a053074922ea3979c5c562676b81d2b4b8134d04059c520cbb6c9e0b6dcb0278aca055dfd64eb9da751c2a6e9f8a91e686e116da0bdc6da3588a04e119e6e7df36e7"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "newPayloadVersion": "3",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0x62b60c4640bd1d5130b4ab743b028da851ff7535656e599ee63c060711e39594",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
+            "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
+            "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
+        }
+    },
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-no_allowances-extstaticcall]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -250,14 +379,14 @@
         "_info": {
             "hash": "0x03f0e9bd1cca2e75fb83c0b110e059f78a12c7d351a47931da1a6ffc5331f8ae",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-no_allowances-opcode_EXTDELEGATECALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-no_allowances-extdelegatecall]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -379,14 +508,14 @@
         "_info": {
             "hash": "0xd6582e1647c73a017b076070706953c56a0ca57f1d5715e269a6e91bebec308f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_retained-opcode_EXTCALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_retained-extcall_without_value]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -508,14 +637,143 @@
         "_info": {
             "hash": "0x7beab2291c253dab9295905f7b2cdb7c400ac318f87a5b9e6c8743fb08692d3b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_retained-opcode_EXTSTATICCALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_retained-extcall_with_value]": {
+        "network": "Prague",
+        "genesisBlockHeader": {
+            "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "coinbase": "0x0000000000000000000000000000000000000000",
+            "stateRoot": "0xcc0d23e98a49a36ca6a8a264de1529d4329bc028884435b00d6705795f77c246",
+            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "difficulty": "0x00",
+            "number": "0x00",
+            "gasLimit": "0x016345785d8a0000",
+            "gasUsed": "0x00",
+            "timestamp": "0x00",
+            "extraData": "0x00",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "baseFeePerGas": "0x07",
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "blobGasUsed": "0x00",
+            "excessBlobGas": "0x00",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "hash": "0x28d014267c5b176987d2ac27b98de2dfad5f61702ac93fdf2e8bb80a4123846e"
+        },
+        "pre": {
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0xef00010100040200010001040000000080000000",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001100": {
+                "nonce": "0x01",
+                "balance": "0x01",
+                "code": "0xef0001010004020001001c04000000008000056120156001556001600160006000611000f814e1000560006000fd00",
+                "storage": {}
+            }
+        },
+        "postState": {
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0xef00010100040200010001040000000080000000",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001100": {
+                "nonce": "0x01",
+                "balance": "0x01",
+                "code": "0xef0001010004020001001c04000000008000056120156001556001600160006000611000f814e1000560006000fd00",
+                "storage": {
+                    "0x01": "0x2015"
+                }
+            },
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {
+                    "0x03e8": "0x03e8"
+                }
+            },
+            "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                "nonce": "0x00",
+                "balance": "0x028158",
+                "code": "0x",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x01",
+                "balance": "0x3635c9adc5de97a630",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "lastblockhash": "0x6ebdba959f2959b486fb019903c1a664dd9dd26d30403c2d0de43d7c4dd2f16b",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x28d014267c5b176987d2ac27b98de2dfad5f61702ac93fdf2e8bb80a4123846e",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x92c292a2de8281a4e99503e12898bb7176bd1122ce0afa2ed5454ab041d7c644",
+                        "receiptsRoot": "0x7ff21c45e171ab5708bd888a42965897e8b9142aa0f619930dcf79e1b633d117",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x16345785d8a0000",
+                        "gasUsed": "0xd5c8",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0x6ebdba959f2959b486fb019903c1a664dd9dd26d30403c2d0de43d7c4dd2f16b",
+                        "transactions": [
+                            "0xf85f800a82dec4940000000000000000000000000000000000001100808026a0e18605221637555adb8888fd19bbb223cfeced9532d79e14027af3dbeda531f9a05cf2aa819b1aa3efee458106b4681d5a236d0b00fc820bce7634082d45ce69f8"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "newPayloadVersion": "3",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0x78ba7e9a7c4a737211ba69eca633e4f429a92e3eb090bb1eced6173129159d0a",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
+            "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
+            "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
+        }
+    },
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_retained-extstaticcall]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -637,14 +895,14 @@
         "_info": {
             "hash": "0x878317bdcd12e3b140a3d37808918a4bb2b992bb5d4490ac3527f62ae5b4df70",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_retained-opcode_EXTDELEGATECALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_retained-extdelegatecall]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -766,14 +1024,14 @@
         "_info": {
             "hash": "0x054f61b745b47e2071d2172799f2524ac3b72f811db3706095d3958ccab0448a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_callee-opcode_EXTCALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_callee-extcall_without_value]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -895,14 +1153,143 @@
         "_info": {
             "hash": "0x86760758ded0dbd96b3eda673b5232807c91db71f84474e97d20583b4004ff53",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_callee-opcode_EXTSTATICCALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_callee-extcall_with_value]": {
+        "network": "Prague",
+        "genesisBlockHeader": {
+            "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "coinbase": "0x0000000000000000000000000000000000000000",
+            "stateRoot": "0xcc0d23e98a49a36ca6a8a264de1529d4329bc028884435b00d6705795f77c246",
+            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "difficulty": "0x00",
+            "number": "0x00",
+            "gasLimit": "0x016345785d8a0000",
+            "gasUsed": "0x00",
+            "timestamp": "0x00",
+            "extraData": "0x00",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "baseFeePerGas": "0x07",
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "blobGasUsed": "0x00",
+            "excessBlobGas": "0x00",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "hash": "0x28d014267c5b176987d2ac27b98de2dfad5f61702ac93fdf2e8bb80a4123846e"
+        },
+        "pre": {
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0xef00010100040200010001040000000080000000",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001100": {
+                "nonce": "0x01",
+                "balance": "0x01",
+                "code": "0xef0001010004020001001c04000000008000056120156001556001600160006000611000f814e1000560006000fd00",
+                "storage": {}
+            }
+        },
+        "postState": {
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0xef00010100040200010001040000000080000000",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001100": {
+                "nonce": "0x01",
+                "balance": "0x01",
+                "code": "0xef0001010004020001001c04000000008000056120156001556001600160006000611000f814e1000560006000fd00",
+                "storage": {
+                    "0x01": "0x2015"
+                }
+            },
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {
+                    "0x03e8": "0x03e8"
+                }
+            },
+            "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                "nonce": "0x00",
+                "balance": "0x028158",
+                "code": "0x",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x01",
+                "balance": "0x3635c9adc5de97a630",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "lastblockhash": "0xf05e572708f581a58d497c859d1bf4397605c3b88bf5ac9bc615c0ad9df22df4",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x28d014267c5b176987d2ac27b98de2dfad5f61702ac93fdf2e8bb80a4123846e",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x92c292a2de8281a4e99503e12898bb7176bd1122ce0afa2ed5454ab041d7c644",
+                        "receiptsRoot": "0x7ff21c45e171ab5708bd888a42965897e8b9142aa0f619930dcf79e1b633d117",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x16345785d8a0000",
+                        "gasUsed": "0xd5c8",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0xf05e572708f581a58d497c859d1bf4397605c3b88bf5ac9bc615c0ad9df22df4",
+                        "transactions": [
+                            "0xf85f800a82e950940000000000000000000000000000000000001100808025a01c2f00a24e859714c4c2e12e34054174a1f60787f07220f6d0eb43f0274a814ba013faf94fcff2619cc11c0ac6c3b3c378ad00f0bef77c80eb64487706f59f706e"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "newPayloadVersion": "3",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0x5e88a67311cfb99f10f2344475e3e999c067b3093fa8977d53c5b39709a4d2d6",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
+            "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
+            "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
+        }
+    },
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_callee-extstaticcall]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1024,14 +1411,14 @@
         "_info": {
             "hash": "0x33350f7ff280e022b689929cde97244420270cde7421bb79e4a367248ac65248",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_callee-opcode_EXTDELEGATECALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-only_callee-extdelegatecall]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1153,14 +1540,14 @@
         "_info": {
             "hash": "0xf2750175d65ec173ccaba21d9823d39959211c27a47740da084d873ea948a250",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-both_allowances-opcode_EXTCALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-both_allowances-extcall_without_value]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1280,14 +1667,141 @@
         "_info": {
             "hash": "0xf2fcdbde47c134688d1cccc58bd357a3148cecfff071fc4fa0f115d7a5376092",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-both_allowances-opcode_EXTSTATICCALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-both_allowances-extcall_with_value]": {
+        "network": "Prague",
+        "genesisBlockHeader": {
+            "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "coinbase": "0x0000000000000000000000000000000000000000",
+            "stateRoot": "0xcc0d23e98a49a36ca6a8a264de1529d4329bc028884435b00d6705795f77c246",
+            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "difficulty": "0x00",
+            "number": "0x00",
+            "gasLimit": "0x016345785d8a0000",
+            "gasUsed": "0x00",
+            "timestamp": "0x00",
+            "extraData": "0x00",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "baseFeePerGas": "0x07",
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "blobGasUsed": "0x00",
+            "excessBlobGas": "0x00",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "hash": "0x28d014267c5b176987d2ac27b98de2dfad5f61702ac93fdf2e8bb80a4123846e"
+        },
+        "pre": {
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0xef00010100040200010001040000000080000000",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001100": {
+                "nonce": "0x01",
+                "balance": "0x01",
+                "code": "0xef0001010004020001001c04000000008000056120156001556001600160006000611000f814e1000560006000fd00",
+                "storage": {}
+            }
+        },
+        "postState": {
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0xef00010100040200010001040000000080000000",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001100": {
+                "nonce": "0x01",
+                "balance": "0x01",
+                "code": "0xef0001010004020001001c04000000008000056120156001556001600160006000611000f814e1000560006000fd00",
+                "storage": {}
+            },
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {
+                    "0x03e8": "0x03e8"
+                }
+            },
+            "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                "nonce": "0x00",
+                "balance": "0x02816a",
+                "code": "0x",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x01",
+                "balance": "0x3635c9adc5de97a5f4",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "lastblockhash": "0xe45c27ff27645987185c97154249bd711cf12ffb9321162ac502e50369fd6d78",
+        "engineNewPayloads": [
+            {
+                "params": [
+                    {
+                        "parentHash": "0x28d014267c5b176987d2ac27b98de2dfad5f61702ac93fdf2e8bb80a4123846e",
+                        "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "stateRoot": "0x97fd7b163255e52ce7f22f8e30fc17112369c0bda638e347975f1c727b1e06f8",
+                        "receiptsRoot": "0xbd0129a87a7ab61b76af4e49bb94adb83bfaa21f4aef21e7806a11d30731350d",
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockNumber": "0x1",
+                        "gasLimit": "0x16345785d8a0000",
+                        "gasUsed": "0xd5ce",
+                        "timestamp": "0x3e8",
+                        "extraData": "0x00",
+                        "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "baseFeePerGas": "0x7",
+                        "blobGasUsed": "0x0",
+                        "excessBlobGas": "0x0",
+                        "blockHash": "0xe45c27ff27645987185c97154249bd711cf12ffb9321162ac502e50369fd6d78",
+                        "transactions": [
+                            "0xf85f800a82f24c940000000000000000000000000000000000001100808025a08694b4d2a06035e0e8026894774e1ee4d1a171f98ee03fd41025dda679255512a00f704923936c3c1ccc2a0bd360741b2dc1d1a855fefbc882f43a9560c4da5e24"
+                        ],
+                        "withdrawals": []
+                    },
+                    [],
+                    "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "newPayloadVersion": "3",
+                "forkchoiceUpdatedVersion": "3"
+            }
+        ],
+        "_info": {
+            "hash": "0x5710f663024f14bcc29bbb9cfaadd88f45965cfb44b782d09a9070abbd8f5627",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
+            "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
+            "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
+        }
+    },
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-both_allowances-extstaticcall]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1407,14 +1921,14 @@
         "_info": {
             "hash": "0x617233c1ff19098d1aacda17981147f953d1c4e3da06dafa73904bcb5632e4c7",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-both_allowances-opcode_EXTDELEGATECALL]": {
+    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_CancunEIP7692-blockchain_test_engine-both_allowances-extdelegatecall]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1534,9 +2048,9 @@
         "_info": {
             "hash": "0x662caa5e9732d216f798a64f1bd070b72d3b50b85b23ae800870115535383af0",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.12.0+commit.4094b816",
+            "filling-transition-tool": "evmone-t8n 0.12.0+commit.3f7a16e3",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.8/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L712",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.0.9/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
