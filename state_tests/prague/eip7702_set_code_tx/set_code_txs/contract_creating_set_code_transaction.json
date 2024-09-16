@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_zero_address[fork_Prague-state_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_contract_creating_set_code_transaction[fork_Prague-state_test]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -23,14 +23,13 @@
             "maxPriorityFeePerGas": "0x00",
             "maxFeePerGas": "0x07",
             "gasLimit": [
-                "0x07a120"
+                "0x989680"
             ],
-            "to": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
             "value": [
                 "0x00"
             ],
             "data": [
-                "0x"
+                "0x60006000f3"
             ],
             "accessLists": [
                 []
@@ -47,28 +46,30 @@
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
-            "secretKey": "0x9e7645d0cfd9c3a04eb7a9db59a4eb7d359f2e75c9164a9d6b9a7d54e1b6a36f"
+            "secretKey": "0x9e7645d0cfd9c3a04eb7a9db59a4eb7d359f2e75c9164a9d6b9a7d54e1b6a36f",
+            "to": ""
         },
         "post": {
             "Prague": [
                 {
-                    "hash": "0x6140d2cedbbeaf25709e7446b4e534129bb7da455df577f4f8ece74c7628cc9d",
+                    "hash": "0x809dce7ec57974e6004083a94e33d89113d50ae5718f7b03adafa3797db70dd1",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0x04f8c1018080078307a12094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080c0f85cf85a809400000000000000000000000000000000000000008080a0def12aa13571bba668b619dc7523da4a44b4373f26ff19356a6b58a66217839fa0130454fb52ed23b604de189d89b7b119698408a1cd80995959c8e3560aabb8ca80a0d3a5c83b92add5b7b1fef153d8e9dba74d04b1a13be217a397cea638da933703a06b2ca40803ab654cf453e7709683d2b21965a1d34edefcc61114dcfb8210094e",
+                    "txbytes": "0x04f8b2018080078398968080808560006000f3c0f85cf85a809400000000000000000000000000000000000000008080a0def12aa13571bba668b619dc7523da4a44b4373f26ff19356a6b58a66217839fa0130454fb52ed23b604de189d89b7b119698408a1cd80995959c8e3560aabb8ca80a0dd3af0863969a18c26ea8bb7d2fbcc497eeb09a7ff401a740d3af1d2538a3b66a0281b70bb0e15fe95b4f0e865568160e74d90400ce836c32683018e9fd16684df",
                     "indexes": {
                         "data": 0,
                         "gas": 0,
                         "value": 0
-                    }
+                    },
+                    "expectException": "TransactionException.TYPE_4_TX_CONTRACT_CREATION"
                 }
             ]
         },
         "_info": {
-            "hash": "0x2d30d8f4cea665e713966a1944f7dd74b61d1b9bf23434e9c85523be72e2e6bd",
+            "hash": "0x1a0f80e82f0b345eacc792938f0c873148c728150d1c67f89d76429d09f79e9a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test setting the code to the zero address (0x0) in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L216",
+            "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using a contract creating transaction.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2190",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
