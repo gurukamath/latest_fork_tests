@@ -71,9 +71,330 @@
         "_info": {
             "hash": "0xb18c24deeda7562853e070ba0da736edf20be1568756f8ab5d4e653f1c1c327c",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_valid_tx_invalid_auth_signature[fork_Prague-state_test-v=27]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x600160015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "maxPriorityFeePerGas": "0x00",
+            "maxFeePerGas": "0x07",
+            "gasLimit": [
+                "0x0186a0"
+            ],
+            "to": "0x0000000000000000000000000000000000001000",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "accessLists": [
+                []
+            ],
+            "authorizationList": [
+                {
+                    "chainId": "0x01",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "nonce": "0x00",
+                    "v": "0x1b",
+                    "r": "0x01",
+                    "s": "0x01"
+                }
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Prague": [
+                {
+                    "hash": "0xd7e971d343a43f172ada218f1d1471766773c691c5fb0595fdc19f2969c96734",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x04f87f01808007830186a09400000000000000000000000000000000000010008080c0dbda01940000000000000000000000000000000000000000801b010180a0f1b0f881b9d9c17ddf42b79f5d62b159e09416c9458cc8514125c4a7f82528cba07cafd9e6680e3c83494e631236ceced234dafdde83ee2b26e9f661f9c8c49e14",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x0410a58716f3732c7b9ae936cb048f8c16480024957813c7bf8d5ddee5d73fba",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_valid_tx_invalid_auth_signature[fork_Prague-state_test-v=28]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x600160015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "maxPriorityFeePerGas": "0x00",
+            "maxFeePerGas": "0x07",
+            "gasLimit": [
+                "0x0186a0"
+            ],
+            "to": "0x0000000000000000000000000000000000001000",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "accessLists": [
+                []
+            ],
+            "authorizationList": [
+                {
+                    "chainId": "0x01",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "nonce": "0x00",
+                    "v": "0x1c",
+                    "r": "0x01",
+                    "s": "0x01"
+                }
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Prague": [
+                {
+                    "hash": "0xd7e971d343a43f172ada218f1d1471766773c691c5fb0595fdc19f2969c96734",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x04f87f01808007830186a09400000000000000000000000000000000000010008080c0dbda01940000000000000000000000000000000000000000801c010101a0d5537356de133f15d746e638468c03f186c42c0c16e6cbb466d1359f8ec56c1ba040fb648429b84e3d17be9d11551f27fa70a6aa76957284154d8a4e858c71bcb7",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x0dafdde2fcbbe6a45c6c97c49d7b3a01f0a161f7fc8a06759854ae76a7230042",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_valid_tx_invalid_auth_signature[fork_Prague-state_test-v=35]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x600160015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "maxPriorityFeePerGas": "0x00",
+            "maxFeePerGas": "0x07",
+            "gasLimit": [
+                "0x0186a0"
+            ],
+            "to": "0x0000000000000000000000000000000000001000",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "accessLists": [
+                []
+            ],
+            "authorizationList": [
+                {
+                    "chainId": "0x01",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "nonce": "0x00",
+                    "v": "0x23",
+                    "r": "0x01",
+                    "s": "0x01"
+                }
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Prague": [
+                {
+                    "hash": "0xd7e971d343a43f172ada218f1d1471766773c691c5fb0595fdc19f2969c96734",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x04f87f01808007830186a09400000000000000000000000000000000000010008080c0dbda019400000000000000000000000000000000000000008023010180a0901fe55d74777d1bd58c750fa5b2197aaf153d566d32fe6f0e6adceb98ff3b9ea06360208c07255617c158c07acc0806378daf8e6c5fd810982e9775ab1f30c856",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x6131e82fce2333da14e1825139031abd8c3b090971dde6ff3f5bfc0f035891cb",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+        }
+    },
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_valid_tx_invalid_auth_signature[fork_Prague-state_test-v=36]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x600160015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "maxPriorityFeePerGas": "0x00",
+            "maxFeePerGas": "0x07",
+            "gasLimit": [
+                "0x0186a0"
+            ],
+            "to": "0x0000000000000000000000000000000000001000",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "accessLists": [
+                []
+            ],
+            "authorizationList": [
+                {
+                    "chainId": "0x01",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "nonce": "0x00",
+                    "v": "0x24",
+                    "r": "0x01",
+                    "s": "0x01"
+                }
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Prague": [
+                {
+                    "hash": "0xd7e971d343a43f172ada218f1d1471766773c691c5fb0595fdc19f2969c96734",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x04f87f01808007830186a09400000000000000000000000000000000000010008080c0dbda019400000000000000000000000000000000000000008024010180a029aa5cb84b5c6f747c737879e88841019792b651162478bc7026f78b81d9016ea061b2240983df9a4006b68fa0f60e2d8ffe10a2a69b63e416dd290e388615adbc",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x3a5eff826de0d808bff76d0fce517e7208ce44f642e8ef819005fd741a75d6ad",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -150,9 +471,10 @@
         "_info": {
             "hash": "0xaea44f4c58dfcd51f41cb2f433dd672f0510679d6e92026ed062a21c61027fc1",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -229,9 +551,10 @@
         "_info": {
             "hash": "0xfc430b00c303e7df68b989d4ead39b944c909789ad89c64d4dac6a6f353a6ffc",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -308,9 +631,10 @@
         "_info": {
             "hash": "0x8bb58170fa175573dd1cfb51e61212f04283f333e6580a562a4c3907e7e411e2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -387,9 +711,10 @@
         "_info": {
             "hash": "0x2586fe2e5c74f542bd277d667c562347ee6b33be9c73047d0d5c61c1ec90e1b0",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -466,9 +791,10 @@
         "_info": {
             "hash": "0x86a3d0ac392cb35a4229cc14344b8f7fad7dcb536c1a4c3a447ee48690de33d7",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -545,9 +871,10 @@
         "_info": {
             "hash": "0xf8222fd26d4c06ae04cd1c5f921c4c8e1ceea6d110547646563f841128851286",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -624,9 +951,10 @@
         "_info": {
             "hash": "0x8dae3ce3a16f03eabb1e4be26664b683ee8d64456c91b49fe652dd561e65b148",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -704,9 +1032,10 @@
         "_info": {
             "hash": "0x621e93cff3fb4ab7db4fa5cf7a1d5e1c320e5eb2d9373f6df1615fde8085e0bf",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -784,9 +1113,10 @@
         "_info": {
             "hash": "0xcce5c0f5418a2cbfda13d4a44309fcdf63ca07c965599413a5c1cc55a0271618",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -864,9 +1194,10 @@
         "_info": {
             "hash": "0xca16d9936ee75801726eaca3803944d0e27dea81b7c4afcd835393819f627b77",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -944,9 +1275,10 @@
         "_info": {
             "hash": "0xfe53bedcaec44184e5a1e0a341ec25597a7957572b6434c3ab10b183b7997e25",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1023,9 +1355,10 @@
         "_info": {
             "hash": "0x8b28d6ae667a40d4ebd79cbc2b90b0aabe3697c15b546d09ecb8ad6c856def11",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1102,9 +1435,10 @@
         "_info": {
             "hash": "0xb6c9ec68768a27139ca8f479f2c3afb984fbbbfdcff2060b9eadd062197c5b14",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1181,9 +1515,10 @@
         "_info": {
             "hash": "0x0195113800a90444790fb873f92d41c083de696b777d35094f6518bbb19e1a02",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1260,9 +1595,10 @@
         "_info": {
             "hash": "0xfdec447119fae41313f3b56742b6b433bb00a8df8d38f54c780bd41482d4fa4a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1339,9 +1675,10 @@
         "_info": {
             "hash": "0x39e8d8d5620ea86a1df82c1a783c4cd73ff929ec9d56b561eb68d885962bde11",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test sending a transaction to set the code of an account using synthetic signatures,\n    the transaction is valid but the authorization should not go through.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2185",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2114",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }

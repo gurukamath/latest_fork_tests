@@ -20,7 +20,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -58,7 +58,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xedec5475e28a3cd1a638ef0fe097093349c4bd41af52d7b00e16c3521e23a333",
+                    "hash": "0xf6d5173c9d044fe0dbf86646e2086d9b2606c68be4c56f6fb52084533d077183",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0861feb1545900cdc4a4f5c755ca6bfedfe2c9f56fdcb0a2130a7b097694d7fe6a01024f8d1e9aa372f5b978f32bc47b460c992201ae033c48f8e1b858dcd5feab3",
                     "indexes": {
@@ -70,11 +70,12 @@
             ]
         },
         "_info": {
-            "hash": "0x5ff6cf0bd8e9351db406db2debe4975875f764772db28cbfe4d4ffe27f528206",
+            "hash": "0x0dd8ee518401b02440c4c39effbbb7a1dcf72c99aa07895c07c1bc9b356a761f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -100,7 +101,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -138,7 +139,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x6e490ed759f6f2c4331afce63bc21693af2619d12151f3e55007210c6499b788",
+                    "hash": "0x967e1e523185cab3cb2d6bf220ba1cbe6195ffebde5fbe0d33104cd495a873fa",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0861feb1545900cdc4a4f5c755ca6bfedfe2c9f56fdcb0a2130a7b097694d7fe6a01024f8d1e9aa372f5b978f32bc47b460c992201ae033c48f8e1b858dcd5feab3",
                     "indexes": {
@@ -150,11 +151,12 @@
             ]
         },
         "_info": {
-            "hash": "0x6bd78c78a51fd0ac51a73a6cb3246a7efcf00e0399054461ecbe34cad92f9260",
+            "hash": "0xafadb79a7d3f9aa7b23805c9f0e2531e7dd7cb08c20ffb2f0f8cc58dc577084c",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -180,7 +182,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -218,7 +220,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xedec5475e28a3cd1a638ef0fe097093349c4bd41af52d7b00e16c3521e23a333",
+                    "hash": "0xf6d5173c9d044fe0dbf86646e2086d9b2606c68be4c56f6fb52084533d077183",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a0194a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080a0c36ce51d55ca9c3cffd29468f696f577fcbedaf4c26ac1624b97ddb9aee0e32aa06a9b09f69f8367aa9a4294139163f4ca3ad8e3dc816ce728c0485c31ebc4735f80a073ffebb360b46bb1481b741fbee60e42f6e1e4283406d06e09efea5c1a8a2056a007d1d00a0ef7b991e150915b42bae8b1e51184cb2aea8af54f246aa7529e5f0f",
                     "indexes": {
@@ -230,11 +232,12 @@
             ]
         },
         "_info": {
-            "hash": "0x6004333668e38eed32033c2ac1a839e3652444abb7d984bc866f9eefbe37dd0b",
+            "hash": "0x2b99d1987442a2cd2dc73a15047a6fe14122cde19ca5893bb156f2e9fed51cd7",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -260,7 +263,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -298,7 +301,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x6e490ed759f6f2c4331afce63bc21693af2619d12151f3e55007210c6499b788",
+                    "hash": "0x967e1e523185cab3cb2d6bf220ba1cbe6195ffebde5fbe0d33104cd495a873fa",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a0194a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080a0c36ce51d55ca9c3cffd29468f696f577fcbedaf4c26ac1624b97ddb9aee0e32aa06a9b09f69f8367aa9a4294139163f4ca3ad8e3dc816ce728c0485c31ebc4735f80a073ffebb360b46bb1481b741fbee60e42f6e1e4283406d06e09efea5c1a8a2056a007d1d00a0ef7b991e150915b42bae8b1e51184cb2aea8af54f246aa7529e5f0f",
                     "indexes": {
@@ -310,11 +313,12 @@
             ]
         },
         "_info": {
-            "hash": "0x3cc1d75c1c25e665a1dc2ab10c49d11a22394124b63a949515e81315e09111a5",
+            "hash": "0x9dc83cb31ca809870c1eaf71c45096417da45c424318f63fb7c1d70402d8104a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -340,7 +344,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -387,7 +391,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xd1b95cdc9575e0c0c3fa2fd5af0cab36809162d76802dd94639888da3e4e2292",
+                    "hash": "0xb1c172f0bd64048c82ba8d8f946fca371cd7f54b67bf7f5fa45e3f16bcb9970b",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb80a0a1bb3e50c4572c96e1387bcf47bba5eba8688833d66b7aebcc2418aacddf59e8a04e859792bab1a149a913f2db83dbbded9204ae3a71535dec830d29b874f97d9a",
                     "indexes": {
@@ -399,11 +403,12 @@
             ]
         },
         "_info": {
-            "hash": "0x7d5bdd52a56419fbbd6704479c1a7e29cf83fcdc3e9295635cfa259eb5785bd5",
+            "hash": "0xcdadac76dea8764da2018e6fe3d059f1a2176665f6770011d408989077cbb9f3",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -429,7 +434,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -476,7 +481,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xb017f2bd5e3dfe0f9ed691c928bd6e09a96d6f88ceec5c94566e9884c7c2f38f",
+                    "hash": "0x80d48c6ca6c30ce50807e5f89b10e71ea66cdce504c86bdafaf89809334b21b6",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb80a0a1bb3e50c4572c96e1387bcf47bba5eba8688833d66b7aebcc2418aacddf59e8a04e859792bab1a149a913f2db83dbbded9204ae3a71535dec830d29b874f97d9a",
                     "indexes": {
@@ -488,11 +493,12 @@
             ]
         },
         "_info": {
-            "hash": "0x27118586861cd2f9dfed970b86f24673ab9c77c2a39fa984a7a0db919aac8c61",
+            "hash": "0x65503e620800f8fa21973ed338fc5665120e8a4579a14494bab3c0ef44f939f4",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -518,7 +524,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -556,7 +562,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x7e5ba392ac3b268d7d50cc29db76e468e60f9c90d28e5bebd9d16060cb64caa8",
+                    "hash": "0x56bf76c170825843ec3c481f83d3ce85be24da286ed26c1246c79e33f242f7fd",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb01a0307e15f78e8854c683b5728f40fb3d84d8f911d48bc1ce9de02342e2df059519a04c9fd405fb0a68030320dedd7524d9c3e59a2f8f8c5595ab6ea44c9b48cf6d5b",
                     "indexes": {
@@ -568,11 +574,12 @@
             ]
         },
         "_info": {
-            "hash": "0xe915bae6c8e6ed9e0d45e8181c061915e205d074eb086c83b7550592c86ded32",
+            "hash": "0x2972d363f866cd37edb8fed6b802cb54a585b04fca1f4e94aef2f81bd62c537f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -598,7 +605,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -636,7 +643,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x187f6cc4f549ecf7545661a9c240d7846ee1e58d2698f14ea08356e4f61181ba",
+                    "hash": "0x0341df8b7e38239032f205fe524ba0555ae041cd2ab5363e81cbf8e4585e3fe0",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb01a0307e15f78e8854c683b5728f40fb3d84d8f911d48bc1ce9de02342e2df059519a04c9fd405fb0a68030320dedd7524d9c3e59a2f8f8c5595ab6ea44c9b48cf6d5b",
                     "indexes": {
@@ -648,11 +655,12 @@
             ]
         },
         "_info": {
-            "hash": "0x608ed9fe2a40e35655e8526931c7511602e8634555c3e574be63a9942a98fa06",
+            "hash": "0x0ada3daec99941bf0e6cf2d4fd466f529dfe66e16095c07527a123924ae3f754",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -678,7 +686,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -716,7 +724,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xa013004bbce6bee28cb3bf769b46c019bdbc40bbda543a5b1fd3fba74ee24808",
+                    "hash": "0xeffee0f29b5cdbed397d5a422357fd35ccc1f35e00aa8abd78681d1853fd484f",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a0294a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86a05b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bc01a0f989a467b392825d5ef0582fccf224bdf01d9b2be9475efd7a9575aafcea5781a0193526ef69b70e9b23c41f7645aad7d46a9174dc6c9516cf396c87336321dc87",
                     "indexes": {
@@ -728,11 +736,12 @@
             ]
         },
         "_info": {
-            "hash": "0x52a39011da0d7f14f0c0de0efd50f508da930ad13afdb25c2dbd0616e7d295dc",
+            "hash": "0x6f2a5ca7730a16d1afe464e4611822c709bc9491c6b583eba96381d77c6097e5",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -758,7 +767,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -796,7 +805,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x9a11cb020acf6797f8d1ef905f3c174832bd43b649f94364b7dd2fcc07c57b48",
+                    "hash": "0x1f106545b49a0d0bfc571ebfee45dbef7e15220542ecf3598761e6f8d93156c8",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a0294a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86a05b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bc01a0f989a467b392825d5ef0582fccf224bdf01d9b2be9475efd7a9575aafcea5781a0193526ef69b70e9b23c41f7645aad7d46a9174dc6c9516cf396c87336321dc87",
                     "indexes": {
@@ -808,11 +817,12 @@
             ]
         },
         "_info": {
-            "hash": "0xeee2a81cd9a20fece622793de82146435b56f3a6dc36fc05608e371f9908c4e9",
+            "hash": "0xfdc8e249312bc04833d2c67ef44bb0749bb8bcdbcc8c37850e59765eeec21e3b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -838,7 +848,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -885,7 +895,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x9e5fe6d710ab3913a4df50259105c9f48e626d9c9f54ba66b0af07e791f1db69",
+                    "hash": "0x342dff5740412a354eaab15143e8eb6d7690bf0fd425344f19dfea974b67a721",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140ebf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb01a01559bdb4a4c36b46b1bcae1fa0acfa0fe63cb3e8479898963b64b017b8855af0a03631e4d4f32270800bae63d06c43dad0c57b8a910a8747d661bb7f28783c9fc9",
                     "indexes": {
@@ -897,11 +907,12 @@
             ]
         },
         "_info": {
-            "hash": "0xd8a6bce9559f42507f655b9cec81f694dd4d41e5618173a0922d23b332a10f36",
+            "hash": "0xb9c8a5cfd145a4163576f0dc796e2f1fae4ca3ede2c87e931ca326a776420b78",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -927,7 +938,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -974,7 +985,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x0c1ada57a47d5fe534d7149c017de50ecc64a28da9d81cf66d4e7c305a1509d9",
+                    "hash": "0x2d14dca409023ca0016f1be955509b535d07f9a74381b4ddd0b4e7fe65a5d65d",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140ebf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb01a01559bdb4a4c36b46b1bcae1fa0acfa0fe63cb3e8479898963b64b017b8855af0a03631e4d4f32270800bae63d06c43dad0c57b8a910a8747d661bb7f28783c9fc9",
                     "indexes": {
@@ -986,11 +997,12 @@
             ]
         },
         "_info": {
-            "hash": "0xdd31df6c6370fd4ae01d0234a7c869b4403844f8d2957acaeab1ffc9611daa82",
+            "hash": "0x89ad39b6ecff19a556e91c8f299d3f1607f40697462cfdedcd0efd8d04f3ed8e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1016,7 +1028,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036001555a7378cc42dd276339ef70b322674fd5dc7ea6ea93733b5a905090036005900360025500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036001555a600060006000600060007378cc42dd276339ef70b322674fd5dc7ea6ea93736000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -1063,7 +1075,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xbca2cbc5fee13ae18568f5cbc957fd606a507f69b0ed002f7eb7eff67e4248c5",
+                    "hash": "0x9a3c52d72091274e7a638c33f35db60f36bf742cbe5f41af89f9799034263425",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140ebf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0101a0dfec9a52b56379a65ade4b9f6fe070b325b233a595a21f79c20a775358beba78a0345d8eacf4a86d51855cbdc93aef70e93acf222ca769ecbdf5270c05d49de89101a0b006b3fdc6482c5faecabd51cfe4e3d04db9d0eb6070c10caea037ff7f7fb5a3a0682f5eeacc491d0cd10c8f81c99f5ecdcfc7b5ccb20dc85471201144e575cef2",
                     "indexes": {
@@ -1075,11 +1087,12 @@
             ]
         },
         "_info": {
-            "hash": "0xc8258e97478c244e96592650ca16067cf82ac447f2df9e3a5a8aae03a08b2046",
+            "hash": "0x2857175c5cd2e51b778cd493745b6c2877a2ee3610b503cb605624f38f94facd",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1105,7 +1118,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036001555a7378cc42dd276339ef70b322674fd5dc7ea6ea93733b5a905090036005900360025500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036001555a600060006000600060007378cc42dd276339ef70b322674fd5dc7ea6ea93736000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -1152,7 +1165,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x8d664e61cd1f75d79ab36d529ce4fedaeb00e108a92cd8ce8eb3b7a785d3ef51",
+                    "hash": "0xc24ceaf88d125869f8cfd423ca4aedfa955b23c4dcf630450212c3561a0249c6",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140ebf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0101a0dfec9a52b56379a65ade4b9f6fe070b325b233a595a21f79c20a775358beba78a0345d8eacf4a86d51855cbdc93aef70e93acf222ca769ecbdf5270c05d49de89101a0b006b3fdc6482c5faecabd51cfe4e3d04db9d0eb6070c10caea037ff7f7fb5a3a0682f5eeacc491d0cd10c8f81c99f5ecdcfc7b5ccb20dc85471201144e575cef2",
                     "indexes": {
@@ -1164,11 +1177,12 @@
             ]
         },
         "_info": {
-            "hash": "0x34cd0b86cb3fce494003c39d54b6979163ce7ef12e9abde65e3ac777ac9106e7",
+            "hash": "0x4ae8bed99e07b65ed6e3329d432ad9d8042ee85eb2c8572c9cb7c768b229b6ca",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1194,7 +1208,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -1241,7 +1255,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x772f506db9edcd72e5dc07a0e8af5e4214e532b42ab37857eb704f4b53654d7a",
+                    "hash": "0xe95cec82f904a3e7b0ad7fbd35872277acfa6f6033ff152dc1fa7cefd771f0ad",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a0294a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86a05b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bcf85a0294a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a0557efc799006e596ff3ac99b422f4e7827f33f0b11fa88df261e406e22132863a02cd1bc72970b0b41947c99191eac323d08ea408e7b135223858ada51f738ec6401a03aa6a9974f12f24fde103ee3c7ce8f2e60610205390713e114d486b8c2922662a029b54714a745dc8a02e54cba912b5c755bd1d0ea3b5c87a162e3beaf6c177acc",
                     "indexes": {
@@ -1253,11 +1267,12 @@
             ]
         },
         "_info": {
-            "hash": "0x60215cd4949c3f13493883da12910e8868ae929c884ae08eff2917ab9174a735",
+            "hash": "0x9f1a38f50fb9662d8414306e5750b66721ec722036f32732cfb7bca1c13bcfbb",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1283,7 +1298,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -1330,7 +1345,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xad38e1f8e29da447e560b9689ba83fe1fa415ead00db7101ea417b724aacafa7",
+                    "hash": "0x3b9240af010acf1073760f07fc7d730792f4324e3851d04823c92e8853b77e70",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a0294a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86a05b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bcf85a0294a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a0557efc799006e596ff3ac99b422f4e7827f33f0b11fa88df261e406e22132863a02cd1bc72970b0b41947c99191eac323d08ea408e7b135223858ada51f738ec6401a03aa6a9974f12f24fde103ee3c7ce8f2e60610205390713e114d486b8c2922662a029b54714a745dc8a02e54cba912b5c755bd1d0ea3b5c87a162e3beaf6c177acc",
                     "indexes": {
@@ -1342,11 +1357,12 @@
             ]
         },
         "_info": {
-            "hash": "0x8b2f0f94a10ea1b2288840becf09db5a73a0ecdf4c278bce0fef2ad2222e3cd7",
+            "hash": "0xe49183d452e28ce8dc18c9f5e047e99006dcc4c094ebb115ff8d553b3accc14d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1372,7 +1388,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036001555a7378cc42dd276339ef70b322674fd5dc7ea6ea93733b5a905090036005900360025500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036001555a600060006000600060007378cc42dd276339ef70b322674fd5dc7ea6ea93736000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -1419,7 +1435,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x2dbec8769ac6cb18348f3de21e02d936f67c94f76e693c9050bf1de3334dbbea",
+                    "hash": "0x07862e07b27f3d49beb50f89f68b11ad3c9b5d62f3b806e20971a339389fce8d",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59a02a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b380a0cdab417e1a4d3e16e5bd7b457876d405eeecb19dfb4d795282be12747e7e217fa0646dfab826175a109abbcfa648229060412af0e4849547eed72fbd1a1d924290",
                     "indexes": {
@@ -1431,11 +1447,12 @@
             ]
         },
         "_info": {
-            "hash": "0x3ad3700f49fba7897292a5b59da40226deae99907e4f656cd540250360aca5e2",
+            "hash": "0x0e3193a329937339b990b25bada8b036fdb52be6c86716dd3502dfcbf046a492",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1461,7 +1478,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036001555a7378cc42dd276339ef70b322674fd5dc7ea6ea93733b5a905090036005900360025500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036001555a600060006000600060007378cc42dd276339ef70b322674fd5dc7ea6ea93736000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -1508,7 +1525,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xd22570f885c52bb71352ee42ecb13b2752b0f3c0835da72d083d485713f0b118",
+                    "hash": "0xf46a4817bc216d10bf1d349af0cce169f490b3f2341bd5405345edf843a25b08",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59a02a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b380a0cdab417e1a4d3e16e5bd7b457876d405eeecb19dfb4d795282be12747e7e217fa0646dfab826175a109abbcfa648229060412af0e4849547eed72fbd1a1d924290",
                     "indexes": {
@@ -1520,11 +1537,12 @@
             ]
         },
         "_info": {
-            "hash": "0xbd86cae2a885627bb83813b2b21ca4198c2a00955cd80d6c4bed960f3b3c0c42",
+            "hash": "0xef6309d601de7e36e1cd314d7ba7ab05fff542f4012a464e993367cce4452316",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1550,7 +1568,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -1597,7 +1615,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x6ad092e60e972ef500642e1fe997a5ced3443575bcaaa92caa2ab73a60582a28",
+                    "hash": "0xbe1045ae5e3fe92658d786affdeefd308fd83bae37c9060eb6ea38289a97808f",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0e5b9482c71b423e1b5f10d0b674fe0b79062b73957778ccabee8f90ff20809c2a06cc98152532b0be82f1a8aa8a53e21fd2e401e18c34d303eefb645eaec055f12",
                     "indexes": {
@@ -1609,11 +1627,12 @@
             ]
         },
         "_info": {
-            "hash": "0xf44f29ed36a6bb1a93f2ef44477909d19398445f60f8dcaf9a51ce2d8c3b38ba",
+            "hash": "0x3ca7b22acc1014d6507715f0f645dc5d5e764cbcc63bbbe82de802ba25fb3751",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1639,7 +1658,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -1686,7 +1705,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xa0b80db8d141a5a7011186300edcf463893df10714c4ff84c6b3472ad47bb453",
+                    "hash": "0xd61270a2bac2979fa0d5b28093e60e7e858321b787b197189df243d2a5d4b5f2",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0e5b9482c71b423e1b5f10d0b674fe0b79062b73957778ccabee8f90ff20809c2a06cc98152532b0be82f1a8aa8a53e21fd2e401e18c34d303eefb645eaec055f12",
                     "indexes": {
@@ -1698,11 +1717,12 @@
             ]
         },
         "_info": {
-            "hash": "0x767a7d1aa69c72a1ae47c333dfc6787d8b37ddb35724ce52cd774e2c1d0f32ba",
+            "hash": "0x12274ac53b51daf8914b614329a9a2b6ca7bd5fc0feaa653c0cfc0bc71b7d9f6",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1728,7 +1748,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036001555a7378cc42dd276339ef70b322674fd5dc7ea6ea93733b5a905090036005900360025500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036001555a600060006000600060007378cc42dd276339ef70b322674fd5dc7ea6ea93736000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -1793,7 +1813,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xb429dded1628ff87d16ff5bf4717e0c3db51687565b8551cd2838d414fdbd367",
+                    "hash": "0xdfbff77b205f3ca8f33491a66c2ab4576a4d8d5bc1792a6df34464eb05fed4fd",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f901d601808007830f42409400000000000000000000000000000000000010008080c0f90170f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59a02a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59a02a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b301a08cd9cfe61cfb9b67966e848fdafa6f5dcfc9ec0617e7c2f0de8779399558556da0415397a3b362bf94ba8b4f20a482f23bc5fbe3ad47df0a1418f0365d5a5fad41",
                     "indexes": {
@@ -1805,11 +1825,12 @@
             ]
         },
         "_info": {
-            "hash": "0x6ad8d5a2406198b7031f4947be14387d26a38093c2740306590baac20b762e8d",
+            "hash": "0x1a8f1012c1c68c0232948cd4793dbc629b14dfa6aed5089528c5c225fd15884c",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1835,7 +1856,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036001555a7378cc42dd276339ef70b322674fd5dc7ea6ea93733b5a905090036005900360025500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036001555a600060006000600060007378cc42dd276339ef70b322674fd5dc7ea6ea93736000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -1900,7 +1921,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xeb00fcb91e031d1639919c23c714c127e7059486c81ddce039dd88dfdcd461bd",
+                    "hash": "0x49b6200fe796ce178e94bb824de63552588251b55913927d328435b4d2dc678a",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f901d601808007830f42409400000000000000000000000000000000000010008080c0f90170f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59a02a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59a02a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b301a08cd9cfe61cfb9b67966e848fdafa6f5dcfc9ec0617e7c2f0de8779399558556da0415397a3b362bf94ba8b4f20a482f23bc5fbe3ad47df0a1418f0365d5a5fad41",
                     "indexes": {
@@ -1912,11 +1933,12 @@
             ]
         },
         "_info": {
-            "hash": "0xad89aae39b64ef4d95a53b464b31858c8e1e31cc4b49f3bfb58f0d49aa17267c",
+            "hash": "0x9dae2a4502330f070390d450564a45f079c38306e4f61e05d674b91e19780b41",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -1948,7 +1970,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -1986,7 +2008,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xd8172030c4ece50c6f335bb33cefd344d5d7a0c9783873009fbb1160ca0c1081",
+                    "hash": "0x6562006698a2d3ef66e5e38a2b900a02ad6e9313c9b511fca6a658e723ca7ed1",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0861feb1545900cdc4a4f5c755ca6bfedfe2c9f56fdcb0a2130a7b097694d7fe6a01024f8d1e9aa372f5b978f32bc47b460c992201ae033c48f8e1b858dcd5feab3",
                     "indexes": {
@@ -1998,11 +2020,12 @@
             ]
         },
         "_info": {
-            "hash": "0xa1b21d5ebbdefcff004fdab400ea6d5043f7749bc9f003dee17c27697eee5a70",
+            "hash": "0x38036bfe9ddb981c1d1bf1167878e0741fe169528381341ad09951c5114867c3",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2034,7 +2057,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2072,7 +2095,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xd12e389e0c93b511c792242eeeb876088772f752f4e7299bfb2fdd67aaa75cbd",
+                    "hash": "0x6b319c54bf3ae201a46d768c8946ad8bd0167228ed1a48475f10daf114baa55f",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0861feb1545900cdc4a4f5c755ca6bfedfe2c9f56fdcb0a2130a7b097694d7fe6a01024f8d1e9aa372f5b978f32bc47b460c992201ae033c48f8e1b858dcd5feab3",
                     "indexes": {
@@ -2084,11 +2107,12 @@
             ]
         },
         "_info": {
-            "hash": "0xedbd64dc885a4ed08d1a52a3d770538b714b051ef01704c5175b788900604e04",
+            "hash": "0xed7fcca7bd3f12b25bcaa46bb8b01ec0d314620afaadcd0a64199fdefed70a3b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2120,7 +2144,7 @@
             "0x0000000000000000000000000000000000001100": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a6110003b5a90509003600590036000555a738a0a19589531694250d570040a0c4b74576919b83b5a905090036005900360015500",
+                "code": "0x5a600060006000600060006110006000f15a90509003601790036000555a60006000600060006000738a0a19589531694250d570040a0c4b74576919b86000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2158,7 +2182,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x460dfdef5a140a530fccd7c48df7600956b616b129d9d37d6b14658ae411a01f",
+                    "hash": "0x67f3e963fe5dd60c9e83bc37420e921e22da552e0dec32c183b1788053b45891",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000011008080c0f85cf85a809400000000000000000000000000000000000010008080a0c975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35a02918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e980a09f24f6bd09cdda19f9db031dcba2ce58d5a9fcb69999dc31e435781f61813acca05e885ac12829231b55c4e4a928aff3c3d21b9782102c6591e3d7054eb558a5aa",
                     "indexes": {
@@ -2170,11 +2194,12 @@
             ]
         },
         "_info": {
-            "hash": "0x2fdcbefdca64f38415f3a40af766264109921ffb789a9f5a3a9ca18285bc1e80",
+            "hash": "0x27a8fb7101362bf45f3d396f14beef46ea2f9d21ba190872da98cd4c22594ce2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2206,7 +2231,7 @@
             "0x0000000000000000000000000000000000001100": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a738a0a19589531694250d570040a0c4b74576919b83b5a90509003600590036000555a6110003b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000738a0a19589531694250d570040a0c4b74576919b86000f15a90509003601790036000555a600060006000600060006110006000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2244,7 +2269,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x1eca9c6fd4ea0a16decd6ff4f1054dbcc4beb19b7aeb4a89f3349dc8a688a2ba",
+                    "hash": "0xa68e617b2be0ae52f67ce320436d99b6ad54750005fb204d0d8e04a44d6b1967",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000011008080c0f85cf85a809400000000000000000000000000000000000010008080a0c975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35a02918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e980a09f24f6bd09cdda19f9db031dcba2ce58d5a9fcb69999dc31e435781f61813acca05e885ac12829231b55c4e4a928aff3c3d21b9782102c6591e3d7054eb558a5aa",
                     "indexes": {
@@ -2256,11 +2281,12 @@
             ]
         },
         "_info": {
-            "hash": "0x3f43660baf64f2e54333345e9bcb8ec379e9ee96f64ee400af6aa546aa74dc3f",
+            "hash": "0x7dae97cab08c2fb09d4c7900e90ca24e55b6906fbd642d14503e33c7a7569a4e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2286,7 +2312,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2331,7 +2357,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x1c11ee1af72048c1a73df3c8c3336e1fe98ee3cd897edc14701c5f2b51fb8637",
+                    "hash": "0x651c643d5d223cb72b72e7a3aad21a727d3db5c6de95166a537ac7dd330c1445",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8fa01808007830f42409400000000000000000000000000000000000010008080f838f7946389e7f33ce3b1e94e4325ef02829cd12297ef71e1a00000000000000000000000000000000000000000000000000000000000000000f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0c68bb0cf8cc6ceb1b2f30a55fc07f52002bb875af9f6a4a0ec1974de5625f5fea0245cae0574d0f70e21e08adc75875493d9d8cce56e474cd6c382e791fc23860e",
                     "indexes": {
@@ -2343,11 +2369,12 @@
             ]
         },
         "_info": {
-            "hash": "0x6e547da4e09972c37a5627da735dbc0976d8fc57351127ceb320bbd60dfb13dd",
+            "hash": "0x7a887fa582e2a21d787a75750affb95b647285802d706bcb1f9b374a1ddcf470",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2373,7 +2400,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2418,7 +2445,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x14c947289119dec215d7f0de74ebd091d17fc70f7cfa0a019e282a1be2d9cbf0",
+                    "hash": "0xb6c59faa13ee6e6cffa9546d88164b9f53ee22761829688248d6bf9387a1f3a4",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8fa01808007830f42409400000000000000000000000000000000000010008080f838f7946389e7f33ce3b1e94e4325ef02829cd12297ef71e1a00000000000000000000000000000000000000000000000000000000000000000f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0c68bb0cf8cc6ceb1b2f30a55fc07f52002bb875af9f6a4a0ec1974de5625f5fea0245cae0574d0f70e21e08adc75875493d9d8cce56e474cd6c382e791fc23860e",
                     "indexes": {
@@ -2430,11 +2457,12 @@
             ]
         },
         "_info": {
-            "hash": "0x7e77b7e4ecd2fbcea37a433d2f7a277d005fe191a8bcd43b9c8e635dc4f754c8",
+            "hash": "0xac7cad07dcc24d566ec8b4227a9845bbb3c0449feb670e723824a0b96c84a50d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2460,7 +2488,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2505,7 +2533,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xf59f12447eff842bbb6b43b5b40d0c978a0dccb3d15b0d9cba102609421dddf2",
+                    "hash": "0x0f3b3fac342075cf04042d90b76a3f1e4838eafb8d8f2ca535624863b9849901",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8fa01808007830f42409400000000000000000000000000000000000010008080f838f794a94f5374fce5edbc8e2a8697c15331677e6ebf0be1a00000000000000000000000000000000000000000000000000000000000000000f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f01a0f288ce4c3537dd31b225c18abee7566afe77691c8718f400140996b5e6ec5723a02d83492443dfba9c69fe94336f347104d01464388f26c235d44241c373603c34",
                     "indexes": {
@@ -2517,11 +2545,12 @@
             ]
         },
         "_info": {
-            "hash": "0x0b125f40b59b5699b145f9b41443bc6227b7bdbfcd1e8528a5b584b90e3e2da5",
+            "hash": "0xb1051bd597188c226f47fdacf3e0b319c24d5627087b83499f2061296010baad",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2547,7 +2576,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2592,7 +2621,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x92da8e8498bca43af632b4587ffbc78332f21867e7a19908e9732ff77c25d43d",
+                    "hash": "0x21aac9609ffd9e2206cea2cb5ca1c97e071d2c6816733edeb1975cf468b24e62",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8fa01808007830f42409400000000000000000000000000000000000010008080f838f794a94f5374fce5edbc8e2a8697c15331677e6ebf0be1a00000000000000000000000000000000000000000000000000000000000000000f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f01a0f288ce4c3537dd31b225c18abee7566afe77691c8718f400140996b5e6ec5723a02d83492443dfba9c69fe94336f347104d01464388f26c235d44241c373603c34",
                     "indexes": {
@@ -2604,11 +2633,12 @@
             ]
         },
         "_info": {
-            "hash": "0xbf05ed9a863c78943b977321a31225c1692ae6c4e34d064aaddb4b8d7d876d30",
+            "hash": "0x9fca461375a75f296df98895a66b8db4d7869691dfcb32f63ec8421629d1df5d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2634,7 +2664,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2685,7 +2715,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x54c2fb96c8d7d2435e55303a37d7b29fdc8327e7fe8432fff5e0b64d26710543",
+                    "hash": "0xe63235f9482e43cb140c3aee7a860f7f56709795095f1a91148f26bfc79d206d",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9013201808007830f42409400000000000000000000000000000000000010008080f870f7946389e7f33ce3b1e94e4325ef02829cd12297ef71e1a00000000000000000000000000000000000000000000000000000000000000000f794a94f5374fce5edbc8e2a8697c15331677e6ebf0be1a00000000000000000000000000000000000000000000000000000000000000000f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f01a01d06c3d2ad88765b7e4b1be83dc5e883db51c97886b24c8f193628d2fc8c221ba00eee1bb0e948729c8fac486cf2a43b708ff2f8924c0280ac8695c8b1bc9f2dc8",
                     "indexes": {
@@ -2697,11 +2727,12 @@
             ]
         },
         "_info": {
-            "hash": "0x489a94bca9de3889361cd69c18c19df42ac487c18b658864e6cce08a5162c66a",
+            "hash": "0x816d39233d93ebbd60fcd9976f15f438202ae5da0f24bba37a3d7ff99b94934a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2727,7 +2758,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2778,7 +2809,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x3125670fcb8ce858ee47b70cd774a68732660596449d8f3bfaa39780294b52d9",
+                    "hash": "0x2b0ff85a3709a8e44f7dc6510a87cbfeabbd2ac9a6ca89ad85c0c8900ff7f46f",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9013201808007830f42409400000000000000000000000000000000000010008080f870f7946389e7f33ce3b1e94e4325ef02829cd12297ef71e1a00000000000000000000000000000000000000000000000000000000000000000f794a94f5374fce5edbc8e2a8697c15331677e6ebf0be1a00000000000000000000000000000000000000000000000000000000000000000f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f01a01d06c3d2ad88765b7e4b1be83dc5e883db51c97886b24c8f193628d2fc8c221ba00eee1bb0e948729c8fac486cf2a43b708ff2f8924c0280ac8695c8b1bc9f2dc8",
                     "indexes": {
@@ -2790,11 +2821,12 @@
             ]
         },
         "_info": {
-            "hash": "0x552f5ed9fc3b8392b0df4090422ebcef7c610776b1178479ab19d874d3ce0321",
+            "hash": "0x7fcedc16abb5a0832dd2e50ff8a2fb890c8c45f0ef3c27b681c3995229de41bf",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2826,7 +2858,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2864,7 +2896,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x23cc7b68e146762bf72c6522bf6a873f5f681721ceb157149af21fdb82e73c6a",
+                    "hash": "0x1c904540226e90c0a6368dff5f7d0eb5ab341b8232fe3783549134e953562311",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0861feb1545900cdc4a4f5c755ca6bfedfe2c9f56fdcb0a2130a7b097694d7fe6a01024f8d1e9aa372f5b978f32bc47b460c992201ae033c48f8e1b858dcd5feab3",
                     "indexes": {
@@ -2876,11 +2908,12 @@
             ]
         },
         "_info": {
-            "hash": "0x1be754019840ad9a0f2bd3f00b6cf4507e0eb08b243f7b37f6a1c0ecbe89f222",
+            "hash": "0xe72b7aa53c72f860ea9bc641ddb24ed8637565878b1cad81895023c328e9711d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2912,7 +2945,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -2950,7 +2983,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x4302d03e5347e9e03330209688792c9a225bb4e9a005a9029b541bac2412aa30",
+                    "hash": "0x007232965395b2b717435c1c9c9177fa2b228495fb8ee0d20d131ffc0ef710e3",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0861feb1545900cdc4a4f5c755ca6bfedfe2c9f56fdcb0a2130a7b097694d7fe6a01024f8d1e9aa372f5b978f32bc47b460c992201ae033c48f8e1b858dcd5feab3",
                     "indexes": {
@@ -2962,11 +2995,12 @@
             ]
         },
         "_info": {
-            "hash": "0x985f53b9e5ec04edf962b5efa3c01e5bf13e6376752e32d386af3a7cba5db1d0",
+            "hash": "0x00643f162dccc52d0c17abe12bc4495e7df76cb4026637b8c95515f649d8332f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -2998,7 +3032,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -3036,7 +3070,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x6baa5a9d023ed231700ee26191e14103ef31d2dfa7b6165f596f391306881a53",
+                    "hash": "0x846979bdab752a8d17e8d209d6deed5e5bae76f80ff748775de88d29d4e85fa0",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb01a0307e15f78e8854c683b5728f40fb3d84d8f911d48bc1ce9de02342e2df059519a04c9fd405fb0a68030320dedd7524d9c3e59a2f8f8c5595ab6ea44c9b48cf6d5b",
                     "indexes": {
@@ -3048,11 +3082,12 @@
             ]
         },
         "_info": {
-            "hash": "0xe59874822e0ad87f6c2f40f45d9a75e18e834c2cd634a099a65bf40d9884565a",
+            "hash": "0xd8bee25e518ab5a47372b6db52ffce71caf13dacd0c858b631cac06ff5252ef4",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3084,7 +3119,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -3122,7 +3157,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x8ed09f5bc409e60561eb862e879ca072503352d36b43587674a9c5cf33e34e00",
+                    "hash": "0x1440f599eef3ca260e75f49881f5cd9fddf62df77f8881339e91d5b81d3781d1",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb01a0307e15f78e8854c683b5728f40fb3d84d8f911d48bc1ce9de02342e2df059519a04c9fd405fb0a68030320dedd7524d9c3e59a2f8f8c5595ab6ea44c9b48cf6d5b",
                     "indexes": {
@@ -3134,11 +3169,12 @@
             ]
         },
         "_info": {
-            "hash": "0xd982e37c2d99094626b1c6e715ac36cc61d607513e14e46c65059830a783a5ed",
+            "hash": "0x5ecabc8d7ffb3f0c09c9efbef57a399b3ca9543e4eacd9882f98a50c5ba0e047",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3170,7 +3206,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -3217,7 +3253,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x8e0d932802a760b83c17fd48353aa57ec408bee88d5683f3050aa1dd999b4222",
+                    "hash": "0x776a575050a08f2109fc83929dd36557e5f558c15cc492450cc8f2855c302923",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb80a0a1bb3e50c4572c96e1387bcf47bba5eba8688833d66b7aebcc2418aacddf59e8a04e859792bab1a149a913f2db83dbbded9204ae3a71535dec830d29b874f97d9a",
                     "indexes": {
@@ -3229,11 +3265,12 @@
             ]
         },
         "_info": {
-            "hash": "0x757338e76076c4165b0ea40d4e5fc67372eb620cb3a24994e611ab210ed3afcd",
+            "hash": "0x7c0fe3c4b5e0007aecda893dde48f9234f4924917a8a79f6df1e31c5d830995d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3265,7 +3302,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -3312,7 +3349,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x6e5a9321e2cd31e8a3828b2e66f86f1aa453106a7928fcb16d48eb4c231a4d19",
+                    "hash": "0x989f9b2802578d5a05ed53e3c651cebd7d215fd71f1110e76cfa7a297cea1291",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0180a06cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4a00315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb80a0a1bb3e50c4572c96e1387bcf47bba5eba8688833d66b7aebcc2418aacddf59e8a04e859792bab1a149a913f2db83dbbded9204ae3a71535dec830d29b874f97d9a",
                     "indexes": {
@@ -3324,11 +3361,12 @@
             ]
         },
         "_info": {
-            "hash": "0x27e7bf4c46645cfc52593aced5064d0553c8192c91cc2fbb9de122778c8c295f",
+            "hash": "0x45045ed2be62981a587524d6bc8c36c6727ecf90372edd341a036357771ed1f4",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3354,7 +3392,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a738a0a19589531694250d570040a0c4b74576919b83b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000738a0a19589531694250d570040a0c4b74576919b86000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -3392,7 +3430,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xa0c63032a3a6493ea0ff986eed20a755d94997962d6406dac80881db923fb31c",
+                    "hash": "0xfffb71e025e4bcb23a018cbc1ed410e835fb0277e697b4a6a7ea7a59c94c5dd9",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0101a05dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9a0670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d01a0e2b9fb2f256ac24a1be88da6f4a59573395e5560c6d82eded35bad13505b2965a04db2d2e1ee7b0fac44cf85a658359eefd5e3b569a70f2a0470dd311fef99b012",
                     "indexes": {
@@ -3404,11 +3442,12 @@
             ]
         },
         "_info": {
-            "hash": "0x4aa3b891bacd7be43d151e14413bcd5e6ecff6846352545206c68e1af5976da4",
+            "hash": "0x59b0a67f48aa51a0e5098d6740bfd8bb36fcf5fb21fce19d5c207be0972cb0b0",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3434,7 +3473,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a738a0a19589531694250d570040a0c4b74576919b83b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000738a0a19589531694250d570040a0c4b74576919b86000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -3472,7 +3511,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x3423d868538c33bc5a4d8903479808b7750ea8b563085df12e36b7e2ee2da6ed",
+                    "hash": "0x6a7a421d2e838526ae4e53f080845e8b921ab719d3eb43cfb7f36e45cf218b14",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0101a05dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9a0670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d01a0e2b9fb2f256ac24a1be88da6f4a59573395e5560c6d82eded35bad13505b2965a04db2d2e1ee7b0fac44cf85a658359eefd5e3b569a70f2a0470dd311fef99b012",
                     "indexes": {
@@ -3484,11 +3523,12 @@
             ]
         },
         "_info": {
-            "hash": "0xe88419b5e94c7009c1f32f0ea95361866642fd466991ae4b3407e78e0e3654fd",
+            "hash": "0x6f6ee9dc780a93b72232a4faf583944c83ec6faf2fee176b948ceb658a82e22d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3514,7 +3554,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a738a0a19589531694250d570040a0c4b74576919b83b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000738a0a19589531694250d570040a0c4b74576919b86000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -3561,7 +3601,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x1887990c78d42e732948f2dce0fa00b842a7e1a6093eefcfb68accb65965fd28",
+                    "hash": "0xc4c28e335bcfe2709be4bafd4fddc1e3d93a5e6d6508170e1b17e1418ffb6a76",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0101a05dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9a0670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494df85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0201a0a482bcddcc7fc855c7853e70c4d51e95c73d4f6867ce500fe49be1a62a2c25dda004ab2df71bb8cbf316c0b97ef286d8f19f0ab620d2758fe53cbe7a52b45e3a0a01a0820b69b8d0c9b38fe6cd52837d6d04ea4a7bf66a8483ca8ba4c497d42ff67da0a0330fd483745078368b770d6dfdba65a196a73366b305f52a268510d677607469",
                     "indexes": {
@@ -3573,11 +3613,12 @@
             ]
         },
         "_info": {
-            "hash": "0x160dfc98e2af47e7a8a6dc3c343bfd1087d92ad1765516959f8fd2c246c0dbca",
+            "hash": "0xbe6f586b3926f14e08c3bc12d2d4c3f0612eb323183ae6b329c9456c38b96c4a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3603,7 +3644,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a738a0a19589531694250d570040a0c4b74576919b83b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000738a0a19589531694250d570040a0c4b74576919b86000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -3650,7 +3691,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x91d9a31086fcd622f7cb7b8e7a5f4f2e091839606b9467c27a94d0cc5ac688ec",
+                    "hash": "0xc1d7116e684947739a9198aca6540241f3f63ba0d4cd5c99db858af48c1a5361",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0101a05dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9a0670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494df85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0201a0a482bcddcc7fc855c7853e70c4d51e95c73d4f6867ce500fe49be1a62a2c25dda004ab2df71bb8cbf316c0b97ef286d8f19f0ab620d2758fe53cbe7a52b45e3a0a01a0820b69b8d0c9b38fe6cd52837d6d04ea4a7bf66a8483ca8ba4c497d42ff67da0a0330fd483745078368b770d6dfdba65a196a73366b305f52a268510d677607469",
                     "indexes": {
@@ -3662,11 +3703,12 @@
             ]
         },
         "_info": {
-            "hash": "0xa9f288cbba184c6377ab31b0d47d5e93574b2d6b1bfac3945973b1957b66b790",
+            "hash": "0xd32a7b9a229e681fe0c1bc692d1db33c623cd8749b509195986469e7799bb174",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3698,7 +3740,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -3736,7 +3778,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x481bf9dc023dc80f5ef948eaa647b6c132bc8baffc6dfc73999ff0c434b65477",
+                    "hash": "0x9c476115f5af71f96ca37b75a61a4cc1779bb966883e2850d126e22ba00d013c",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0861feb1545900cdc4a4f5c755ca6bfedfe2c9f56fdcb0a2130a7b097694d7fe6a01024f8d1e9aa372f5b978f32bc47b460c992201ae033c48f8e1b858dcd5feab3",
                     "indexes": {
@@ -3748,11 +3790,12 @@
             ]
         },
         "_info": {
-            "hash": "0x6d47ea299603d5daec4c47217f1fa1658130c573b809aa7997b4c4d111b83f52",
+            "hash": "0xa6ecc27bcf76c2c8a8f5164768ab04d3e0c1f11441a8ad07ae769bf1259c7ea0",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3784,7 +3827,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -3822,7 +3865,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x41ff09ecf739e8757d5a2e47b2a41e35779d97effb073b320e765f096f7e17e7",
+                    "hash": "0x63a3138e72f1449fd617963c9ee1b575e6167ff9206aa29128e4e26a03332bbc",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007830f42409400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f80a0861feb1545900cdc4a4f5c755ca6bfedfe2c9f56fdcb0a2130a7b097694d7fe6a01024f8d1e9aa372f5b978f32bc47b460c992201ae033c48f8e1b858dcd5feab3",
                     "indexes": {
@@ -3834,11 +3877,12 @@
             ]
         },
         "_info": {
-            "hash": "0x3c7bfe05cdf815dcd65d7f8382a4aa3791cab653ac6871649f271145345393b8",
+            "hash": "0xd0c568af9e28518258a826d80a536eea4475d04e569b6d0c12b02d47758ae056",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3870,7 +3914,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036001555a7378cc42dd276339ef70b322674fd5dc7ea6ea93733b5a905090036005900360025500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036001555a600060006000600060007378cc42dd276339ef70b322674fd5dc7ea6ea93736000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -3917,7 +3961,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xc5726487f7dba5aa273a648f375442ee8b13cc068bc314791a69eb38e3793755",
+                    "hash": "0x990cea6df430dee950ea6c90d05f8fba1b2b2c1fd38696d0d08527b250076cdb",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59a02a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b380a0cdab417e1a4d3e16e5bd7b457876d405eeecb19dfb4d795282be12747e7e217fa0646dfab826175a109abbcfa648229060412af0e4849547eed72fbd1a1d924290",
                     "indexes": {
@@ -3929,11 +3973,12 @@
             ]
         },
         "_info": {
-            "hash": "0x644725ac779b5cee0d4f2ed84926462a42497ecb162eed1f2196f8d5ba7119e5",
+            "hash": "0x6940a0b87c88e3f54c57ae8bee456c1a83899a18548e6d229fdbd78792cce4c5",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -3965,7 +4010,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036001555a7378cc42dd276339ef70b322674fd5dc7ea6ea93733b5a905090036005900360025500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036001555a600060006000600060007378cc42dd276339ef70b322674fd5dc7ea6ea93736000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -4012,7 +4057,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xa5edc59e87ff8ae14a0c02894465c8b80a00c7b32600a080f727ac822f73450c",
+                    "hash": "0x9f80ce50d789a02c612cccaa5b8bff351c728804efbf037ed64405a740c12ea1",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59a02a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b380a0cdab417e1a4d3e16e5bd7b457876d405eeecb19dfb4d795282be12747e7e217fa0646dfab826175a109abbcfa648229060412af0e4849547eed72fbd1a1d924290",
                     "indexes": {
@@ -4024,11 +4069,12 @@
             ]
         },
         "_info": {
-            "hash": "0x3d3403492b1a4f40b26010d7ed0a4ae7d785642eff4ec2114f399669cc6525f2",
+            "hash": "0xccd4d00e4089919c0fb75957e10f3b7ad562b332ac728f8a37e890182e762acf",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -4066,7 +4112,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036001555a7378cc42dd276339ef70b322674fd5dc7ea6ea93733b5a905090036005900360025500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036001555a600060006000600060007378cc42dd276339ef70b322674fd5dc7ea6ea93736000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -4113,7 +4159,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xb55bc174181d7f22fd968593ed6daed9e1101bed65e0ff3193fc0b377050fa87",
+                    "hash": "0x485cd2a2416321ce294d5eaeac70694d83600c7ef33548fa0264bd0ae0bdc1e6",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59a02a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b380a0cdab417e1a4d3e16e5bd7b457876d405eeecb19dfb4d795282be12747e7e217fa0646dfab826175a109abbcfa648229060412af0e4849547eed72fbd1a1d924290",
                     "indexes": {
@@ -4125,11 +4171,12 @@
             ]
         },
         "_info": {
-            "hash": "0xf9cd5d7ac3f00f3578e99577c5dfd1fbc9a56cebed608309be5ee28333a63f90",
+            "hash": "0x2f6c11928c3f776b80b8153ffb64153a85343da56a00b7e7fa5fdfeffce23295",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -4167,7 +4214,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036001555a7378cc42dd276339ef70b322674fd5dc7ea6ea93733b5a905090036005900360025500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036001555a600060006000600060007378cc42dd276339ef70b322674fd5dc7ea6ea93736000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -4214,7 +4261,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xc84f666af39c294be5bc167be3a748a801648d5f6d75e75561b52ae971eacd21",
+                    "hash": "0xd542b9ae32396c4e6357f9f037121451fd5b86f2b02190716b8cc4799828fb6e",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244ff85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a00345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59a02a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b380a0cdab417e1a4d3e16e5bd7b457876d405eeecb19dfb4d795282be12747e7e217fa0646dfab826175a109abbcfa648229060412af0e4849547eed72fbd1a1d924290",
                     "indexes": {
@@ -4226,11 +4273,12 @@
             ]
         },
         "_info": {
-            "hash": "0x72706064106f70553e9b7bb86a18b98ca0ef7d57cd6a4e415f59d8a324ebe0b0",
+            "hash": "0x6ff022afdba8215be9d3668d49bd98107334e66ef2d6583a5652e5d4e6c3a565",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -4262,7 +4310,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a738a0a19589531694250d570040a0c4b74576919b83b5a90509003600590036001555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360025500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000738a0a19589531694250d570040a0c4b74576919b86000f15a90509003601790036001555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -4309,7 +4357,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x3c4c233c3307fe99d1abb5d57d9f42c0d014566915a726bddead6e4e501b637c",
+                    "hash": "0xabb2d0d84db9742248e975792155e018498b287c8f6e81316a9b27b072b6cd86",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0101a05dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9a0670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494df85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f01a0db3797020cabbe50166f925c2223d85248eb38fba4b0a2dcf33f615e411ddebea0609b99e4bdda46dcc382d4afbefc1219b43dfb6fb5dd5f5d5d2ef6d409c76114",
                     "indexes": {
@@ -4321,11 +4369,12 @@
             ]
         },
         "_info": {
-            "hash": "0xa06fa3c1775b534fc8aade73f4c709c2f9de147c223ea43d6b612c00069d29f4",
+            "hash": "0x8fa6ddd39389fe6940a7ea02383e95c66150a4d425c05a7f9f6846970e1a7714",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -4357,7 +4406,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a738a0a19589531694250d570040a0c4b74576919b83b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036001555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360025500",
+                "code": "0x5a60006000600060006000738a0a19589531694250d570040a0c4b74576919b86000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036001555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360025500",
                 "storage": {}
             }
         },
@@ -4404,7 +4453,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x36fbfe360d11d3267403e123ffb982934b0c61fa9e4c904d1d9e4c737d61626b",
+                    "hash": "0x3c95bf6d17311f980d3518a3c9e453bd21e244b67671230df28c492ccffd6a8f",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f9011d01808007830f42409400000000000000000000000000000000000010008080c0f8b8f85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b0101a05dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9a0670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494df85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8001a05a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837a01c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f01a0db3797020cabbe50166f925c2223d85248eb38fba4b0a2dcf33f615e411ddebea0609b99e4bdda46dcc382d4afbefc1219b43dfb6fb5dd5f5d5d2ef6d409c76114",
                     "indexes": {
@@ -4416,11 +4465,12 @@
             ]
         },
         "_info": {
-            "hash": "0xf11bfae98e4dbf378ff32acc05f68b2b0e96f10b7e769b4946fc9f90faa2e798",
+            "hash": "0xae49c9ed673ddc19529401e8972be534fc58c89bff8a3910fd2d84e9f2822106",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -4452,7 +4502,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -4478,7 +4528,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x4c8d115e3c6c2a5b23297284672240a524bb3ca25d94f753e5a3f46d1b510d7a",
+                    "hash": "0x0541c192d83b2695b59d3314d28ec4f4b3b9fd1d33e1a452997e419ea232b09e",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x01f86201800a830f42409400000000000000000000000000000000000010008080c080a00df78a6f8af4dbc80cebee7bd29107212e9b88c8cae886d2bd23560e18011358a00e924fe54156bb4775d35350d78f62b63083e1ad61d91eefac92fb847fc5dabc",
                     "indexes": {
@@ -4490,11 +4540,12 @@
             ]
         },
         "_info": {
-            "hash": "0x8adbaf07d13ee355b33efb9e05fa4f1acc5655b88f004b03afceac13eafe7bbd",
+            "hash": "0x36508a1c262f990bf3b7641d5a79d503ca78eb5d6bddef033ca369ea6eaf090f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -4526,7 +4577,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a736389e7f33ce3b1e94e4325ef02829cd12297ef713b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000736389e7f33ce3b1e94e4325ef02829cd12297ef716000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -4552,7 +4603,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x7c13ae8c03ba79c94521498d3fdeb44247c5465790f6632c8c8bc32cb7e9b878",
+                    "hash": "0x7b3c39fe466b1715d1ecaf5625215dd5ddd605adef408d9e38da00db9df1154c",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x01f86201800a830f42409400000000000000000000000000000000000010008080c080a00df78a6f8af4dbc80cebee7bd29107212e9b88c8cae886d2bd23560e18011358a00e924fe54156bb4775d35350d78f62b63083e1ad61d91eefac92fb847fc5dabc",
                     "indexes": {
@@ -4564,11 +4615,12 @@
             ]
         },
         "_info": {
-            "hash": "0xb161c26da4badd54bfb4c2066e710a8f719de1c9d943e287ccc7efca7ad12ef9",
+            "hash": "0x3ea696e14f029096a3765f7aeb65319f2352834b94106d00e5438674ff7ab549",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -4594,7 +4646,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a90509003600590036000555a738a0a19589531694250d570040a0c4b74576919b83b5a905090036005900360015500",
+                "code": "0x5a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a90509003601790036000555a60006000600060006000738a0a19589531694250d570040a0c4b74576919b86000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -4620,7 +4672,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x473816a10f2c8ff84f7e378242acc9f842fcb0247949b34892c848beeb2c521e",
+                    "hash": "0x360379a9bb8ec669ca52dc06b7c6a8cc44d1a87a65e0e07e16fe69e9f4495fde",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x01f86201010a830f42409400000000000000000000000000000000000010008080c001a0b34c48a3261cc487cff64f09313e4a785e7ad244f3a619431f6d7df231bf54faa05106d4bf32bdf96cfcd562a19fa30305c2799c6e175a034682bfe3c91d235814",
                     "indexes": {
@@ -4632,11 +4684,12 @@
             ]
         },
         "_info": {
-            "hash": "0x3f5fa1cc57d91ffb02180b60afcb7deedcb1b19e9a6aabb7542a931f5b9bfdd8",
+            "hash": "0x36183d82d807a5f3f6b73e85d91def96379797e40d1603f230e5d019ec759112",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
@@ -4662,7 +4715,7 @@
             "0x0000000000000000000000000000000000001000": {
                 "nonce": "0x01",
                 "balance": "0x00",
-                "code": "0x5a738a0a19589531694250d570040a0c4b74576919b83b5a90509003600590036000555a73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b5a905090036005900360015500",
+                "code": "0x5a60006000600060006000738a0a19589531694250d570040a0c4b74576919b86000f15a90509003601790036000555a6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b6000f15a905090036017900360015500",
                 "storage": {}
             }
         },
@@ -4688,7 +4741,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xf4ae6179854eebc2458aa780bade2a99f93a56bc3b95d2621aaf9c219d0e4631",
+                    "hash": "0x9ead7d8e9b6a3427ba76009af7756fff53c2752479984bca6c77b3f0b3776c08",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x01f86201010a830f42409400000000000000000000000000000000000010008080c001a0b34c48a3261cc487cff64f09313e4a785e7ad244f3a619431f6d7df231bf54faa05106d4bf32bdf96cfcd562a19fa30305c2799c6e175a034682bfe3c91d235814",
                     "indexes": {
@@ -4700,11 +4753,12 @@
             ]
         },
         "_info": {
-            "hash": "0xa9459f6009efe56ea1654f77529fe388e5e57fa354487d17f4bffcaf2e467874",
+            "hash": "0x14b4b7019f15306b9a4dc5a5796270c0b9190a70d71ebca92541791863b30f4b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
-            "description": "Test function documentation:\n\n    Test warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-4@v1.0.1/tests/prague/eip7702_set_code_tx/test_gas.py#L783",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L752",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
         }
