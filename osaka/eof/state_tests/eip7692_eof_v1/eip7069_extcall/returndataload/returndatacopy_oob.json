@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_returndataload.py::test_returndatacopy_oob[fork_PragueEIP7692-state_test-opcode_CALL]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_returndataload.py::test_returndatacopy_oob[fork_Osaka-state_test-opcode_CALL]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -59,7 +59,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0xda61aaa1018100dbcc6d4efca1ad1fb0747f17089ea66fd9eb51d873f189501d",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -73,16 +73,16 @@
             ]
         },
         "_info": {
-            "hash": "0x93b556382d29b51381039497c0bbff1f7fe578cf11e820eb9699f0e65306627a",
+            "hash": "0xc64d4e2bd08fb52b0a0662cf7ffab9be1c98bb363a3a59281442f21098993ec1",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Extends the RETURNDATACOPY test for correct out-of-bounds behavior, by checking if the\n    caller frame's context being EOF or legacy doesn't impact the execution logic of the\n    RETURNDATACOPY instance under test.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_returndataload.py#L270",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_returndataload.py#L270",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_returndataload.py::test_returndatacopy_oob[fork_PragueEIP7692-state_test-opcode_EXTCALL]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_returndataload.py::test_returndatacopy_oob[fork_Osaka-state_test-opcode_EXTCALL]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -136,7 +136,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x3cc197ffe28e91b622fc38e5612059116f8337bd253f3d9ce84705f3bab23b04",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -150,11 +150,11 @@
             ]
         },
         "_info": {
-            "hash": "0x5daa4589facdca77d4011fb3fa062c5a28a4023e4256d18e837e06f8a679d1a1",
+            "hash": "0xb44be9635be297e920ca39f8dfdc3f5ea54724883c3fc3fe2d0b17c722f0cdb9",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Extends the RETURNDATACOPY test for correct out-of-bounds behavior, by checking if the\n    caller frame's context being EOF or legacy doesn't impact the execution logic of the\n    RETURNDATACOPY instance under test.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_returndataload.py#L270",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_returndataload.py#L270",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }

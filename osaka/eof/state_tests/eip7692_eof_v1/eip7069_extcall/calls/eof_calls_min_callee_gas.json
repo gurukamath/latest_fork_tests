@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-no_allowances-extcall_without_value]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-no_allowances-extcall_without_value]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -47,7 +47,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x66c345e62f37e65a2666380a45ca4e26ce3326b3286b466cca035b0e4c946258",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -61,16 +61,16 @@
             ]
         },
         "_info": {
-            "hash": "0xee9e32998a297a72beb99195298d49dde51db989b0f89bb1b48234aae12b90fb",
+            "hash": "0xf2c1af12d9b961a7eec198f46860b774b508d911076ae9c5d6e437814ce6ca9a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-no_allowances-extcall_with_value]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-no_allowances-extcall_with_value]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -118,7 +118,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0xa67547291e8bbcfad1742a2a2311191245e7e2f9e81020b135f0be20bded9cea",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -132,16 +132,16 @@
             ]
         },
         "_info": {
-            "hash": "0xb5cc3f9264d7b6a2279eedb7f099df1d0a522f22d78f4ba8c50127e57428cf4d",
+            "hash": "0xa060b6223e043423ce1e0ff5e8dea421e102f7905037e75b3669b4166cd866a6",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-no_allowances-extstaticcall]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-no_allowances-extstaticcall]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -189,7 +189,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x9291a415063320082c3c47a262e8d98373ce1617c4c94d38bda44c2c8007555c",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -203,16 +203,16 @@
             ]
         },
         "_info": {
-            "hash": "0x4d364b77c10a50db4979e53a3f992d2d572645572ff92b7bb2b07435ca5b7c89",
+            "hash": "0x3f21b7f6fbadbd4a8500ca44d973f44072c4e1d1b54ac67a680a8baf5bb3291f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-no_allowances-extdelegatecall]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-no_allowances-extdelegatecall]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -260,7 +260,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x55e2a2dd1063f06f50924330fa9c7a098a5b109a06c5515078b770fae967a2f1",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -274,16 +274,16 @@
             ]
         },
         "_info": {
-            "hash": "0x97dadadb8d937d304029165f8828f9f1c17c6ed9364323e107c2d6f3d56e64a7",
+            "hash": "0x55bc4ea2eb381eaefd1ab58600aaa98c21477080dad21c64ebdf4358e6fb4dda",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-only_retained-extcall_without_value]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-only_retained-extcall_without_value]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -331,7 +331,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x66c345e62f37e65a2666380a45ca4e26ce3326b3286b466cca035b0e4c946258",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -345,16 +345,16 @@
             ]
         },
         "_info": {
-            "hash": "0x50021a0d237cbc9ed2dfb228ea383ed29cdf2c1d3da4b8b5c0019cf9cf38b6db",
+            "hash": "0x907ebf31a6e538a1c52ac16d22adc226ff3e35ab75ac269c3ad9f56f4d24b6f4",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-only_retained-extcall_with_value]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-only_retained-extcall_with_value]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -402,7 +402,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0xa67547291e8bbcfad1742a2a2311191245e7e2f9e81020b135f0be20bded9cea",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -416,16 +416,16 @@
             ]
         },
         "_info": {
-            "hash": "0x05d113a81408ff17321d8d7c8a5434daf8c725bb15fba5f4baf4e66ec5efd2c5",
+            "hash": "0x278daa86ec82269edcdb346ffff57a1e3ce2e416b600d202211e02b235fc698a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-only_retained-extstaticcall]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-only_retained-extstaticcall]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -473,7 +473,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x9291a415063320082c3c47a262e8d98373ce1617c4c94d38bda44c2c8007555c",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -487,16 +487,16 @@
             ]
         },
         "_info": {
-            "hash": "0xac1749bb41ad9497930c0a31638ddc5311332e2932f8dad33cd5a85f8c164ed2",
+            "hash": "0x1510b261a3d4e9222bf0846265b16a32546b086daa3a2a22580a7272556b3f0a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-only_retained-extdelegatecall]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-only_retained-extdelegatecall]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -544,7 +544,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x55e2a2dd1063f06f50924330fa9c7a098a5b109a06c5515078b770fae967a2f1",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -558,16 +558,16 @@
             ]
         },
         "_info": {
-            "hash": "0x2c583ea2f5f8d0a992b7567d0dc1798cc92faeee2ea0b866c4aad91b2a342f6b",
+            "hash": "0x40b6a5cb45ab21f6c690e933948052da704c0b1723e02ad67df36d2d5714e5b5",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-only_callee-extcall_without_value]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-only_callee-extcall_without_value]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -615,7 +615,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x66c345e62f37e65a2666380a45ca4e26ce3326b3286b466cca035b0e4c946258",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -629,16 +629,16 @@
             ]
         },
         "_info": {
-            "hash": "0x4ab22e0c8a117d2d7713099d14d374b766537ac7f39b9677da3758a7e1eaa49a",
+            "hash": "0x242317fae140471b33b81a4adbeadb928bca45480170934623ba2a6bc8ef3003",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-only_callee-extcall_with_value]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-only_callee-extcall_with_value]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -686,7 +686,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0xa67547291e8bbcfad1742a2a2311191245e7e2f9e81020b135f0be20bded9cea",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -700,16 +700,16 @@
             ]
         },
         "_info": {
-            "hash": "0xf37ee5f3e21ef99d9143ba2f037f6ca929c925899dcca255953178d11c03503d",
+            "hash": "0xdc0872b1adfb4bd003988398fa374a7c116449c741d8bcfd2ef7738257837f17",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-only_callee-extstaticcall]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-only_callee-extstaticcall]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -757,7 +757,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x9291a415063320082c3c47a262e8d98373ce1617c4c94d38bda44c2c8007555c",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -771,16 +771,16 @@
             ]
         },
         "_info": {
-            "hash": "0x9b0d55e94f93710f51a54ea9a33c1c6e52697a90e66c4616a393dc101608438c",
+            "hash": "0x2af6373178acbdc195073bc0711e393d9a86d51a7352bb3ea3d596efbdb819cc",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-only_callee-extdelegatecall]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-only_callee-extdelegatecall]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -828,7 +828,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x55e2a2dd1063f06f50924330fa9c7a098a5b109a06c5515078b770fae967a2f1",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -842,16 +842,16 @@
             ]
         },
         "_info": {
-            "hash": "0x08336ae4dff8e78a7ad4d21b3c99d90e57af70a53e0fcceca51efad318a18bd1",
+            "hash": "0x638f440326c998587b1cbecba34698c7d817d7bba42aaab7ae12b3ce9fd57ec3",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-both_allowances-extcall_without_value]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-both_allowances-extcall_without_value]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -899,7 +899,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x3e2399e60b7409b4097784078cff922b9348be86b1ad816f222c5516e18de123",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -913,16 +913,16 @@
             ]
         },
         "_info": {
-            "hash": "0xf76b911568e7b9d2f98b9da75b80f4f323bb098cd55f358079a35c27aa85862f",
+            "hash": "0xd1f640f7c4bbdbf5c6fe8dd1f56f44fee7ade9eb19718dcf00dc0bd87cbee5c4",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-both_allowances-extcall_with_value]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-both_allowances-extcall_with_value]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -970,7 +970,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x184bf6039008f99ebf67aef5c22c9978233f62a9e5f37d6860c3a083c330fd28",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -984,16 +984,16 @@
             ]
         },
         "_info": {
-            "hash": "0xc6c0138d95ff8d9ffcc90a0212e6338620672396404f54fe7ae9f7c3ed985590",
+            "hash": "0xa5ff53750109234a62e3ab1b98411d6fa2e324f9a96a2f468cfddbdb212b906a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-both_allowances-extstaticcall]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-both_allowances-extstaticcall]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -1041,7 +1041,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0x9a88dc7f22080877c8bd28a4544ae1de27c8f93478262c59ccb1146ff1717a06",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -1055,16 +1055,16 @@
             ]
         },
         "_info": {
-            "hash": "0x05b6f817089749cf8eeef6ffd8cb64037641f2338dbe7f473cd658d956eb89a5",
+            "hash": "0x1ef451afedc19132233ba0f1680b49f0e08e8b2abe830c54fc3ababf7b6e0728",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
     },
-    "tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_PragueEIP7692-state_test-both_allowances-extdelegatecall]": {
+    "tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py::test_eof_calls_min_callee_gas[fork_Osaka-state_test-both_allowances-extdelegatecall]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -1112,7 +1112,7 @@
             "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
         },
         "post": {
-            "Prague": [
+            "Osaka": [
                 {
                     "hash": "0xd5313336ec0e592baeab12ea9b083df9fb32aeada08ae11a6cc9311625dbd720",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
@@ -1126,11 +1126,11 @@
             ]
         },
         "_info": {
-            "hash": "0xd4b4d1e36e35d085d93593b51f30431c2f942d1accff597deebdf6a0cf188075",
+            "hash": "0x3f37b12d8acb40d6733cf8ffe1b6f29105665d88e7d03ed76b3faa71f01031b3",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "Hyperledger Besu evm 24.9-develop-0d63955",
+            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
             "description": "Test function documentation:\n\n    Test EOF contracts calls do light failure when retained/callee gas is not enough.\n\n    Premise of the test is that there exists a range of `gas_limit` values, which are enough\n    for all instructions to execute, but call's returned value is 1, meaning not enough for gas\n    allowances (MIN_RETAINED_GAS and MIN_CALLEE_GAS) - ones marked with `reverts==False`.\n\n    Once we provide both allowances, the RJUMPI condition is no longer met and `reverts==True`.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v1.1.1/tests/prague/eip7692_eof_v1/eip7069_extcall/test_calls.py#L724",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calls.py#L871",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "2f013de4065babde7c02f84a2ce9864a3c5bfbd3"
         }
