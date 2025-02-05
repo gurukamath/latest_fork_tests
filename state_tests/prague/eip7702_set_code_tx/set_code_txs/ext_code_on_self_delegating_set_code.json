@@ -58,7 +58,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xa97f133ac9fd0934a53c5de484b99ea86855ab8826380b921076ecc6c7360164",
+                    "hash": "0xb6c3e75cc43fdb8e37eb929e109385c6571f2846eebb820254e79fec353856da",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007839896809400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080a054c7c92b1eede176959eefeb0ccce5c0e794991f16c1e8ac01700d162eb563bfa071b8d0e049596a2602ef18ca11a6d1c3e6a6ee21394b652ac0ad91533ac3a77201a0727ea2eb05ccf876a7538f3af11d39477e388c8eb0daf04050de4cc606277409a06e6ed48f096de311bc9d15efb7b8db8272d99ca6255ccdb5a87f586c437f833f",
                     "indexes": {
@@ -72,9 +72,9 @@
                             "balance": "0x00",
                             "code": "0x73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b60015573a94f5374fce5edbc8e2a8697c15331677e6ebf0b3f60025573a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b6000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b3c60005160035573a94f5374fce5edbc8e2a8697c15331677e6ebf0b3160045500",
                             "storage": {
-                                "0x01": "0x02",
-                                "0x02": "0xeadcdba66a79ab5dce91622d1d75c8cff5cff0b96944c3bf1072cd08ce018329",
-                                "0x03": "0xef01000000000000000000000000000000000000000000000000000000000000"
+                                "0x01": "0x17",
+                                "0x02": "0xdc4072065c5b3a15f498eb7a4ab81cd1c370ec63efc121710f000831392f183a",
+                                "0x03": "0xef0100a94f5374fce5edbc8e2a8697c15331677e6ebf0b000000000000000000"
                             }
                         },
                         "0x8a0a19589531694250d570040a0c4b74576919b8": {
@@ -93,15 +93,34 @@
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
         "_info": {
-            "hash": "0xa912dc14f8fa55cb339bf9d3fdba17c0143c57c0be73e5039642322d10fe6324",
+            "hash": "0x1765997b935353d974c1d7347648b2bbf8445ce5ec801c06d72f280b9b54aaf8",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest different ext*code operations on a set-code address that delegates to itself.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1338",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1346",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
-            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "devnets/prague/6",
+                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+            }
         }
     },
     "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_ext_code_on_self_delegating_set_code[fork_Prague-state_test-balance_1]": {
@@ -169,7 +188,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xd94d405ef9767935e4e55da66210d7f2f92c0784d4594b6c9f2f2e2db3bcc04b",
+                    "hash": "0xa425f320a26a95c78d5737dacc381b119c5f33f8f05de852fdbc39c6ea6d1a73",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c101808007839896809400000000000000000000000000000000000010008080c0f85cf85a8094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080a054c7c92b1eede176959eefeb0ccce5c0e794991f16c1e8ac01700d162eb563bfa071b8d0e049596a2602ef18ca11a6d1c3e6a6ee21394b652ac0ad91533ac3a77201a0727ea2eb05ccf876a7538f3af11d39477e388c8eb0daf04050de4cc606277409a06e6ed48f096de311bc9d15efb7b8db8272d99ca6255ccdb5a87f586c437f833f",
                     "indexes": {
@@ -189,9 +208,9 @@
                             "balance": "0x00",
                             "code": "0x73a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b60015573a94f5374fce5edbc8e2a8697c15331677e6ebf0b3f60025573a94f5374fce5edbc8e2a8697c15331677e6ebf0b3b6000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b3c60005160035573a94f5374fce5edbc8e2a8697c15331677e6ebf0b3160045500",
                             "storage": {
-                                "0x01": "0x02",
-                                "0x02": "0xeadcdba66a79ab5dce91622d1d75c8cff5cff0b96944c3bf1072cd08ce018329",
-                                "0x03": "0xef01000000000000000000000000000000000000000000000000000000000000",
+                                "0x01": "0x17",
+                                "0x02": "0xdc4072065c5b3a15f498eb7a4ab81cd1c370ec63efc121710f000831392f183a",
+                                "0x03": "0xef0100a94f5374fce5edbc8e2a8697c15331677e6ebf0b000000000000000000",
                                 "0x04": "0x01"
                             }
                         },
@@ -205,15 +224,34 @@
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
         "_info": {
-            "hash": "0x39b892f81fc1ec034e964b820ea5230fd71ce050c7e190a7f35118aa9b5d0b81",
+            "hash": "0x666f745d72cd59b842c81d7da7e27cdc1cc98d80089dacab080f3a4dc1741940",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest different ext*code operations on a set-code address that delegates to itself.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1338",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1346",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
-            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "devnets/prague/6",
+                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+            }
         }
     }
 }

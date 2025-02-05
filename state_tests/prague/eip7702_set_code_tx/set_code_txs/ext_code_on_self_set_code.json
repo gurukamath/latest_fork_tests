@@ -58,7 +58,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0xe4e523c86fda1c1062e8fef397f5f7aa9c435aa6fca98e7253b71090f68a8690",
+                    "hash": "0xd5d679fea40803c6b5beb1d9cfff16e6103b59a2683955e8bb0d8e09222d1644",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080c0f85cf85a809400000000000000000000000000000000000010008080a0dbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202a05c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e80a0d54dc4f661196bd7204844d9296d5954675313504601c0bba8644bfaa844ecb6a068542663f1a2f8d71ed317617c53a35754b002306300abed1f0e31b547787187",
                     "indexes": {
@@ -84,24 +84,43 @@
                             "balance": "0x00",
                             "code": "0xef01000000000000000000000000000000000000001000",
                             "storage": {
-                                "0x01": "0x02",
-                                "0x02": "0xeadcdba66a79ab5dce91622d1d75c8cff5cff0b96944c3bf1072cd08ce018329",
-                                "0x03": "0xef01000000000000000000000000000000000000000000000000000000000000"
+                                "0x01": "0x17",
+                                "0x02": "0x94a3c6a5b13052408fb2b1cb98d843b17d806a01cb1ce44a299932ad2e135491",
+                                "0x03": "0xef01000000000000000000000000000000000000001000000000000000000000"
                             }
                         }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
         "_info": {
-            "hash": "0x46486b805b527e1dba724e4e3a304614c13b008f6e5e73d3713289aa8ef95d2c",
+            "hash": "0x3b80a88b4ce2f266efb396bd8a984502209ae3aabc25e1d8633e4648eed0df65",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest different ext*code operations on self set-code address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1118",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1122",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
-            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "devnets/prague/6",
+                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+            }
         }
     },
     "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_ext_code_on_self_set_code[fork_Prague-state_test-balance_1]": {
@@ -169,7 +188,7 @@
         "post": {
             "Prague": [
                 {
-                    "hash": "0x17fe17cdf8db9b12f80099cf4be18fef2d3a4b8e8e49e09b4f07bd0161996968",
+                    "hash": "0x3a7de5f0f7bdba84b9ad7e532c52e7ffb8c415689e3cb36eb11f57d6a26feb1c",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x04f8c1018080078398968094a94f5374fce5edbc8e2a8697c15331677e6ebf0b8080c0f85cf85a809400000000000000000000000000000000000010008080a0dbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202a05c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e80a0d54dc4f661196bd7204844d9296d5954675313504601c0bba8644bfaa844ecb6a068542663f1a2f8d71ed317617c53a35754b002306300abed1f0e31b547787187",
                     "indexes": {
@@ -183,9 +202,9 @@
                             "balance": "0x01",
                             "code": "0xef01000000000000000000000000000000000000001000",
                             "storage": {
-                                "0x01": "0x02",
-                                "0x02": "0xeadcdba66a79ab5dce91622d1d75c8cff5cff0b96944c3bf1072cd08ce018329",
-                                "0x03": "0xef01000000000000000000000000000000000000000000000000000000000000",
+                                "0x01": "0x17",
+                                "0x02": "0x94a3c6a5b13052408fb2b1cb98d843b17d806a01cb1ce44a299932ad2e135491",
+                                "0x03": "0xef01000000000000000000000000000000000000001000000000000000000000",
                                 "0x04": "0x01"
                             }
                         },
@@ -205,15 +224,34 @@
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
         "_info": {
-            "hash": "0x808d27db5f2b3a6d24d0fcb2cf3f650281e88a1914cfbc530bf9e6d53450be1e",
+            "hash": "0xa84b5c844ef67eb0292ee7ef8185a7443e77f83af07159b6c85b5a6080dde07c",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest different ext*code operations on self set-code address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1118",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1122",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
-            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9"
+            "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "devnets/prague/6",
+                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+            }
         }
     }
 }

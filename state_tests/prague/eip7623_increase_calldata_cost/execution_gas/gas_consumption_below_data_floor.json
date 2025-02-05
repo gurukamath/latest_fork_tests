@@ -1,90 +1,4 @@
 {
-    "tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py::TestGasConsumptionBelowDataFloor::test_gas_consumption_below_data_floor[fork_Prague-state_test-exact_gas-type_0_unprotected]": {
-        "env": {
-            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-            "currentGasLimit": "0x016345785d8a0000",
-            "currentNumber": "0x01",
-            "currentTimestamp": "0x03e8",
-            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "currentDifficulty": "0x00",
-            "currentBaseFee": "0x07",
-            "currentExcessBlobGas": "0x00"
-        },
-        "pre": {
-            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "nonce": "0x00",
-                "balance": "0x3635c9adc5dea00000",
-                "code": "0x",
-                "storage": {}
-            },
-            "0x0000000000000000000000000000000000001000": {
-                "nonce": "0x01",
-                "balance": "0x00",
-                "code": "0x5b5b5b5b5b00",
-                "storage": {}
-            }
-        },
-        "transaction": {
-            "nonce": "0x00",
-            "gasPrice": "0x0a",
-            "gasLimit": [
-                "0x5212"
-            ],
-            "to": "0x0000000000000000000000000000000000001000",
-            "value": [
-                "0x00"
-            ],
-            "data": [
-                "0x00"
-            ],
-            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
-        },
-        "post": {
-            "Prague": [
-                {
-                    "hash": "0x2a2264a6acf34313c3134279926b45c7e6c58c8e39c63aa8c175f2db243b82cb",
-                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0xf85f800a82521294000000000000000000000000000000000000100080001ca0b3f08e968f7c21a450b6364b0b371a8d620c03c2d6fece9b78dfa52460655d23a061d0bd0fdf295dd09f1e725fe97f7dc4a54029ef8057e5432bb63980667df167",
-                    "indexes": {
-                        "data": 0,
-                        "gas": 0,
-                        "value": 0
-                    },
-                    "state": {
-                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                            "nonce": "0x01",
-                            "balance": "0x3635c9adc5de9ccb4c",
-                            "code": "0x",
-                            "storage": {}
-                        },
-                        "0x0000000000000000000000000000000000001000": {
-                            "nonce": "0x01",
-                            "balance": "0x00",
-                            "code": "0x5b5b5b5b5b00",
-                            "storage": {}
-                        },
-                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
-                            "nonce": "0x00",
-                            "balance": "0xf636",
-                            "code": "0x",
-                            "storage": {}
-                        }
-                    }
-                }
-            ]
-        },
-        "_info": {
-            "hash": "0x55c50fee1aa1c79b56a58ffb7bd9d1e5dca042c1dc8e5f7ca436eac013f7e7b6",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
-            "description": "Test class documentation:\nTest gas consumption barely below the floor data cost (1 gas below).\n\nTest function documentation:\nTest executing a transaction that almost consumes the floor data cost.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.2.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
-            "fixture_format": "state_test",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
-            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558"
-        }
-    },
     "tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py::TestGasConsumptionBelowDataFloor::test_gas_consumption_below_data_floor[fork_Prague-state_test-exact_gas-type_0_protected]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -160,15 +74,139 @@
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
         "_info": {
-            "hash": "0x5b13a9e3ec91ef4b4652cf99fe897631ba3744bacf3c16f927108ff75e0fb70a",
+            "hash": "0xf5ca247f2fae30aafa9043700704f34a34bfe8097ccef7f8aea4a6bb33fdcea6",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test class documentation:\nTest gas consumption barely below the floor data cost (1 gas below).\n\nTest function documentation:\nTest executing a transaction that almost consumes the floor data cost.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.2.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
-            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558"
+            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "devnets/prague/6",
+                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+            }
+        }
+    },
+    "tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py::TestGasConsumptionBelowDataFloor::test_gas_consumption_below_data_floor[fork_Prague-state_test-exact_gas-type_0_unprotected]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x5b5b5b5b5b00",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0x5212"
+            ],
+            "to": "0x0000000000000000000000000000000000001000",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x00"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Prague": [
+                {
+                    "hash": "0x2a2264a6acf34313c3134279926b45c7e6c58c8e39c63aa8c175f2db243b82cb",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf85f800a82521294000000000000000000000000000000000000100080001ca0b3f08e968f7c21a450b6364b0b371a8d620c03c2d6fece9b78dfa52460655d23a061d0bd0fdf295dd09f1e725fe97f7dc4a54029ef8057e5432bb63980667df167",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de9ccb4c",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x5b5b5b5b5b00",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0xf636",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x5b265d89950f65a203f3253e1685daa0b82ac08f9f306ab5106436cc16bd9bb4",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
+            "description": "Test class documentation:\nTest gas consumption barely below the floor data cost (1 gas below).\n\nTest function documentation:\nTest executing a transaction that almost consumes the floor data cost.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
+            "fixture_format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
+            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "devnets/prague/6",
+                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+            }
         }
     },
     "tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py::TestGasConsumptionBelowDataFloor::test_gas_consumption_below_data_floor[fork_Prague-state_test-exact_gas-type_1]": {
@@ -249,15 +287,34 @@
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
         "_info": {
-            "hash": "0xf4f765604219d0a09b38629aed43aef463a85df838bf23651d1abcd54fe71a93",
+            "hash": "0x72619f1b4cbc8ac88c2c09edec753e1a9869ec92b6f9ed78374a8ee6a7e8a670",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test class documentation:\nTest gas consumption barely below the floor data cost (1 gas below).\n\nTest function documentation:\nTest executing a transaction that almost consumes the floor data cost.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.2.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
-            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558"
+            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "devnets/prague/6",
+                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+            }
         }
     },
     "tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py::TestGasConsumptionBelowDataFloor::test_gas_consumption_below_data_floor[fork_Prague-state_test-exact_gas-type_2]": {
@@ -333,15 +390,34 @@
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
         "_info": {
-            "hash": "0x5449188c0c951b0eb5fca1d1cabf142691bfd92741a7bad25d928e9f77c04ae6",
+            "hash": "0x162341c01a2e9da4645c2959c8d37a2d16422b356125cc06f599942e4dd79e5b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test class documentation:\nTest gas consumption barely below the floor data cost (1 gas below).\n\nTest function documentation:\nTest executing a transaction that almost consumes the floor data cost.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.2.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
-            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558"
+            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "devnets/prague/6",
+                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+            }
         }
     },
     "tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py::TestGasConsumptionBelowDataFloor::test_gas_consumption_below_data_floor[fork_Prague-state_test-exact_gas-type_3]": {
@@ -421,15 +497,34 @@
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
         "_info": {
-            "hash": "0x83fe8f7619c94a6ccfd7a587e02a9610faac0cf97c1bd4ca04403be4c442f008",
+            "hash": "0xdb7034f2a0515dc71113fd10c3d4c50627481ac7401e5c9413acbe5345677b21",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test class documentation:\nTest gas consumption barely below the floor data cost (1 gas below).\n\nTest function documentation:\nTest executing a transaction that almost consumes the floor data cost.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.2.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
-            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558"
+            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "devnets/prague/6",
+                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+            }
         }
     },
     "tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py::TestGasConsumptionBelowDataFloor::test_gas_consumption_below_data_floor[fork_Prague-state_test-exact_gas-type_4]": {
@@ -522,15 +617,34 @@
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            }
+        },
         "_info": {
-            "hash": "0xfd7acd332ba903b4b8fbb65389f30d6de112f34bafeebd7eeebb1e3ed744948d",
+            "hash": "0xbf39cab13abb4279f303947edb3d9babbb9e8a26df88b418379f7281631335f2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test class documentation:\nTest gas consumption barely below the floor data cost (1 gas below).\n\nTest function documentation:\nTest executing a transaction that almost consumes the floor data cost.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-5@v1.2.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7623_increase_calldata_cost/test_execution_gas.py#L130",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
-            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558"
+            "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "devnets/prague/6",
+                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+            }
         }
     }
 }
