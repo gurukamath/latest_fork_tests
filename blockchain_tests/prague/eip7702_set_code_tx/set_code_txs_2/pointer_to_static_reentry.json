@@ -211,6 +211,7 @@
         "lastblockhash": "0x9d885aa8e920be22e28094d132b6ba16b660a2de8bf8c3cb739472e18361edce",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -288,18 +289,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe32b8688ef3a009fc2cd2a516f121b2a15afea4a1fb4dd290d3aeb1dcbb3d6d5",
+            "hash": "0x9bcc2308af802e3d7fdf66bd157f53136ad4114a3f397b4da1b5740927c87e43",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx call -> pointer A -> static -> code -> pointer A -> static violation\n    Verify that static context is active when called under pointer.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L938",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L938",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

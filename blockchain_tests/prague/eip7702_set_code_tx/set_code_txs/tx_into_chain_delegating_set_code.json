@@ -184,6 +184,7 @@
         "lastblockhash": "0x0d413daeb8ce66cf05da722c30e33c85b5f9992e611429a455545b92fc1acbb1",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -270,18 +271,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x16b646cd3658d80ac01ca6abd4cebfe3b54265a85cf7b0664ed85ee3c3da864c",
+            "hash": "0x85358e4449c198f2be6e36ffd70b4ac0c6d313f7f851930837065277629be6db",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test a transaction that has entry-point into a set-code account that delegates to another\n    set-code account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L876",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L876",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

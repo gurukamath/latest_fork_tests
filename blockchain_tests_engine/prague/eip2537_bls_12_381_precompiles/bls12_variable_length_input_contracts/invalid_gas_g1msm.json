@@ -190,6 +190,7 @@
         "lastblockhash": "0x9c7c1ffb6a017554e0329ae0335c70fdc12f9245817000e94be45d19bf851acf",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -236,18 +237,18 @@
             }
         ],
         "_info": {
-            "hash": "0x5a546f0496551bdf825e8263ffbaa6b4c1bf2c8d4ffb8d070b22352e19c7ce5e",
+            "hash": "0xc6f5ef70c5b7ec588e6b422fb5d746dead1f27908a92dd1cc9ffa606356d4ba4",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the BLS12_G1MSM discount gas table in full, by expecting the call to fail for\n    all possible input lengths because the appropriate amount of gas is not provided.\n\n    If any of the calls succeeds, the test will fail.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L141",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L141",
             "fixture_format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -442,6 +443,7 @@
         "lastblockhash": "0x9acbfe20efd6e3db2da023501e13e9499214d2e9349128248e87a852b39f44b5",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -488,18 +490,18 @@
             }
         ],
         "_info": {
-            "hash": "0x0fec85a6ac266eba3a53f7f1851e4bd447c29b546d80785aed434f8f067c0bfd",
+            "hash": "0xf4275ed309de3a59f6c8633dc21fbd428eebcca845aef300bdb3d1918a3446e0",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the BLS12_G1MSM discount gas table in full, by expecting the call to fail for\n    all possible input lengths because the appropriate amount of gas is not provided.\n\n    If any of the calls succeeds, the test will fail.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L141",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L141",
             "fixture_format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

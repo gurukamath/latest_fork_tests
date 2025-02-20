@@ -253,6 +253,7 @@
         "lastblockhash": "0xdd7f92043013c80067057bea52cb3ec2f6fc4c7420482a8b3d4f393cf169a807",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -475,18 +476,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe3be25c180c44d083a5bca78825b41ae2b741fa0798ec864f45acf6f5cf82e10",
+            "hash": "0x004298c9501c75fad1b752b71a97623f044596a5c7e21811141f1a97aefc6519",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    So in Block1 we create a sender with empty code, but non empty storage using pointers\n    In Block2 we create account that perform suicide, then we check that when calling\n    a pointer, that points to newly created account and runs suicide,\n    is not deleted as well as its storage.\n\n    This one is a little messy.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1537",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1537",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

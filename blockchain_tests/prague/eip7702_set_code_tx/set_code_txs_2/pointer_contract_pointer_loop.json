@@ -224,6 +224,7 @@
         "lastblockhash": "0x59c846be814cb8d3cd13631d1e6343c26c797e5b43031c8ebd0df0b9638efe8f",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -310,18 +311,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x8bcef0dc46f69fc3fb7417e6087835cb8d6d17a368e23ce1e6adbcee5c79c6c0",
+            "hash": "0x9078263a2b23129bad7d9032e4a022e7b9f7c14285ea8133e46c9f8521c1a0bf",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> contract A -> pointer B -> contract loop C.\n\n    Call pointer that goes more level of depth to call a contract loop\n    Loop is created only if pointers are set with auth tuples",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L36",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L36",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

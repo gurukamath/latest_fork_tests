@@ -211,6 +211,7 @@
         "lastblockhash": "0xbbc585e4ebd23a267af97fd9d889aa82e0c40f2ae6117c03e947de92e4f87f9e",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -275,18 +276,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x96090fbd483d41e85e250d802f21e04aff13117bc9f8bce2da98bdc772d592dc",
+            "hash": "0x0a7b12e01113c097d3b06f82e126a39e69621c9bb59b1978e68b811d45696bf1",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the BLS12_PAIRING precompile, by expecting the call to succeed for all possible input\n    lengths (up to k == PAIRINGS_TO_TEST).\n\n    If any of the calls fails, the test will fail.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L350",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L350",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -502,6 +503,7 @@
         "lastblockhash": "0x5621f8a52c0c245c40ec31ca85f8f1904275604483d190527d3c02111e32206c",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -566,18 +568,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe3836b78d9654c32aa1342b4f564885eb3c3e31dda7956b17214c7e8081eebe2",
+            "hash": "0xa43b7bd2572ffd97707d5add83589ee86d9170b91492a397760754fa1bf80d60",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the BLS12_PAIRING precompile, by expecting the call to succeed for all possible input\n    lengths (up to k == PAIRINGS_TO_TEST).\n\n    If any of the calls fails, the test will fail.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L350",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L350",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

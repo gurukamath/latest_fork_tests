@@ -192,6 +192,7 @@
         "lastblockhash": "0x383c1725815bf58e85d4d56f0df38f1c623c9d3f4908f369bc972d477a28beb3",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -238,18 +239,18 @@
             }
         ],
         "_info": {
-            "hash": "0x147523d06981ea69c7581da7ad8bd40fad8c785c0b9b045f8230593b5f72e69a",
+            "hash": "0x9b70a3a26a57cd9cedca72a6d5f8bc917f021d701eec5ecc0b7c72658ccfac1e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    It was agreed before that senders don't have code\n    And there were issues with tests sending transactions from account's with code\n    With EIP7702 it is again possible, let's check the test runners are ok.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1214",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1214",
             "fixture_format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

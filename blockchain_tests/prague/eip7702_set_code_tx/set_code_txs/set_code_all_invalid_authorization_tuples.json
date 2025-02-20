@@ -292,6 +292,7 @@
         "lastblockhash": "0x6eec01e783385b47a13696866ac147df5d7ff3dde7020c6fef9c558c8a2657cf",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -450,18 +451,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x4dd11818cba3146746526f434ca5d8d54644cbe9a782077692002f872a588f87",
+            "hash": "0x55ba72e6caedc5ee7f1b4de389a79cbaaed824cb9330af77f435ed2ff7ffdc50",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test setting the code of an account with multiple authorization tuples from the same signer\n    and all of them are invalid.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1983",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1983",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

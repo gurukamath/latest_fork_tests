@@ -198,6 +198,7 @@
         "lastblockhash": "0xb89ace458e40ff542f2913e5109b55f015bc3f73331137f99db756130c7fb8fa",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -244,18 +245,18 @@
             }
         ],
         "_info": {
-            "hash": "0xb5b1742f7f16c07af29bc2622033776e618f5bfc12d832a2fc6ac36cff0c6502",
+            "hash": "0x0894e515fb9e027edecba040e2c4bb56446686a2ece54156ae1c8b1b309fdef9",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test sending a transaction with an authorization tuple where the signature s value is out of\n    range by modifying its value to be `SECP256K1N - S` and flipping the v value.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2203",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2203",
             "fixture_format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

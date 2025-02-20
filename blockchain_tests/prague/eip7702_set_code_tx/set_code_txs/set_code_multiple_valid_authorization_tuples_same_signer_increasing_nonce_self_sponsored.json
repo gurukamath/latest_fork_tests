@@ -294,6 +294,7 @@
         "lastblockhash": "0xf28a641b45729f2be63cb08d28ee4269b0f8874e069a70a61d312719602e5294",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -452,18 +453,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x3620870e8bd54b6e2d435d7404e959b80191adb83ec67360a9c5dd9f56b35b84",
+            "hash": "0xd1af4db021851d2e35ae783f512af6adc930f3e89bd7c758f9e19dc7e24c4b34",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test setting the code of an account with multiple authorization tuples from the same signer\n    and each authorization tuple has an increasing nonce, therefore the last tuple is executed,\n    and the transaction is self-sponsored.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1888",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1888",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

@@ -223,6 +223,7 @@
         "lastblockhash": "0x46609118ad32e08bb1a0b41790540ee5ef502c68252bd1bf4e64c866db26a6e7",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -309,18 +310,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x598e0b6cbbe3c1f2a802484325340b8cc696fb3f98a37dc2b767852f1ca3e6b6",
+            "hash": "0x20e7bf3a49c14dd740eec07212e7c5e9a98145a5777c91d7c5e0b3138f5634a4",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test sending a transaction with two authorization where the first one bumps the nonce\n    to 2**64-1 and the second would result in overflow.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2409",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2409",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

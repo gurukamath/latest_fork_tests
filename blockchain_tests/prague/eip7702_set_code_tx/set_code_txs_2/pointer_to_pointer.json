@@ -208,6 +208,7 @@
         "lastblockhash": "0x6a31a77e0dad65d58346d274d552cde253a825d5a98d0e16ee237574988fa23a",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -294,18 +295,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xdc1419592400642b7a9df2ddf57f5fce3974a07e63264926a1955b19f79f49ee",
+            "hash": "0x0da682495608b9812dc95fe6cae5bac355f4b8d55fc3594a4170c19f17881c4d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> pointer B.\n\n    Direct call from pointer to pointer is OOG",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L91",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L91",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

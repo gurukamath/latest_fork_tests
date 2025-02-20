@@ -72058,21 +72058,22 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x244f32b80bc68be29f2c9b13cc1b22aa7debe627d7f0d2bfcd3276f8f9a34af9",
+            "hash": "0x3064866cdb64ebd7030cb9bbeab7cf18276d791ee86033685b08119215a7088c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Perform as many delegations as possible in a single 120 million gas transaction.\n\n    Every delegation comes from a different signer.\n\n    The account of can be empty or not depending on the `signer_balance` parameter.\n\n    The transaction is expected to succeed and the state after the transaction is expected to have\n    the code of the entry contract set to 1.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L3300",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L3300",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -172923,21 +172924,22 @@
                     "max": "0x09",
                     "baseFeeUpdateFraction": "0x4c6964"
                 }
-            }
+            },
+            "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x110e70cf46945dabfbbf66185a7f7d57272861079ecc8ade15ad6f4ae16f7b68",
+            "hash": "0x1cd355d943d552730a15097fcc74b8a76aaee913b8f1cef1bf0525ae98f428ab",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Perform as many delegations as possible in a single 120 million gas transaction.\n\n    Every delegation comes from a different signer.\n\n    The account of can be empty or not depending on the `signer_balance` parameter.\n\n    The transaction is expected to succeed and the state after the transaction is expected to have\n    the code of the entry contract set to 1.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L3300",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L3300",
             "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }

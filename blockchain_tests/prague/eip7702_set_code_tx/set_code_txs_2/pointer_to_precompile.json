@@ -222,6 +222,7 @@
         "lastblockhash": "0xc06c37a447c14d7f9181470f6bb10ce729a8ce687d1d5a826d121611a474e23d",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -299,18 +300,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x8aef61b542fe37b6110f614e07fd357b857f6e50b3db2171318103e35cb784c2",
+            "hash": "0x6d0dad7768dc400cc8ea61dc71b86d3711bac84763aee07c326a75da45f6fcdf",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -537,6 +538,7 @@
         "lastblockhash": "0xca9241d86a0afc7c715a1722ef12ca7608da33c299b327e0b1c5fabda5fb7952",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -614,18 +616,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x67d2e185948c4fe6ca82ed3367f01f1c01cf4c89d598fbe9d8b6150df35e1ce5",
+            "hash": "0x93d2abde8baf9d2c93956492b37238f745f20fa06a8a43d09db484e48763bd3a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -852,6 +854,7 @@
         "lastblockhash": "0x5aeb4e14d7b9e29c57300641e74d540395690f901e92c70931c64f407fcf6998",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -929,18 +932,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x1a703190b88cbd4f8b43384fd93f22513aa32d4a3bdd573f4f4e30b2c3616942",
+            "hash": "0x82df18c4a240e244ea1efa4da1a7589fb9ec6d04bc9009302f52593a69bd37a7",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -1167,6 +1170,7 @@
         "lastblockhash": "0x27949cc968e9a3c56d99b2bda880e6358fdf6244dcd41fbdc7a1ebf145927425",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -1244,18 +1248,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x560616dc1b42da7249e7a1ac40f77333a1980780da98a3af94267f32e515216c",
+            "hash": "0xe4ec2e00cd1f5400cee87f4710e81ad74ee4184b8abcb78cc46c28d68e780d86",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -1482,6 +1486,7 @@
         "lastblockhash": "0x4b155071d543972ffa002d633de73202442770d3bebc667ba6afcda191fc12ba",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -1559,18 +1564,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xd423afb31fbf79e7fa6047b0dd88e58740fb6f647acbb4b2f48dc12613f1ae11",
+            "hash": "0xe0ad7358962e8749699a75ab73de7c3ee63f09e7bfeba3bffaaae0f9d6912e40",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -1797,6 +1802,7 @@
         "lastblockhash": "0xa63304b9c6c39cd848c8035b69d63fb804c1821ce779ff839cb0dec1fd62fa89",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -1874,18 +1880,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xf7ddfda7494e7b04d7146e53c01b3009e2a781c170fa114d46f44c3c8a876f0e",
+            "hash": "0x26d73bdf58616c558f9f9842f7e40f0420efef6388ae1c2efc2407c8226ad586",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -2112,6 +2118,7 @@
         "lastblockhash": "0x7c4a91ce5350944dce8b118f4a1711c4445117c6fafaefffed7520fc058943e7",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -2189,18 +2196,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x4ffcf5421d8f3fe7dd7c5b5fa23a0fb1d03bff2f0bc44358b032b1e19c221721",
+            "hash": "0xc9958b0032ab4c16fdd5ecab1bc73a84f0024de5a26836938d9c2ff1c4e432ba",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -2427,6 +2434,7 @@
         "lastblockhash": "0xe9bc94db6837c9ad18d02d824012ee4405e5106c19bd76f92f97d6cdebc6926e",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -2504,18 +2512,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x5aa1b03ae2654866c185c96b02ae0ada848633fa40d98c36a78c857f6371856d",
+            "hash": "0xafae9beb89dc011a5411c0f39198c2c580e3fa490846ff6b6fea645d9f23a15b",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -2742,6 +2750,7 @@
         "lastblockhash": "0x9438e01319bfb2a61af669a7899296e9a19c8efa308c14d1a8064510fb9d9e71",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -2819,18 +2828,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x42cb7c9bc5e8c9749bd9e839b05f22499161d9b681b43efba2723f060cb2b2bc",
+            "hash": "0x45aac10ff47ca5d3d340cacf4c8c888cb5593ebe7c1cecd483576ad5f524188b",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -3057,6 +3066,7 @@
         "lastblockhash": "0x9d31669d28988f3b22cbb6ab40305f22a6c7003b3603bf3ca086260cbec4a300",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -3134,18 +3144,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xb0379f521176b1b32922fce7ddf54ae31f434152bee1551a1497bb1ed9fb9c11",
+            "hash": "0x28b38a34a26e7972943ada2340c839b01f102296757d540dfde29dbd6b71c315",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -3372,6 +3382,7 @@
         "lastblockhash": "0x38d3900b178022cdb72128f9cd25bd76028072256986921b3250c8b3f6b27624",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -3449,18 +3460,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xc4b6e8b42716f44c9900af1b48db83640d4558c2ce4105573bb1297df5dac970",
+            "hash": "0xb437815b044d94b707f19a322c6ea071a0a3c5d9174e8a13a5fbaaa828b4a701",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -3687,6 +3698,7 @@
         "lastblockhash": "0x1edbe286cd7ef941d3fde3db5297c4939152c4d944146890d28002aae68e73b7",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -3764,18 +3776,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x60a20682d4e7d2043428d294b2ab1e96263c297455efb298f4cb24a1c1490b43",
+            "hash": "0x1de7ea4700a07f6a810aeb847250354ac596d906953f21f911ec0a20e4aa698d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -4002,6 +4014,7 @@
         "lastblockhash": "0x6cbe16a11490b660e4066f17d4b810a77be4bdfae0950f37653e1a93b7972f77",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -4079,18 +4092,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xcb1e16c559fa21bb2d518c381cc7f991eeb8884653957d47120de31b50cc0f45",
+            "hash": "0x51191a67d95a3661152889c5ceb7396883dd1c734975f15fc1ee5a1c73bd0fb2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -4317,6 +4330,7 @@
         "lastblockhash": "0x3ece0a1a066292886bcc87757f426041dd8f8733daf6552ee5deb19826d82469",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -4394,18 +4408,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xb7136ad83f03aed5c1c579d2f4a66ebe824c286e243b377a457eaf5cdb32ae8d",
+            "hash": "0xc06cd296e115aa388deec85768428882d6a6df6a1e23c3b7480d40655519eb5d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -4632,6 +4646,7 @@
         "lastblockhash": "0x03d2ed9fbbfce0555f7e3181b4b43d0e32e22c7eda7bcd53ecb5f4f7b87754a5",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -4709,18 +4724,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x080f75b648ff27b727b2da34578ef51a1e21104218de12ecfd4cccc4a448b997",
+            "hash": "0xda42f2febded192b057f58a4932ff8f5f75c35201f58c6ba8d7e0b94c4e6dbf3",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -4947,6 +4962,7 @@
         "lastblockhash": "0x2c85a24110ba098e40a9c7e2109932076f06ac64229179dc8bd73f73a997bfb5",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -5024,18 +5040,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x4644f83c82b66d15391266691416f75f05ccf20f5ccbb6ea621554bda806006b",
+            "hash": "0x3b1a5de361419c8a6154cbebc14fe6e82a85e38844a619288f0311382bfa3f47",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     },
@@ -5262,6 +5278,7 @@
         "lastblockhash": "0x3bcf4c5e006ed24f4399878dbba75005cef4f4d568a67c41b05769fba3e4e75a",
         "config": {
             "network": "Prague",
+            "chainid": "0x01",
             "blobSchedule": {
                 "Cancun": {
                     "target": "0x03",
@@ -5339,18 +5356,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x1abf891ac5942871a24ad587ed6d1dc9c8d11e8f612371a045cdccc68ffe0d03",
+            "hash": "0x3c3d4e24689968307da2706c294c5ee563a960d28367535cba6f495bf20b55d3",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> precompile contract.\n\n    In case a delegation designator points to a precompile address, retrieved code is considered\n    empty and CALL, CALLCODE, STATICCALL, DELEGATECALL instructions targeting this account will\n    execute empty code, i.e. succeed with no execution given enough gas.\n\n    So call to a pointer that points to a precompile is like call to an empty account",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-6@v1.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L395",
             "fixture_format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "devnets/prague/6",
-                "commit": "fa33d824decac0a6ac55adc943e7f139b0719f0e"
+                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
             }
         }
     }
