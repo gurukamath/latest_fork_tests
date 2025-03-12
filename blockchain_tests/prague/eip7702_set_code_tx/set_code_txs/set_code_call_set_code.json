@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test-value_0]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test_from_state_test-value_0]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -278,7 +278,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -287,7 +288,8 @@
                                 "v": "0x01",
                                 "r": "0xac427f776ac7ad34aafce7f63eceb1cde3eface529edeac41327496a0cdead7e",
                                 "s": "0x7571612216f35c4666ff4101d5ccf93fff270ced7d93664c4d7e8f5048a80198",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -300,12 +302,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe7324cabed56668cc74410fcbe95877cd03ec206634272d447f37a74394554cb",
+            "hash": "0x2d838a14e2f8073045a152be591857ad166078cf070ae2fafb0e2256e682f544",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the calling a set-code account from another set-code account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L718",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L705",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -315,7 +317,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test-value_1]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test_from_state_test-value_1]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -594,7 +596,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -603,7 +606,8 @@
                                 "v": "0x01",
                                 "r": "0xac427f776ac7ad34aafce7f63eceb1cde3eface529edeac41327496a0cdead7e",
                                 "s": "0x7571612216f35c4666ff4101d5ccf93fff270ced7d93664c4d7e8f5048a80198",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -616,12 +620,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe1473e4ac380a39e84b07b1c6182c652b0f47cd9ec03d2659947eefdf699c66e",
+            "hash": "0x9598969acf971d9b41900a33c88e1ddfb97e1e36d09f7d20b190e4c92a1b3f9d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the calling a set-code account from another set-code account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L718",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L705",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -631,7 +635,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_CALLCODE-evm_code_type_LEGACY-blockchain_test-value_0]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_CALLCODE-evm_code_type_LEGACY-blockchain_test_from_state_test-value_0]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -909,7 +913,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -918,7 +923,8 @@
                                 "v": "0x01",
                                 "r": "0xac427f776ac7ad34aafce7f63eceb1cde3eface529edeac41327496a0cdead7e",
                                 "s": "0x7571612216f35c4666ff4101d5ccf93fff270ced7d93664c4d7e8f5048a80198",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -931,12 +937,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x34195a85059023b33cbd96d2eb8a72fd4889baafc527de0e8ad6a0f8b0f5e440",
+            "hash": "0x33682fa9527e6c5e1fcc3f20886358526da71e33bc8bf1e19d482993b674d162",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the calling a set-code account from another set-code account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L718",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L705",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -946,7 +952,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_CALLCODE-evm_code_type_LEGACY-blockchain_test-value_1]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_CALLCODE-evm_code_type_LEGACY-blockchain_test_from_state_test-value_1]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1224,7 +1230,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -1233,7 +1240,8 @@
                                 "v": "0x01",
                                 "r": "0xac427f776ac7ad34aafce7f63eceb1cde3eface529edeac41327496a0cdead7e",
                                 "s": "0x7571612216f35c4666ff4101d5ccf93fff270ced7d93664c4d7e8f5048a80198",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -1246,12 +1254,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x2deba4d65253dea6bb5ff76de33be6be62c13d2ef91650c3909bd7824a28eba7",
+            "hash": "0x7dafe418be0ee295e13f25a36f3c442b58197f08a3b4873d6e5ebe99608197fd",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the calling a set-code account from another set-code account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L718",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L705",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1261,7 +1269,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_DELEGATECALL-evm_code_type_LEGACY-blockchain_test-value_0]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_DELEGATECALL-evm_code_type_LEGACY-blockchain_test_from_state_test-value_0]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1539,7 +1547,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -1548,7 +1557,8 @@
                                 "v": "0x01",
                                 "r": "0xac427f776ac7ad34aafce7f63eceb1cde3eface529edeac41327496a0cdead7e",
                                 "s": "0x7571612216f35c4666ff4101d5ccf93fff270ced7d93664c4d7e8f5048a80198",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -1561,12 +1571,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe9cd0e2bc640516de9f8e310e7643471c48f39b31ac27ad41a1075a4a5f567e1",
+            "hash": "0x4e36780f3bf28c48bb4ad9a5f3f1fc20698c7c76382a681125948db85a83d5c5",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the calling a set-code account from another set-code account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L718",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L705",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1576,7 +1586,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_DELEGATECALL-evm_code_type_LEGACY-blockchain_test-value_1]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_DELEGATECALL-evm_code_type_LEGACY-blockchain_test_from_state_test-value_1]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1854,7 +1864,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -1863,7 +1874,8 @@
                                 "v": "0x01",
                                 "r": "0xac427f776ac7ad34aafce7f63eceb1cde3eface529edeac41327496a0cdead7e",
                                 "s": "0x7571612216f35c4666ff4101d5ccf93fff270ced7d93664c4d7e8f5048a80198",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -1876,12 +1888,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xde33e28c3437c61216c9b00bf0174f220d17d26af05b94945bfa85a5c9124452",
+            "hash": "0x84a5c86d8a1b35d1ff10bb237d18c69126b83c1daeb18dcf2201b291386e889a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the calling a set-code account from another set-code account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L718",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L705",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1891,7 +1903,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_STATICCALL-evm_code_type_LEGACY-blockchain_test-value_0]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_STATICCALL-evm_code_type_LEGACY-blockchain_test_from_state_test-value_0]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2167,7 +2179,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -2176,7 +2189,8 @@
                                 "v": "0x01",
                                 "r": "0xac427f776ac7ad34aafce7f63eceb1cde3eface529edeac41327496a0cdead7e",
                                 "s": "0x7571612216f35c4666ff4101d5ccf93fff270ced7d93664c4d7e8f5048a80198",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -2189,12 +2203,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x553111d07cf3a7e18cf9ad4b661d1d8abbd640e182fd949a3f46bc45ac1af467",
+            "hash": "0x034940f7c6373435fa69f12f9b4d996eead0b853ff36414f2001d31797626ddc",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the calling a set-code account from another set-code account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L718",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L705",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2204,7 +2218,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_STATICCALL-evm_code_type_LEGACY-blockchain_test-value_1]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_call_set_code[fork_Prague-call_opcode_STATICCALL-evm_code_type_LEGACY-blockchain_test_from_state_test-value_1]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2480,7 +2494,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -2489,7 +2504,8 @@
                                 "v": "0x01",
                                 "r": "0xac427f776ac7ad34aafce7f63eceb1cde3eface529edeac41327496a0cdead7e",
                                 "s": "0x7571612216f35c4666ff4101d5ccf93fff270ced7d93664c4d7e8f5048a80198",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -2502,12 +2518,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xfebffad3d55701947cc894ce243bf9cc6e2f390a50c6bedfc60905fd2e92a4b7",
+            "hash": "0x8a42eca696613d66a47819f1c8a34e5e394b021e54ee426b3a71d9556e5b24de",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the calling a set-code account from another set-code account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L718",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L705",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

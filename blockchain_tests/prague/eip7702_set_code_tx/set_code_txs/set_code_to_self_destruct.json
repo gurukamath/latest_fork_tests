@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_self_destruct[fork_Prague-blockchain_test-balance_0-external_sendall_recipient_False]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_self_destruct[fork_Prague-blockchain_test_from_state_test-balance_0-external_sendall_recipient_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -257,7 +257,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -270,12 +271,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x689d1aba0fa441b2e96a9c3b01048dbbdb6308b978493f735de6d19203fff052",
+            "hash": "0x927dea8fce3be2b73429463c2127902b8dfd4118bb027870ce4fd940393d0fd9",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing self-destruct opcode in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L464",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L451",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -285,7 +286,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_self_destruct[fork_Prague-blockchain_test-balance_0-external_sendall_recipient_True]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_self_destruct[fork_Prague-blockchain_test_from_state_test-balance_0-external_sendall_recipient_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -543,7 +544,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -556,12 +558,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x0f4d6b44f7467234d0937b6fcc0bd1a821954fb94c5aba80a1443d589999d563",
+            "hash": "0xc7f54505943baf39c391816813dd45bd98dc3ea5d93000cb15770aed06fc53be",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing self-destruct opcode in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L464",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L451",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -571,7 +573,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_self_destruct[fork_Prague-blockchain_test-balance_1-external_sendall_recipient_False]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_self_destruct[fork_Prague-blockchain_test_from_state_test-balance_1-external_sendall_recipient_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -835,7 +837,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -848,12 +851,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xdc34fb5d8463209187f478ce758d9d40c837b30e673a6d8d61619560a710e254",
+            "hash": "0x871e5ac60978f5eae591013209d556675301164b33352e5d7f0122cf824a4502",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing self-destruct opcode in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L464",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L451",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -863,7 +866,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_self_destruct[fork_Prague-blockchain_test-balance_1-external_sendall_recipient_True]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_self_destruct[fork_Prague-blockchain_test_from_state_test-balance_1-external_sendall_recipient_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1133,7 +1136,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1146,12 +1150,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xb61175afef04f9dc50d1bb735ba56bc90004c77de2523f9113a4ed1112967589",
+            "hash": "0xe9066fb5e7d58706699726680cec3f99bdaa30df00269ed73ecdf2009d3b1514",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing self-destruct opcode in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L464",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L451",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

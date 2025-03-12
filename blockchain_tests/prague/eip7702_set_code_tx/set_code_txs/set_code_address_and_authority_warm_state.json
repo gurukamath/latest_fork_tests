@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_address_and_authority_warm_state[fork_Prague-evm_code_type_LEGACY-blockchain_test-call_authority_first_then_set_code_address]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_address_and_authority_warm_state[fork_Prague-evm_code_type_LEGACY-blockchain_test_from_state_test-call_authority_first_then_set_code_address]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -271,7 +271,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -284,12 +285,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x7ba533fc124cb6005691821a87fe91f1e4cc5b8fb61aaca4c57074370faff146",
+            "hash": "0xbc9437966c3f35c3091783aa0b7747aee4906dcd6cde0f6d03a2af94e4efd364",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test set to code address and authority warm status after a call to\n    authority address, or viceversa.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1185",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1172",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -299,7 +300,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_address_and_authority_warm_state[fork_Prague-evm_code_type_LEGACY-blockchain_test-call_set_code_address_first_then_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_address_and_authority_warm_state[fork_Prague-evm_code_type_LEGACY-blockchain_test_from_state_test-call_set_code_address_first_then_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -571,7 +572,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -584,12 +586,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x10f93e269ad9947d4e1c182d7c2c9782a6944951427367838c61be8d26552b53",
+            "hash": "0x08f52e80fea3f31e98acfb5a76b21d359d9b91b46157eda5874739faafb1f255",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test set to code address and authority warm status after a call to\n    authority address, or viceversa.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1185",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1172",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_call_into_self_delegating_set_code[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_call_into_self_delegating_set_code[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test_from_state_test]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -255,7 +255,8 @@
                                 "v": "0x00",
                                 "r": "0x54c7c92b1eede176959eefeb0ccce5c0e794991f16c1e8ac01700d162eb563bf",
                                 "s": "0x71b8d0e049596a2602ef18ca11a6d1c3e6a6ee21394b652ac0ad91533ac3a772",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -268,12 +269,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xadd341457ea8a9044e90ade2ff998013f7b8298ae9d336bb71905a17abe9d773",
+            "hash": "0x6f36f16aac46f5cb4166f1b8ff93bcdb337336cd7865c4b5adb3b737d4b59372",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest call into a set-code account that delegates to itself.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L917",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L904",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -283,7 +284,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_call_into_self_delegating_set_code[fork_Prague-call_opcode_CALLCODE-evm_code_type_LEGACY-blockchain_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_call_into_self_delegating_set_code[fork_Prague-call_opcode_CALLCODE-evm_code_type_LEGACY-blockchain_test_from_state_test]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -539,7 +540,8 @@
                                 "v": "0x00",
                                 "r": "0x54c7c92b1eede176959eefeb0ccce5c0e794991f16c1e8ac01700d162eb563bf",
                                 "s": "0x71b8d0e049596a2602ef18ca11a6d1c3e6a6ee21394b652ac0ad91533ac3a772",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -552,12 +554,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x8c823768a95457a0f2165c4f096f722f4f2476fcb179a8b07b2e40e6c7d24c36",
+            "hash": "0x012df478e01e00d5745dfd6937b5caa2661ebb544bca2e93e4d6c2fb7aca29c7",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest call into a set-code account that delegates to itself.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L917",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L904",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -567,7 +569,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_call_into_self_delegating_set_code[fork_Prague-call_opcode_DELEGATECALL-evm_code_type_LEGACY-blockchain_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_call_into_self_delegating_set_code[fork_Prague-call_opcode_DELEGATECALL-evm_code_type_LEGACY-blockchain_test_from_state_test]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -823,7 +825,8 @@
                                 "v": "0x00",
                                 "r": "0x54c7c92b1eede176959eefeb0ccce5c0e794991f16c1e8ac01700d162eb563bf",
                                 "s": "0x71b8d0e049596a2602ef18ca11a6d1c3e6a6ee21394b652ac0ad91533ac3a772",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -836,12 +839,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xd6ba3909b5c17852a823d9a4930fe3a2c4a8c00976b6872441656b673f5ea3e9",
+            "hash": "0x3db14abdb12948ed22ce078aa4118d90c8dc27ddb2d0415b8dc23121a2dd8805",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest call into a set-code account that delegates to itself.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L917",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L904",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -851,7 +854,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_call_into_self_delegating_set_code[fork_Prague-call_opcode_STATICCALL-evm_code_type_LEGACY-blockchain_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_call_into_self_delegating_set_code[fork_Prague-call_opcode_STATICCALL-evm_code_type_LEGACY-blockchain_test_from_state_test]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1107,7 +1110,8 @@
                                 "v": "0x00",
                                 "r": "0x54c7c92b1eede176959eefeb0ccce5c0e794991f16c1e8ac01700d162eb563bf",
                                 "s": "0x71b8d0e049596a2602ef18ca11a6d1c3e6a6ee21394b652ac0ad91533ac3a772",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1120,12 +1124,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x0bf1ab13cf86113b002c24e5b411018264343978eaccd59cca0642aae647b3e6",
+            "hash": "0x409d35d1abddea41b6cc5f1baf3baff66844565bb0729a8217ef78fd7d7287b7",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest call into a set-code account that delegates to itself.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L917",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L904",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

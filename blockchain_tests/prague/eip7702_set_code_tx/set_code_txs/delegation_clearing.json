@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_delegation_clearing[fork_Prague-blockchain_test-delegated_account-not_self_sponsored]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_delegation_clearing[fork_Prague-blockchain_test_from_state_test-delegated_account-not_self_sponsored]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -276,7 +276,8 @@
                                 "v": "0x01",
                                 "r": "0x4da7d232a1bb13981b069aa957f942db7f1304e0949cf9336a0943bb91e9fda3",
                                 "s": "0x49d38da4d2bf09638b1b30d598760d075f10081eb265c0538eb215d907f20652",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -289,12 +290,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xc55a83bf05027fe0e147487b2e4a350e4d508fe66d78a16e5accb73ae1b61020",
+            "hash": "0x2b1c29c929ede9d48fa47cba52fef7cd0bee355a5537837f47ee5937a531078d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test clearing the delegation of an account under a variety of circumstances.\n\n    - pre_set_delegation_code: The code to set on the account before clearing delegation, or None\n        if the account should not have any code set.\n    - self_sponsored: Whether the delegation clearing transaction is self-sponsored.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2946",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2933",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -304,7 +305,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_delegation_clearing[fork_Prague-blockchain_test-delegated_account-self_sponsored]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_delegation_clearing[fork_Prague-blockchain_test_from_state_test-delegated_account-self_sponsored]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -569,7 +570,8 @@
                                 "v": "0x01",
                                 "r": "0x87d47c20cc6cbb366429833a106eb65230a37aa39b95a459f1de93e35b4427c2",
                                 "s": "0x5097128d26c30d70fc2613117088f46861b800ce8c51ed162bc78ca185ee9bfb",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -582,12 +584,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xd94e95cd39765816009bdcf4ea3a94a987707a9d9870db98b36e961e1ff49a1c",
+            "hash": "0xdaccfd1c04f54cf7f0f0a87066649b03c63da9aef4b05d6299021108c17c4ecd",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test clearing the delegation of an account under a variety of circumstances.\n\n    - pre_set_delegation_code: The code to set on the account before clearing delegation, or None\n        if the account should not have any code set.\n    - self_sponsored: Whether the delegation clearing transaction is self-sponsored.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2946",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2933",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -597,7 +599,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_delegation_clearing[fork_Prague-blockchain_test-undelegated_account-not_self_sponsored]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_delegation_clearing[fork_Prague-blockchain_test_from_state_test-undelegated_account-not_self_sponsored]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -856,7 +858,8 @@
                                 "v": "0x00",
                                 "r": "0xdef12aa13571bba668b619dc7523da4a44b4373f26ff19356a6b58a66217839f",
                                 "s": "0x130454fb52ed23b604de189d89b7b119698408a1cd80995959c8e3560aabb8ca",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -869,12 +872,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x5cc8ddb30276945987114115142d888fe3ed1133341074dc2370c47ab550ed2d",
+            "hash": "0xbdc0a398b8ba4d4964df51a9fd71bbffc5cb7a281d5623e4b9a1a3e282665ec0",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test clearing the delegation of an account under a variety of circumstances.\n\n    - pre_set_delegation_code: The code to set on the account before clearing delegation, or None\n        if the account should not have any code set.\n    - self_sponsored: Whether the delegation clearing transaction is self-sponsored.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2946",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2933",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -884,7 +887,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_delegation_clearing[fork_Prague-blockchain_test-undelegated_account-self_sponsored]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_delegation_clearing[fork_Prague-blockchain_test_from_state_test-undelegated_account-self_sponsored]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1137,7 +1140,8 @@
                                 "v": "0x01",
                                 "r": "0x4da7d232a1bb13981b069aa957f942db7f1304e0949cf9336a0943bb91e9fda3",
                                 "s": "0x49d38da4d2bf09638b1b30d598760d075f10081eb265c0538eb215d907f20652",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -1150,12 +1154,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x32c59fc8abb8264dbfe32a7a6e5455cacf49d40189dc582029513647a6629bde",
+            "hash": "0xa23fd7b1eab001b6d81d6470879bcbad99f5ccb535a3b82c9f5f0e26818eee04",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test clearing the delegation of an account under a variety of circumstances.\n\n    - pre_set_delegation_code: The code to set on the account before clearing delegation, or None\n        if the account should not have any code set.\n    - self_sponsored: Whether the delegation clearing transaction is self-sponsored.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2946",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2933",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

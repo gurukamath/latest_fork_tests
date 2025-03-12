@@ -1,5 +1,5 @@
 {
-    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Cancun-blockchain_test_engine-no_outer_selfdestruct-same_tx]": {
+    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Cancun-blockchain_test_engine_from_state_test-no_outer_selfdestruct-same_tx]": {
         "network": "Cancun",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -150,8 +150,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Given:\n        Contract A which has methods to receive balance and selfdestruct, and was created in current tx\n    Test the following call sequence:\n         Transfer value to A and call A.selfdestruct.\n         Recurse into a new call from transfers value to A, calls A.selfdestruct, and reverts.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6780.md",
             "reference-spec-version": "2f8299df31bb8173618901a03a8366a3183479b0",
             "eels-resolution": {
@@ -161,7 +161,7 @@
             }
         }
     },
-    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Cancun-blockchain_test_engine-outer_selfdestruct_after_inner_call-same_tx]": {
+    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Cancun-blockchain_test_engine_from_state_test-outer_selfdestruct_after_inner_call-same_tx]": {
         "network": "Cancun",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -310,8 +310,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Given:\n        Contract A which has methods to receive balance and selfdestruct, and was created in current tx\n    Test the following call sequence:\n         Transfer value to A and call A.selfdestruct.\n         Recurse into a new call from transfers value to A, calls A.selfdestruct, and reverts.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6780.md",
             "reference-spec-version": "2f8299df31bb8173618901a03a8366a3183479b0",
             "eels-resolution": {
@@ -321,7 +321,7 @@
             }
         }
     },
-    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Cancun-blockchain_test_engine-outer_selfdestruct_before_inner_call-same_tx]": {
+    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Cancun-blockchain_test_engine_from_state_test-outer_selfdestruct_before_inner_call-same_tx]": {
         "network": "Cancun",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -470,8 +470,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Given:\n        Contract A which has methods to receive balance and selfdestruct, and was created in current tx\n    Test the following call sequence:\n         Transfer value to A and call A.selfdestruct.\n         Recurse into a new call from transfers value to A, calls A.selfdestruct, and reverts.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6780.md",
             "reference-spec-version": "2f8299df31bb8173618901a03a8366a3183479b0",
             "eels-resolution": {
@@ -481,7 +481,7 @@
             }
         }
     },
-    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Prague-blockchain_test_engine-no_outer_selfdestruct-same_tx]": {
+    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Prague-blockchain_test_engine_from_state_test-no_outer_selfdestruct-same_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -753,8 +753,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Given:\n        Contract A which has methods to receive balance and selfdestruct, and was created in current tx\n    Test the following call sequence:\n         Transfer value to A and call A.selfdestruct.\n         Recurse into a new call from transfers value to A, calls A.selfdestruct, and reverts.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6780.md",
             "reference-spec-version": "2f8299df31bb8173618901a03a8366a3183479b0",
             "eels-resolution": {
@@ -764,7 +764,7 @@
             }
         }
     },
-    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Prague-blockchain_test_engine-outer_selfdestruct_after_inner_call-same_tx]": {
+    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Prague-blockchain_test_engine_from_state_test-outer_selfdestruct_after_inner_call-same_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1034,8 +1034,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Given:\n        Contract A which has methods to receive balance and selfdestruct, and was created in current tx\n    Test the following call sequence:\n         Transfer value to A and call A.selfdestruct.\n         Recurse into a new call from transfers value to A, calls A.selfdestruct, and reverts.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6780.md",
             "reference-spec-version": "2f8299df31bb8173618901a03a8366a3183479b0",
             "eels-resolution": {
@@ -1045,7 +1045,7 @@
             }
         }
     },
-    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Prague-blockchain_test_engine-outer_selfdestruct_before_inner_call-same_tx]": {
+    "tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py::test_selfdestruct_created_in_same_tx_with_revert[fork_Prague-blockchain_test_engine_from_state_test-outer_selfdestruct_before_inner_call-same_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1315,8 +1315,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Given:\n        Contract A which has methods to receive balance and selfdestruct, and was created in current tx\n    Test the following call sequence:\n         Transfer value to A and call A.selfdestruct.\n         Recurse into a new call from transfers value to A, calls A.selfdestruct, and reverts.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip6780_selfdestruct/test_selfdestruct_revert.py#L192",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6780.md",
             "reference-spec-version": "2f8299df31bb8173618901a03a8366a3183479b0",
             "eels-resolution": {

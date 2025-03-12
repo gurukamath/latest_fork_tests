@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_signature_s_out_of_range[fork_Prague-blockchain_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_signature_s_out_of_range[fork_Prague-blockchain_test_from_state_test]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -263,7 +263,8 @@
                                 "v": "0x01",
                                 "r": "0xae1ac344585e4554f124daff114b7a7778477fa5922bc630b1e6c8ecd4d2d075",
                                 "s": "0xf2eee708088057381796bfa39bdda1e0c16d31950dec6d9cd6a019854d7ad50e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -276,12 +277,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x5274cc0fe8cfce064f63c6a3050e1de45c5db84e2bdbd3ff99190df68e518ae6",
+            "hash": "0xf3d88b4c40cf66ac2479208c7b8702e44268d4633f9332081549f8e8b5936aa4",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test sending a transaction with an authorization tuple where the signature s value is out of\n    range by modifying its value to be `SECP256K1N - S` and flipping the v value.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2203",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2190",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

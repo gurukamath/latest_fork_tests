@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test-return_opcode_RETURN]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test_from_state_test-return_opcode_RETURN]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -257,7 +257,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -270,12 +271,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x31a271e0cdec9bd66ee61c6224c2b01f1d25c67a7feff032e598f5caffc04172",
+            "hash": "0x7f9fabd64a32895baee985011204640434e680df7a420d219118250bdb5a4f7c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a simple TSTORE in a set-code transaction, which also performs a\n    re-entry to TLOAD the value.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L336",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L323",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -285,7 +286,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test-return_opcode_REVERT]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test_from_state_test-return_opcode_REVERT]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -543,7 +544,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -556,12 +558,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x4b4a9680b977a9834a15550478fb0fbf59513e4e8de75bc2bc7726d8805d4dcc",
+            "hash": "0x7a9c08eca654b72053dfddff6ef840a84812cacc412956eef71d6d74c930f218",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a simple TSTORE in a set-code transaction, which also performs a\n    re-entry to TLOAD the value.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L336",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L323",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -571,7 +573,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_CALLCODE-evm_code_type_LEGACY-blockchain_test-return_opcode_RETURN]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_CALLCODE-evm_code_type_LEGACY-blockchain_test_from_state_test-return_opcode_RETURN]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -829,7 +831,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -842,12 +845,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xf8be3defd4597fbdb1e5eb93b5a32b90735ce1607635dcb3620b07fcf47fbd6a",
+            "hash": "0x57e0688f3ea5b73c6edf631975720ffd06cdff1db495107027ff62957c424b91",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a simple TSTORE in a set-code transaction, which also performs a\n    re-entry to TLOAD the value.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L336",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L323",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -857,7 +860,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_CALLCODE-evm_code_type_LEGACY-blockchain_test-return_opcode_REVERT]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_CALLCODE-evm_code_type_LEGACY-blockchain_test_from_state_test-return_opcode_REVERT]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1115,7 +1118,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1128,12 +1132,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x4803742dd0c5b1ffb29a2912dd54a31ae984fb961b0fce0081be8fd1a8818b3a",
+            "hash": "0x958c272f1536ef91696467758a376ce70302ee540dbac58556a8a8961644b7a7",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a simple TSTORE in a set-code transaction, which also performs a\n    re-entry to TLOAD the value.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L336",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L323",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1143,7 +1147,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_DELEGATECALL-evm_code_type_LEGACY-blockchain_test-return_opcode_RETURN]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_DELEGATECALL-evm_code_type_LEGACY-blockchain_test_from_state_test-return_opcode_RETURN]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1401,7 +1405,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1414,12 +1419,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x38e21fb0cd521a37bae01da8a69da563c05a792684b56d3cc7c37e2debd2f6ea",
+            "hash": "0x90b318e5271db54dc67bd510c91b5b12fe116767dff828efd155cc2158e834de",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a simple TSTORE in a set-code transaction, which also performs a\n    re-entry to TLOAD the value.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L336",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L323",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1429,7 +1434,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_DELEGATECALL-evm_code_type_LEGACY-blockchain_test-return_opcode_REVERT]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_DELEGATECALL-evm_code_type_LEGACY-blockchain_test_from_state_test-return_opcode_REVERT]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1687,7 +1692,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1700,12 +1706,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa076798ea4351fe23a00932efc5dba036b316325d284fe3c813c852f34c83129",
+            "hash": "0x3bdb3a55d24f1a2632ecf4afc5a396fd8b62d4af02ee0c948893a9ff1c27de86",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a simple TSTORE in a set-code transaction, which also performs a\n    re-entry to TLOAD the value.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L336",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L323",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1715,7 +1721,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_STATICCALL-evm_code_type_LEGACY-blockchain_test-return_opcode_RETURN]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_STATICCALL-evm_code_type_LEGACY-blockchain_test_from_state_test-return_opcode_RETURN]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1973,7 +1979,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1986,12 +1993,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xcd2af5a2686ef9d0193712df37d31f4eebf489d1cf90bdf1f2ef6379794c1cba",
+            "hash": "0xe443ec1569b6a0bdcb92dd7e0f0dc2bf615c4d736300dc3650e64ce1234fb4a0",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a simple TSTORE in a set-code transaction, which also performs a\n    re-entry to TLOAD the value.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L336",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L323",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2001,7 +2008,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_STATICCALL-evm_code_type_LEGACY-blockchain_test-return_opcode_REVERT]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_reentry[fork_Prague-call_opcode_STATICCALL-evm_code_type_LEGACY-blockchain_test_from_state_test-return_opcode_REVERT]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2259,7 +2266,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -2272,12 +2280,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe6de13381016cbbb8513a2fd45f6836a086385720c96d8e3af19815047242f8b",
+            "hash": "0x28f97c91d15c89ba3203c20637caaacb6f0ae46d790cacda9711575fdeed4280",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a simple TSTORE in a set-code transaction, which also performs a\n    re-entry to TLOAD the value.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L336",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L323",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

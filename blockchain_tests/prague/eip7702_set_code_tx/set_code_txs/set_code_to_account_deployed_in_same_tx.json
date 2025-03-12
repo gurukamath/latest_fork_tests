@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_account_deployed_in_same_tx[fork_Prague-create_opcode_CREATE-evm_code_type_LEGACY-blockchain_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_account_deployed_in_same_tx[fork_Prague-create_opcode_CREATE-evm_code_type_LEGACY-blockchain_test_from_state_test]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -269,7 +269,8 @@
                                 "v": "0x01",
                                 "r": "0xc5df1fdc89e4e61095f424c135dbe61b4e894139a4353ecb9be92705b7c5f12c",
                                 "s": "0x080205c42bd067a9fa6a7d7602b0dd189fe5ebc5daf69d49a1605d62365354f3",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -282,12 +283,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe4b6278a6ba01e31d749846a419c198a5a44c13ae5976f2ead49bc090950ac1b",
+            "hash": "0x8a3d64cf29dfedd534213b0f375d02bd8d8111eaf638988373a1f7565301797f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test setting the code of an account to an address that is deployed in the same transaction,\n    and test calling the set-code address and the deployed contract.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1572",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1559",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -297,7 +298,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_account_deployed_in_same_tx[fork_Prague-create_opcode_CREATE2-evm_code_type_LEGACY-blockchain_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_account_deployed_in_same_tx[fork_Prague-create_opcode_CREATE2-evm_code_type_LEGACY-blockchain_test_from_state_test]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -567,7 +568,8 @@
                                 "v": "0x01",
                                 "r": "0x58061a160235932d6901346545243dca91f29727a1b5e83af3322582dbc96ba7",
                                 "s": "0x72d2c9c076ad3978631eebbb7d9243f512f0406c0dffb51e2761d411e8755b1b",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -580,12 +582,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xb38f29859ccbbeecd477c3d95559ac1c03936c95720c2098378aec7bda2a9550",
+            "hash": "0x9a65cffffc0d5e16f02dd266cec39cda7a0db4b9c34663f0ddb0764f212e61a5",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test setting the code of an account to an address that is deployed in the same transaction,\n    and test calling the set-code address and the deployed contract.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1572",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1559",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

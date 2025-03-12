@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_contract_creator[fork_Prague-create_opcode_CREATE-evm_code_type_LEGACY-blockchain_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_contract_creator[fork_Prague-create_opcode_CREATE-evm_code_type_LEGACY-blockchain_test_from_state_test]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -263,7 +263,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -276,12 +277,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x61725593e723192430da11cc251fa77749d3514b00b5e8f4bde046f85a9d360e",
+            "hash": "0xfc5ed310b078067764351d4dfe96d84affcfded9964e6aeeff1f022a4d33a8e2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a contract-creating opcode in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L521",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L508",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -291,7 +292,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_contract_creator[fork_Prague-create_opcode_CREATE2-evm_code_type_LEGACY-blockchain_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_contract_creator[fork_Prague-create_opcode_CREATE2-evm_code_type_LEGACY-blockchain_test_from_state_test]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -555,7 +556,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -568,12 +570,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x72c8e49074ac73067680a37446af07240b6c3a7ae60ea8113188cf994c8d2ef6",
+            "hash": "0x158be4adeababc8c239110ae2b76e67591b9e684d1bde0b7606b0d9989a8a58e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a contract-creating opcode in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L521",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L508",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

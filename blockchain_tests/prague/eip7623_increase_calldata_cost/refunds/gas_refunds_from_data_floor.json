@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_EQUAL_TO_DATA_FLOOR]": {
+    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test_from_state_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_EQUAL_TO_DATA_FLOOR]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -261,7 +261,8 @@
                                 "v": "0x00",
                                 "r": "0x33a629f82b5aaff5b4bfe6b9ab53bb3646b92cda403d7c834f72c9a5073aec20",
                                 "s": "0x16902e4a3c089e05d649cab6bd74b6f424fae0eefad3a4944fa452ff7413b5d3",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -274,12 +275,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x685de52e43aa83cf4a36a28146f43703cb955d72464f32163317c48a19cded33",
+            "hash": "0x29a57dbc8085df6d65ee1c7a0c59041e94aa7e29109f02038444d1eabef8f36a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest gas refunds deducted from the execution gas cost and not the data floor.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
             "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
             "eels-resolution": {
@@ -289,7 +290,7 @@
             }
         }
     },
-    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_GREATER_THAN_DATA_FLOOR]": {
+    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test_from_state_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_GREATER_THAN_DATA_FLOOR]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -551,7 +552,8 @@
                                 "v": "0x00",
                                 "r": "0x33a629f82b5aaff5b4bfe6b9ab53bb3646b92cda403d7c834f72c9a5073aec20",
                                 "s": "0x16902e4a3c089e05d649cab6bd74b6f424fae0eefad3a4944fa452ff7413b5d3",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -564,12 +566,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x11a13169b6d6bfc763472588b16bb01745e8c1d76b4a57572d94cbda0f9c7f6d",
+            "hash": "0xec4ac2da6b899a029625e526de8a2bc0c5ce836077df70a7ad6ee7a723f63f6e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest gas refunds deducted from the execution gas cost and not the data floor.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
             "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
             "eels-resolution": {
@@ -579,7 +581,7 @@
             }
         }
     },
-    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_LESS_THAN_DATA_FLOOR]": {
+    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test_from_state_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_LESS_THAN_DATA_FLOOR]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -841,7 +843,8 @@
                                 "v": "0x00",
                                 "r": "0x33a629f82b5aaff5b4bfe6b9ab53bb3646b92cda403d7c834f72c9a5073aec20",
                                 "s": "0x16902e4a3c089e05d649cab6bd74b6f424fae0eefad3a4944fa452ff7413b5d3",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -854,12 +857,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x6057c8aff57f792b178de82006f169c1ba17734fe63e79f6065ab9df96b3da06",
+            "hash": "0x89effc8f70ce7aee1b41c121492e32c53288ba46b04c45655056c4817c77b85f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest gas refunds deducted from the execution gas cost and not the data floor.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
             "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
             "eels-resolution": {
@@ -869,7 +872,7 @@
             }
         }
     },
-    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY|STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_EQUAL_TO_DATA_FLOOR]": {
+    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test_from_state_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY|STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_EQUAL_TO_DATA_FLOOR]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1133,7 +1136,8 @@
                                 "v": "0x00",
                                 "r": "0x33a629f82b5aaff5b4bfe6b9ab53bb3646b92cda403d7c834f72c9a5073aec20",
                                 "s": "0x16902e4a3c089e05d649cab6bd74b6f424fae0eefad3a4944fa452ff7413b5d3",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1146,12 +1150,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x8f86fc714ec5b7f531024d523db1d8d9961fe843d1f40615b837b82c93ae36ad",
+            "hash": "0xcb18c3fd1e8889514e21d55b54443264928fbd03843e71dbc395e1b39bf13c97",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest gas refunds deducted from the execution gas cost and not the data floor.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
             "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
             "eels-resolution": {
@@ -1161,7 +1165,7 @@
             }
         }
     },
-    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY|STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_GREATER_THAN_DATA_FLOOR]": {
+    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test_from_state_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY|STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_GREATER_THAN_DATA_FLOOR]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1425,7 +1429,8 @@
                                 "v": "0x00",
                                 "r": "0x33a629f82b5aaff5b4bfe6b9ab53bb3646b92cda403d7c834f72c9a5073aec20",
                                 "s": "0x16902e4a3c089e05d649cab6bd74b6f424fae0eefad3a4944fa452ff7413b5d3",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1438,12 +1443,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x3590e59b287856a9b335d121efa1d37b3dd6e0eb99358e0fc096e2785ae29699",
+            "hash": "0xade004afb6d283302a605a3f9c22813e425771733a80d3f8045797f7340c9691",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest gas refunds deducted from the execution gas cost and not the data floor.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
             "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
             "eels-resolution": {
@@ -1453,7 +1458,7 @@
             }
         }
     },
-    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY|STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_LESS_THAN_DATA_FLOOR]": {
+    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test_from_state_test-refund_type_RefundType.AUTHORIZATION_EXISTING_AUTHORITY|STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_LESS_THAN_DATA_FLOOR]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1717,7 +1722,8 @@
                                 "v": "0x00",
                                 "r": "0x33a629f82b5aaff5b4bfe6b9ab53bb3646b92cda403d7c834f72c9a5073aec20",
                                 "s": "0x16902e4a3c089e05d649cab6bd74b6f424fae0eefad3a4944fa452ff7413b5d3",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1730,12 +1736,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x38cf9741c991e4c5f2fda3e48f04e38099eee61be352dfdcf75463557e5ef3f2",
+            "hash": "0x6b458679016b18bedcce1ebb1fe315f1e61be844b4f2d43ef674b930fe347005",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest gas refunds deducted from the execution gas cost and not the data floor.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
             "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
             "eels-resolution": {
@@ -1745,7 +1751,7 @@
             }
         }
     },
-    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test-refund_type_RefundType.STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_EQUAL_TO_DATA_FLOOR]": {
+    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test_from_state_test-refund_type_RefundType.STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_EQUAL_TO_DATA_FLOOR]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2003,8 +2009,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest gas refunds deducted from the execution gas cost and not the data floor.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
             "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
             "eels-resolution": {
@@ -2014,7 +2020,7 @@
             }
         }
     },
-    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test-refund_type_RefundType.STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_GREATER_THAN_DATA_FLOOR]": {
+    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test_from_state_test-refund_type_RefundType.STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_GREATER_THAN_DATA_FLOOR]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2272,8 +2278,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest gas refunds deducted from the execution gas cost and not the data floor.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
             "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
             "eels-resolution": {
@@ -2283,7 +2289,7 @@
             }
         }
     },
-    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test-refund_type_RefundType.STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_LESS_THAN_DATA_FLOOR]": {
+    "tests/prague/eip7623_increase_calldata_cost/test_refunds.py::test_gas_refunds_from_data_floor[fork_Prague-blockchain_test_from_state_test-refund_type_RefundType.STORAGE_CLEAR-refund_test_type_RefundTestType.EXECUTION_GAS_MINUS_REFUND_LESS_THAN_DATA_FLOOR]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2541,8 +2547,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest gas refunds deducted from the execution gas cost and not the data floor.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7623_increase_calldata_cost/test_refunds.py#L242",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7623.md",
             "reference-spec-version": "9104d079c04737b1fec5f7150715f024d8028558",
             "eels-resolution": {

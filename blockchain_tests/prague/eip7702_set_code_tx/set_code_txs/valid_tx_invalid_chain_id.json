@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_valid_tx_invalid_chain_id[fork_Prague-blockchain_test-auth_chain_id=2**256-1]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_valid_tx_invalid_chain_id[fork_Prague-blockchain_test_from_state_test-auth_chain_id=2**256-1]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -263,7 +263,8 @@
                                 "v": "0x00",
                                 "r": "0x2dab7eba55e05a2745e045d36b98b348017e29bd57156b77eb58bf34b17e65ac",
                                 "s": "0x71b0e31fa32adbfa97938013437b51b6bb923806d79bde7ef2b4fe418cb0b346",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -276,12 +277,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x7601aefecccca6f7ac96ec8bb37204410658faabb6cc0cc82c7b9c64b033f6d2",
+            "hash": "0x00440678b742698fece3150d66ad758b59ea4a1c9d8278dee243955bfb256b86",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test sending a transaction where the chain id field does not match\n    the current chain's id.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2253",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2240",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -291,7 +292,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_valid_tx_invalid_chain_id[fork_Prague-blockchain_test-chain_id=2]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_valid_tx_invalid_chain_id[fork_Prague-blockchain_test_from_state_test-chain_id=2]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -555,7 +556,8 @@
                                 "v": "0x01",
                                 "r": "0x6aae9cd7d792bda3b8a40309148342a4b6fd138d3415cf00540d47e18d8a2dc2",
                                 "s": "0x07d946c0264894f8fbe87bae7ea8f5bedc41b2bcf087ad5873332558581c9842",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -568,12 +570,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x41b78047062c7e238c32a5aadd69fa69e80625b541ed09dea78525cdb01365dd",
+            "hash": "0x6a2afdaf0a341bb1077bcf45c5c7383c5c7d00f5505364e1c705e9eb7630069b",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test sending a transaction where the chain id field does not match\n    the current chain's id.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2253",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2240",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

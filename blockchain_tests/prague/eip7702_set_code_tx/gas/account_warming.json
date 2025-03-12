@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-first_valid_then_single_repeated_nonce_authorization-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-first_valid_then_single_repeated_nonce_authorization-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -258,7 +258,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -267,7 +268,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -280,12 +282,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xd5364221f2150f517665dfb9d7439432428539b6814154373fd9fae6722259d8",
+            "hash": "0xfc3f57f521a74bb3a0997a1764acb55a5da70421e83df3c2a4cae6dea1cbb03d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -295,7 +297,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-first_valid_then_single_repeated_nonce_authorization-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-first_valid_then_single_repeated_nonce_authorization-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -554,7 +556,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -563,7 +566,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -576,12 +580,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x8d0f8a2fe7510d322baf6fbf4346ec3f5652419961bf3a1615fa69355c3853e1",
+            "hash": "0xb656df5cedb526e877654b44c61a16234e4e906c9233b3b3186b5d69f3fa14c8",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -591,7 +595,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-first_valid_then_single_repeated_nonce_authorizations_multiple_signers-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-first_valid_then_single_repeated_nonce_authorizations_multiple_signers-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -857,7 +861,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -866,7 +871,8 @@
                                 "v": "0x01",
                                 "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                                 "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -875,7 +881,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -884,7 +891,8 @@
                                 "v": "0x01",
                                 "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                                 "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -897,12 +905,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x27c5724d33b0d06d216b1836a54de235b470f9ef211807349fae2b4abc8e01ea",
+            "hash": "0xd99691b227f9e133e32a7d2045c8ab3cd4a892324d2de07660a9a04e64ae6dfb",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -912,7 +920,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-first_valid_then_single_repeated_nonce_authorizations_multiple_signers-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-first_valid_then_single_repeated_nonce_authorizations_multiple_signers-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1178,7 +1186,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -1187,7 +1196,8 @@
                                 "v": "0x01",
                                 "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                                 "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -1196,7 +1206,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -1205,7 +1216,8 @@
                                 "v": "0x01",
                                 "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                                 "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -1218,12 +1230,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x9429b39069127e05a5c792f644548adb0dea2099db46c0da50f5ca2d5bf18b0c",
+            "hash": "0xcd7273446cc468b778ea0d9fd57670320a7e455a0064273bbed9060b50c62099",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1233,7 +1245,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_authorizations_empty_account_then_contract_authority-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_authorizations_empty_account_then_contract_authority-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1505,7 +1517,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -1514,7 +1527,8 @@
                                 "v": "0x01",
                                 "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                                 "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -1527,12 +1541,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa0405098a91bca2a4924190403842e41d7ad4020ba9e64fa9f9d86121ff22860",
+            "hash": "0x072a3092f3452a33ebaeb9c2dfa060cd48572c5760187284ad3d200067d50edb",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1542,7 +1556,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_authorizations_empty_account_then_contract_authority-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_authorizations_empty_account_then_contract_authority-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1814,7 +1828,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -1823,7 +1838,8 @@
                                 "v": "0x01",
                                 "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                                 "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -1836,12 +1852,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x2fab199e93c883581f7303671b33cc906986e4f5407f7daab6e3e9237b4e3f6e",
+            "hash": "0x3479df6ac3f7917de30f4e79c4aa85854b8ca6e9c006bdd13719644dc8c9d45e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1851,7 +1867,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_authorizations_eoa_self_sponsored_then_contract_authority-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_authorizations_eoa_self_sponsored_then_contract_authority-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2117,7 +2133,8 @@
                                 "v": "0x01",
                                 "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                                 "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -2126,7 +2143,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -2139,12 +2157,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x5cc8b00d65e500849cb7c6aab8ba7cd05a8a040f7e17540465c9a1916e334758",
+            "hash": "0x2a3503ba4088a9413ff038e36f4525e3c16d5d3075ed2253559e3b05be90f3f0",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2154,7 +2172,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_authorizations_eoa_self_sponsored_then_contract_authority-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_authorizations_eoa_self_sponsored_then_contract_authority-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2420,7 +2438,8 @@
                                 "v": "0x01",
                                 "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                                 "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -2429,7 +2448,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -2442,12 +2462,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xbcf0de9b5f9ec18d741a23117bd9e624b22c2c8e930da8dae18f3cd23d057956",
+            "hash": "0x8794aeed568dcd6aa63d083db90bfdb5fc276b2c747c0294a609ec0d2e7aff1b",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2457,7 +2477,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_authorizations_eoa_then_contract_authority-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_authorizations_eoa_then_contract_authority-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2735,7 +2755,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -2744,7 +2765,8 @@
                                 "v": "0x01",
                                 "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                                 "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -2757,12 +2779,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x90edb788381d1ea392aafff0986020b6e36cfc554d6843edc4d967a1dc7997ca",
+            "hash": "0x3188e3a526631417c6b9866c0872812ffd6ad62a310b36bd11dcd92f5db1acc7",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2772,7 +2794,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_authorizations_eoa_then_contract_authority-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_authorizations_eoa_then_contract_authority-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3050,7 +3072,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -3059,7 +3082,8 @@
                                 "v": "0x01",
                                 "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                                 "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -3072,12 +3096,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x98d71bb2a30b7215c97ee7ffb7d7a9e062efb3f602a67bc2ae583721d29e07b2",
+            "hash": "0x0fabd5c49ddf6285bc13b40288383efebc07a55aabbd6b51ecd57673f2555b13",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3087,7 +3111,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_invalid_chain_id_authorizations_single_signer-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_invalid_chain_id_authorizations_single_signer-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3340,7 +3364,8 @@
                                 "v": "0x01",
                                 "r": "0x0b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86",
                                 "s": "0x5b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bc",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x02",
@@ -3349,7 +3374,8 @@
                                 "v": "0x00",
                                 "r": "0x557efc799006e596ff3ac99b422f4e7827f33f0b11fa88df261e406e22132863",
                                 "s": "0x2cd1bc72970b0b41947c99191eac323d08ea408e7b135223858ada51f738ec64",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -3362,12 +3388,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xdfb50a2088b6fd655f3145659ded4657d812eb37aa155065ad0a2f1c1dfb0e3c",
+            "hash": "0x7d3e553e66c042830e3507aa01915b9d396b6fd678e226c5ea954b7944eeb54d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3377,7 +3403,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_invalid_chain_id_authorizations_single_signer-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_invalid_chain_id_authorizations_single_signer-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3630,7 +3656,8 @@
                                 "v": "0x01",
                                 "r": "0x0b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86",
                                 "s": "0x5b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bc",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x02",
@@ -3639,7 +3666,8 @@
                                 "v": "0x00",
                                 "r": "0x557efc799006e596ff3ac99b422f4e7827f33f0b11fa88df261e406e22132863",
                                 "s": "0x2cd1bc72970b0b41947c99191eac323d08ea408e7b135223858ada51f738ec64",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -3652,12 +3680,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x5f481ffc9b9f9b9154d82e0c72aee8deca86c8b039e48f3f91876d42824e89f9",
+            "hash": "0x4e05afacdfa97b5b79d1a7254a197a4f90c89d0a362b150fc089a67777a8aff2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3667,7 +3695,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_invalid_nonce_authorizations_multiple_signers-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_invalid_nonce_authorizations_multiple_signers-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3921,7 +3949,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -3930,7 +3959,8 @@
                                 "v": "0x01",
                                 "r": "0xdfec9a52b56379a65ade4b9f6fe070b325b233a595a21f79c20a775358beba78",
                                 "s": "0x345d8eacf4a86d51855cbdc93aef70e93acf222ca769ecbdf5270c05d49de891",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -3943,12 +3973,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xdb38ea33c4168eb38d3eed8e45e24c540c1025aca28ba7a15c35d80947300e69",
+            "hash": "0xaa1a9cc3840cb4b5d206118df82c512e00b704f8d05da509007490286ef29c4f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3958,7 +3988,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_invalid_nonce_authorizations_multiple_signers-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_invalid_nonce_authorizations_multiple_signers-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4212,7 +4242,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -4221,7 +4252,8 @@
                                 "v": "0x01",
                                 "r": "0xdfec9a52b56379a65ade4b9f6fe070b325b233a595a21f79c20a775358beba78",
                                 "s": "0x345d8eacf4a86d51855cbdc93aef70e93acf222ca769ecbdf5270c05d49de891",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -4234,12 +4266,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xf45439cc518e509b3d2d50ccf73e2e805a752a34b79ba383f9e0d99bbb92b2c2",
+            "hash": "0xb8c8c7302819d268415a660a46643a80826b64ae3b26b7507ec163cdc81f03c2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4249,7 +4281,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_invalid_nonce_authorizations_single_signer-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_invalid_nonce_authorizations_single_signer-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4502,7 +4534,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -4511,7 +4544,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -4524,12 +4558,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa613fe2813500726e427df822e20ffdc7cdcb92e1c42ebb4c0873228676c185e",
+            "hash": "0xc7be0c17fdfa5885177692a15c0a54d4504e8ce1550ab4efc1c0a6d017d87178",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4539,7 +4573,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_invalid_nonce_authorizations_single_signer-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_invalid_nonce_authorizations_single_signer-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4792,7 +4826,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             },
                             {
                                 "chainId": "0x00",
@@ -4801,7 +4836,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -4814,12 +4850,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xfa89be36c0409b63211f371684efe91cbe794353173b8cea049fc06885848cce",
+            "hash": "0x04afde9e8964bd40a94eaa08306219b8ff595b10690cfa2e61c46664108c178a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4829,7 +4865,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_valid_authorizations_eoa_authority-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_valid_authorizations_eoa_authority-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -5094,7 +5130,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -5103,7 +5140,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -5116,12 +5154,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xaff897493697c6b869207d7bf49536a944a29a2efd07e1d9fc502e8781f9df6c",
+            "hash": "0xa7e9c803d0d3da9fed96412b1916d1540ec62900e344814d49ab4db617391542",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5131,7 +5169,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_valid_authorizations_eoa_authority-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_valid_authorizations_eoa_authority-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -5396,7 +5434,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -5405,7 +5444,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -5418,12 +5458,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x1e2d5ec8beb7ac2952410af3e4a965d49ecf715eedf19460664fd017d79a455f",
+            "hash": "0xfd25fa4d06310367423d2870356a1e336d1dc88e4e71d3bd5316479e81b1e5eb",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5433,7 +5473,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_valid_authorizations_eoa_self_sponsored_authority-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_valid_authorizations_eoa_self_sponsored_authority-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -5686,7 +5726,8 @@
                                 "v": "0x01",
                                 "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                                 "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -5695,7 +5736,8 @@
                                 "v": "0x01",
                                 "r": "0xa482bcddcc7fc855c7853e70c4d51e95c73d4f6867ce500fe49be1a62a2c25dd",
                                 "s": "0x04ab2df71bb8cbf316c0b97ef286d8f19f0ab620d2758fe53cbe7a52b45e3a0a",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -5708,12 +5750,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x42ec3f9dd99cbb71332e9fdda22eab5173bb4fa2905f206fc324310b2141544f",
+            "hash": "0xa8e80a3b3511be8f4662d167a1241ec9dd98e6e769a81a7621812ba266f1ed9c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5723,7 +5765,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_valid_authorizations_eoa_self_sponsored_authority-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_valid_authorizations_eoa_self_sponsored_authority-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -5976,7 +6018,8 @@
                                 "v": "0x01",
                                 "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                                 "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -5985,7 +6028,8 @@
                                 "v": "0x01",
                                 "r": "0xa482bcddcc7fc855c7853e70c4d51e95c73d4f6867ce500fe49be1a62a2c25dd",
                                 "s": "0x04ab2df71bb8cbf316c0b97ef286d8f19f0ab620d2758fe53cbe7a52b45e3a0a",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -5998,12 +6042,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xbe1417f509ffeeca68699d3a513a0a9ceebb50ed054aed7c45efc7222b3f220a",
+            "hash": "0x6232a5604279d95e0e841d4a0d9373b055eaed27542651598c078e5adc1a9ade",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6013,7 +6057,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_valid_authorizations_multiple_signers-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_valid_authorizations_multiple_signers-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -6279,7 +6323,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -6288,7 +6333,8 @@
                                 "v": "0x01",
                                 "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                                 "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -6301,12 +6347,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xc9dde21a9a48a3bca9936f3c0ad5d0804bf501aed2688d9e8add83f720e36520",
+            "hash": "0x7e0bcf516f757c8efcab0482e8ca21164cacb5215ed67b971dd3fee9e16bb17f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6316,7 +6362,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_valid_authorizations_multiple_signers-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_valid_authorizations_multiple_signers-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -6582,7 +6628,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -6591,7 +6638,8 @@
                                 "v": "0x01",
                                 "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                                 "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                                "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -6604,12 +6652,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xf6212fd4d729f6330c680731d3a8ec4f02b4e6ecd56bdcede34248c4beab0ae0",
+            "hash": "0x30f2b6349dabc13f68921b2425cf7553168127e899ed1e4746c9f1407119f17d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6619,7 +6667,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_valid_authorizations_single_signer-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_valid_authorizations_single_signer-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -6878,7 +6926,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -6887,7 +6936,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -6900,12 +6950,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x5d1fd300a0aef5366cd80444e1a595c555c0728c35a318ace1259a30f5a0419d",
+            "hash": "0x39a102ce9b1cbfc486c20c45b74893382765cb639a6c802757d082e54305be90",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6915,7 +6965,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-multiple_valid_authorizations_single_signer-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-multiple_valid_authorizations_single_signer-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -7174,7 +7224,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -7183,7 +7234,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -7196,12 +7248,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x70b49155d1212f38e1cf15c6bd0cb8ac57423137abbd115c6c5e94c228327da2",
+            "hash": "0xf5fbb3217d9315353b1c7819c0a5c7020dc4989dbd4f81ab7bffea6971f1c877",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -7211,7 +7263,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-pre_authorized_eoa_authority_no_re_authorization-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-pre_authorized_eoa_authority_no_re_authorization-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -7487,8 +7539,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -7498,7 +7550,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-pre_authorized_eoa_authority_no_re_authorization-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-pre_authorized_eoa_authority_no_re_authorization-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -7774,8 +7826,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -7785,7 +7837,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-pre_authorized_eoa_authority_no_re_authorization_self_sponsored-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-pre_authorized_eoa_authority_no_re_authorization_self_sponsored-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -8049,8 +8101,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -8060,7 +8112,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-pre_authorized_eoa_authority_no_re_authorization_self_sponsored-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-pre_authorized_eoa_authority_no_re_authorization_self_sponsored-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -8324,8 +8376,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -8335,7 +8387,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_invalid_authorization_invalid_chain_id_single_signer-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_invalid_authorization_invalid_chain_id_single_signer-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -8588,7 +8640,8 @@
                                 "v": "0x01",
                                 "r": "0x0b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86",
                                 "s": "0x5b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bc",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -8601,12 +8654,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe83f870c1567200b1e34eb5dfa15deedbce83616d9328efacddd19fd0a1b8eba",
+            "hash": "0xfa738d8cd04d1d717916e9168a6074c9b4a6832b5540e45a43871d3988dd5236",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -8616,7 +8669,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_invalid_authorization_invalid_chain_id_single_signer-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_invalid_authorization_invalid_chain_id_single_signer-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -8869,7 +8922,8 @@
                                 "v": "0x01",
                                 "r": "0x0b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86",
                                 "s": "0x5b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bc",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -8882,12 +8936,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x55962864e9836b47b2e05c55c0731de7b0ddcd2cd63dabc4e215d599062f9424",
+            "hash": "0x802d2d65b45947b56878382f75bf8ce83442dc87142906ee2069a55d4696ccc6",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -8897,7 +8951,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_invalid_nonce_authorization_single_signer-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_invalid_nonce_authorization_single_signer-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -9150,7 +9204,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -9163,12 +9218,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x7be03ea090d316484198a6264958dfd665f40c9e0adcff1e587b802b5d0503f7",
+            "hash": "0xb0bb63e88d58927aca78c8f7b38b60b5f36ff22c50f4fbf6fc60080f6a936ff4",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -9178,7 +9233,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_invalid_nonce_authorization_single_signer-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_invalid_nonce_authorization_single_signer-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -9431,7 +9486,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -9444,12 +9500,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe9149c59b734aa17ec1dda5e2eaa25f4fcff1b1e03e66e231e611498a06eaf3d",
+            "hash": "0x4c788c56197d64cb747bcfa0d775fa5eda8d60cede1ec0670866d2eafb48d2ff",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -9459,7 +9515,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_eoa_authority-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_eoa_authority-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -9724,7 +9780,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -9737,12 +9794,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x1ee363d2bdd22e8dc86de88d7e11851165da78a41b92aa529e288cc03f534730",
+            "hash": "0xfa02d2ee5130a15190084c2d09d52a2f23787e4a1f02fec8f03c2dda9dfd2d3f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -9752,7 +9809,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_eoa_authority-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_eoa_authority-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -10017,7 +10074,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -10030,12 +10088,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa672c8077a2250593cecc6f07210db5990b2b008c6ac2497ae5627d073ed1109",
+            "hash": "0x65f5a0deae5911c6e9a533cf993bde9551442f009550e822376f83f1e1fc7c33",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -10045,7 +10103,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_eoa_self_sponsored_authority-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_eoa_self_sponsored_authority-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -10298,7 +10356,8 @@
                                 "v": "0x01",
                                 "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                                 "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -10311,12 +10370,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xf5845ab392c54583b0bb109e00588722a0c90792ef61f866967f1a73a61c5ad5",
+            "hash": "0x5e5f34d97267f09520ae6c66bd29c226af1bb86440fc2ce115700abe9a72d399",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -10326,7 +10385,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_eoa_self_sponsored_authority-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_eoa_self_sponsored_authority-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -10579,7 +10638,8 @@
                                 "v": "0x01",
                                 "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                                 "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -10592,12 +10652,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x937506f7118e28516bc88581969e670233d1f06b5ddfcc4523896640cef1deda",
+            "hash": "0xb2d85b2f02ce7e7c72b94e6fdcef0eb981963e5d4031964d90cc34dde450c4c3",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -10607,7 +10667,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_invalid_contract_authority-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_invalid_contract_authority-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -10872,7 +10932,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -10885,12 +10946,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x08da53998197dcabc8f5aa7bddefa954faf88c60ee25105c6c64c24d2479edb2",
+            "hash": "0x11639d8f957353fb712345e25ce447548fda9c8c87370d33edb6e492e778cc06",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -10900,7 +10961,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_invalid_contract_authority-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_invalid_contract_authority-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -11165,7 +11226,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -11178,12 +11240,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe3b315cf17c556aafb03a39c749446e348f7bd89d3ab44ea973ed4e387f89e9f",
+            "hash": "0x137804bc856ff72c496638be87b0a20fca5a6d0f7673e860907c68074e6b3bdf",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -11193,7 +11255,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_single_signer-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_single_signer-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -11452,7 +11514,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -11465,12 +11528,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xb4c6d7ca0172bb35a547e8f848a59cb2377676a2a3746100ce6825275101adeb",
+            "hash": "0x95434f81a563e7623ad2b02913d3863b18aea1a8b25e15bd2280e33f09a87c26",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -11480,7 +11543,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_single_signer-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_single_signer-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -11739,7 +11802,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -11752,12 +11816,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xaaf6344942978289b49a30f47980a0336d7b4db7848d3feff42c02ecd45d4741",
+            "hash": "0xad080b5093894d844af1b3f1652c730e712cac00e790dd63ad5bdc98fc9acd00",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -11767,7 +11831,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_to_contract-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_to_contract-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -12038,7 +12102,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -12051,12 +12116,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x890a057e6291a81a05a9b9ebd850cc52d88df3011a3929589bfaa2e895b473a0",
+            "hash": "0x5d81606b8bc2df699c32a813cc94da15aa74bf771a2e5fc780051210991535dd",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -12066,7 +12131,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_to_contract-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_to_contract-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -12337,7 +12402,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -12350,12 +12416,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x9e8efb52f41fc6aa34704ea43ea5bb69bb3e80845f5daebc0133e014557ffc1d",
+            "hash": "0x34a547c9140967b25b0890aa28c88d56843611bfe49079314145d19723f40f7a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -12365,7 +12431,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_to_eoa-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_to_eoa-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -12636,7 +12702,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -12649,12 +12716,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x2033a5fe6afad83bd556ea607e4004294bdeed16aa39e5b4e1f1e5f21e6a962b",
+            "hash": "0x78e5a602742e86f49e3e5d90293f378c973b7ec65874aca8fc4311350cfed536",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -12664,7 +12731,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_to_eoa-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_to_eoa-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -12935,7 +13002,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -12948,12 +13016,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x0c76e6b411d23b72f506cb89c9375f97f763cce039e7605c7f4e7fb2e061e759",
+            "hash": "0xc396f51f21af55d3bab73021638b05e246f6cb97fa8239e204d65a2309b2f872",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -12963,7 +13031,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_with_authority_and_set_code_address_in_access_list-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_with_authority_and_set_code_address_in_access_list-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -13235,7 +13303,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -13248,12 +13317,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x6abdbc86f9588666364fb3dc5f3672d32175096d49261aed075535135b064c99",
+            "hash": "0x6071af6b53450f96dba1c8153e764d462208108ca06ae6066196aeabbe058596",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -13263,7 +13332,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_with_authority_and_set_code_address_in_access_list-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_with_authority_and_set_code_address_in_access_list-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -13535,7 +13604,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -13548,12 +13618,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x2d2bf66f11097ce745a5a13baf04b3fd5c613746792d641861b0289392dda6c8",
+            "hash": "0x63cb2abbdd269e359e5bac73df4fd241fb1a5138234df9f99614ca4801eb8561",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -13563,7 +13633,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_with_authority_in_access_list-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_with_authority_in_access_list-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -13829,7 +13899,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -13842,12 +13913,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa0fc3536f5a24d76d9ca346000a79a5a8838510553fba3176c61832ced941b94",
+            "hash": "0xdaa03f55e697e186f4a1149aa8da5d91f9c12fc70977aa5ee2d53fe9af0c1a2b",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -13857,7 +13928,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_with_authority_in_access_list-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_with_authority_in_access_list-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -14123,7 +14194,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -14136,12 +14208,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x23a953a0cef2ceec407200b94a46d256e985eb4fc393d9b7b7cee3a2e5f584a0",
+            "hash": "0xda5d2fa4521b9bdf5643fc06e27c5bba2344dd2f7c03e69c28df1a3721827eca",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -14151,7 +14223,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_with_set_code_address_in_access_list-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_with_set_code_address_in_access_list-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -14417,7 +14489,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -14430,12 +14503,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x955d480fa01167a712a81c6c643c0ea8c15a305b4b7d81953a10cdd7b450a4df",
+            "hash": "0x7e672969ed3e714207a2a1d20c6e1b70c46af9e489f1912e3e3333ca500dea8c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -14445,7 +14518,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_authorization_with_set_code_address_in_access_list-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_authorization_with_set_code_address_in_access_list-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -14711,7 +14784,8 @@
                                 "v": "0x01",
                                 "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                                 "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -14724,12 +14798,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x19b7f685756ba948295b70819138db177c87689e739cb75577536ae10f896e5f",
+            "hash": "0x9491f48d05cc9ed2879faad374aafe83c6807c06780bc4cd6d5434866724e985",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -14739,7 +14813,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_chain_specific_authorization_single_signer-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_chain_specific_authorization_single_signer-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -14998,7 +15072,8 @@
                                 "v": "0x00",
                                 "r": "0xc36ce51d55ca9c3cffd29468f696f577fcbedaf4c26ac1624b97ddb9aee0e32a",
                                 "s": "0x6a9b09f69f8367aa9a4294139163f4ca3ad8e3dc816ce728c0485c31ebc4735f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -15011,12 +15086,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x11464b112ae43f24bff36830fdbccd830edacc04e82e09e54996054dbbd231e0",
+            "hash": "0x28e02dbb8700b2345aef97b200ec47617c532dd5a55d30a279bd67ac406a885f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -15026,7 +15101,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_chain_specific_authorization_single_signer-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_chain_specific_authorization_single_signer-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -15285,7 +15360,8 @@
                                 "v": "0x00",
                                 "r": "0xc36ce51d55ca9c3cffd29468f696f577fcbedaf4c26ac1624b97ddb9aee0e32a",
                                 "s": "0x6a9b09f69f8367aa9a4294139163f4ca3ad8e3dc816ce728c0485c31ebc4735f",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -15298,12 +15374,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x284e792bee9dbafce3d7541a362ea1751f3cc4bc63dd2fc31fb02c640268c3b9",
+            "hash": "0xe26bb10fa441ac1dad8e3882ce79c52b60ae1b1de81d421989f9948fa4dbc664",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -15313,7 +15389,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_re_authorization_eoa_authority-check_delegated_account_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_re_authorization_eoa_authority-check_delegated_account_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -15578,7 +15654,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -15591,12 +15668,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x672f39417fb838b84701dd3a603e64a294eca219eacd81dec6e4e789a1888376",
+            "hash": "0xc113213425a677e1fabb83ad1d112acf1b73608c576461563e7b4f4784ba42f4",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -15606,7 +15683,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test-single_valid_re_authorization_eoa_authority-check_delegated_account_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_gas.py::test_account_warming[fork_Prague-blockchain_test_from_state_test-single_valid_re_authorization_eoa_authority-check_delegated_account_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -15871,7 +15948,8 @@
                                 "v": "0x00",
                                 "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                                 "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -15884,12 +15962,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x390bcc7340a92c77db27b5eb44195b81369c65fe21e5c08106ac9a38a5ae3d63",
+            "hash": "0x6d911dc94efe1c65a67a684fd7f6d6c4354b0d4c83c19ec95c15b4aef75683fd",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_available_at_correct_address[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test_engine-call_eoa_first_False]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_available_at_correct_address[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test_engine_from_state_test-call_eoa_first_False]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -253,8 +253,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test TLOADing from slot 2 and then SSTORE this in slot 1, then TSTORE 3 in slot 2.\n    This is done both from the EOA which is delegated to account A, and then A is called.\n    The storage should stay empty on both the EOA and the delegated account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L397",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L384",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -264,7 +264,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_available_at_correct_address[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test_engine-call_eoa_first_True]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_tstore_available_at_correct_address[fork_Prague-call_opcode_CALL-evm_code_type_LEGACY-blockchain_test_engine_from_state_test-call_eoa_first_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -518,8 +518,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test TLOADing from slot 2 and then SSTORE this in slot 1, then TSTORE 3 in slot 2.\n    This is done both from the EOA which is delegated to account A, and then A is called.\n    The storage should stay empty on both the EOA and the delegated account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L397",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L384",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-invalid-tx_value_0-one_wei_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-invalid-tx_value_0-one_wei_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -261,7 +261,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -274,12 +275,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x36bf4fa3ec4976389bca52aadaf954f987928dffe7a3278d4a5a476f726f53fb",
+            "hash": "0x0861a2a290374f010779c2e218e33c65a0d56a2276db1b1ed91f1ab96b953247",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -289,7 +290,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-invalid-tx_value_0-self_sponsored_tx]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-invalid-tx_value_0-self_sponsored_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -539,7 +540,8 @@
                                 "v": "0x01",
                                 "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                                 "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -552,12 +554,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x001144afceea9f0c713526ebf6e38478fe032b803f127009d6be34e1d53e591a",
+            "hash": "0x9a39febf042e230cc973986c5f6dd1c8439c9b3d4205cf3b78ef57d87dc9ed5d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -567,7 +569,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-invalid-tx_value_0-zero_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-invalid-tx_value_0-zero_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -823,7 +825,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -836,12 +839,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa7bae827a52afc4637a15913121ebef74f26ef987ecaa96c931881adbb3a093f",
+            "hash": "0x56da8f154913064b50906ccc7c7764468afcb773fa97c21b1b6b5e788aaf893c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -851,7 +854,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-invalid-tx_value_1-one_wei_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-invalid-tx_value_1-one_wei_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1113,7 +1116,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1126,12 +1130,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xd74eecfd3231c8e9d0b05afb8326b6ea325da4f8e4c57450fda1261c8bf9d94f",
+            "hash": "0xc09ada27241e95e4e5e3c40d9ef4a422a4ac9b23f80f1e19ac4c2d95c18c432c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1141,7 +1145,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-invalid-tx_value_1-self_sponsored_tx]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-invalid-tx_value_1-self_sponsored_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1391,7 +1395,8 @@
                                 "v": "0x01",
                                 "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                                 "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -1404,12 +1409,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x78646b50edf8b09ee78994329638d015f0561d741fc4fd0f38c0fea762502c70",
+            "hash": "0x0ce5616e3c13fd2ded3e83a6c2a258bdaa82bbb975668cc795a6d318f09cf3ed",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1419,7 +1424,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-invalid-tx_value_1-zero_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-invalid-tx_value_1-zero_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1675,7 +1680,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1688,12 +1694,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x86fcd52e52d6f9f13dadc31cfe7f0acb46c9e44ec7aa6bfc55ddc9c64711a021",
+            "hash": "0x4faecef8243ec49e89cdaaecc889917efd5c283c3c788fdbc84310609b7fd211",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1703,7 +1709,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-out-of-gas-tx_value_0-one_wei_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-out-of-gas-tx_value_0-one_wei_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1965,7 +1971,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1978,12 +1985,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xd13359d8c91d1dd42aa0fe76d02e24424f096c8a2e663c47016b52c6adea8095",
+            "hash": "0x4ba089ec34652b0418f52b2edd5c73821f73a44d46dea97b9f091232389dadbc",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1993,7 +2000,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-out-of-gas-tx_value_0-self_sponsored_tx]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-out-of-gas-tx_value_0-self_sponsored_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2243,7 +2250,8 @@
                                 "v": "0x01",
                                 "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                                 "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -2256,12 +2264,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xbe87f22eb4b8f9bfc02e1e33a94e1c3d8fe2165db1d693353a5ac477ec2d300b",
+            "hash": "0x981aa2923911c48d5eceb9499e871598d3dbf0edae197162bf46fe7f914ae039",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2271,7 +2279,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-out-of-gas-tx_value_0-zero_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-out-of-gas-tx_value_0-zero_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2527,7 +2535,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -2540,12 +2549,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x4a25a085010742257b0813d64fdaa2216c128f5f15bd04bf3eeb1997135e5ab4",
+            "hash": "0x671091ff25857a2e9988f0eca95580af04964f76c04a628c5c231402d6f6ed04",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2555,7 +2564,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-out-of-gas-tx_value_1-one_wei_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-out-of-gas-tx_value_1-one_wei_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2817,7 +2826,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -2830,12 +2840,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x3f1d22bea631704a99edfb345058b5ab6183ffd17bc0affe92a29727e435258e",
+            "hash": "0x70713a9c46b8caf00a9bae0b40072aa6d48b28b130f5a63164924b7300791854",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2845,7 +2855,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-out-of-gas-tx_value_1-self_sponsored_tx]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-out-of-gas-tx_value_1-self_sponsored_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3095,7 +3105,8 @@
                                 "v": "0x01",
                                 "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                                 "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -3108,12 +3119,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xb4d86817b8ae4f4418568eb3323f2d1537d0b499ec7d59f9b7d30cb6cd0da8b5",
+            "hash": "0xc5237aceb57ec977c2d5369ca9d32e6549598907f3afc844e06493b0893ab8a1",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3123,7 +3134,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-out-of-gas-tx_value_1-zero_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-out-of-gas-tx_value_1-zero_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3379,7 +3390,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -3392,12 +3404,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x06b21fea0c3dca87b701cfd8f68253523eefdbd82a949abd8e7774b3ddaf538c",
+            "hash": "0xc677ff7df2c6fdc24cfb9aade33915b43e08730df5aaa775c03ee3c6efd4870f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3407,7 +3419,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-return-tx_value_0-one_wei_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-return-tx_value_0-one_wei_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3672,7 +3684,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -3685,12 +3698,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xfdd8e378a15cb94f4507db30bfc82fe0503834bcf8681f803df1951c76bc3643",
+            "hash": "0x66a26558e298036eb6c3fdbd419716f502c67f932508b7ba773b1ebdfb09aa58",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3700,7 +3713,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-return-tx_value_0-self_sponsored_tx]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-return-tx_value_0-self_sponsored_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3953,7 +3966,8 @@
                                 "v": "0x01",
                                 "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                                 "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -3966,12 +3980,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xd045b0d9308347487c61f05c496a7d534e99621b020b7c0dd4e3c92d23736b89",
+            "hash": "0x84922043765f970b1da4d219b2f91bfdbbb7f0a2023d6cff735ceec8f6e6142a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3981,7 +3995,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-return-tx_value_0-zero_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-return-tx_value_0-zero_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4240,7 +4254,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -4253,12 +4268,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x332e26a958cae4e704cb65fc871b2a6089b6f29d524b82fd2692e719fea407bb",
+            "hash": "0x63320b7d1295e35b322d9a399a45977faeaaacd0dcd09f1e829adb240b6eb9b0",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4268,7 +4283,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-return-tx_value_1-one_wei_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-return-tx_value_1-one_wei_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4534,7 +4549,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -4547,12 +4563,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x42d4e4e231c7756a38e60124c754ee389eb7f69bbe6bd6829f6c4a9ccfdc1c93",
+            "hash": "0x1bf5f7fb3afb790e976c065974409d742e5e46d35ebc2cf0ba80ab2bc4dc3ca1",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4562,7 +4578,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-return-tx_value_1-self_sponsored_tx]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-return-tx_value_1-self_sponsored_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4816,7 +4832,8 @@
                                 "v": "0x01",
                                 "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                                 "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -4829,12 +4846,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xc11799968f6db23403f87175cbbb729cc4ce6a4ed7dd1a1e1b15370947833fc4",
+            "hash": "0xd295cee0623166ef202173886103144f4a18c548621040ac1d2448b239ec39a0",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4844,7 +4861,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-return-tx_value_1-zero_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-return-tx_value_1-zero_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -5104,7 +5121,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -5117,12 +5135,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x69841a4a7456c6a7466f209779f43666c279581a56eed3bc390d143483774b41",
+            "hash": "0x5989316b6dd4076a3f350fc875b38b19e0c4a642233eeec817b4d879145c6f80",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5132,7 +5150,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-revert-tx_value_0-one_wei_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-revert-tx_value_0-one_wei_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -5394,7 +5412,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -5407,12 +5426,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xdcd7a10c3038c5e370317c9c46227bfb014375b051fbc37e76b498b4780e99f8",
+            "hash": "0xa7fc7cf6c1d91d067e072550d970bd896acffb6bb62f6de1163ba991ff03f737",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5422,7 +5441,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-revert-tx_value_0-self_sponsored_tx]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-revert-tx_value_0-self_sponsored_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -5672,7 +5691,8 @@
                                 "v": "0x01",
                                 "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                                 "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -5685,12 +5705,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x525fe30e6dec228e466b47f0756e69ff2e34e27a0fb07c1f97098ea226300529",
+            "hash": "0xbf0bf20f83fd9d85b15aab334e49720ca370d22f291da66325ed661c3170398e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5700,7 +5720,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-revert-tx_value_0-zero_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-revert-tx_value_0-zero_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -5956,7 +5976,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -5969,12 +5990,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x7f2e64310b9d892cff0f5668aa103f39c045d323fa67381efca6fe793283ceae",
+            "hash": "0xbdeb46ecfe3cfbb2e3de0ad1de0f8ed481702cf8c9c6c60f4d3eb4b20612fd26",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5984,7 +6005,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-revert-tx_value_1-one_wei_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-revert-tx_value_1-one_wei_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -6246,7 +6267,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -6259,12 +6281,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x7d0415dac8ad273fa648ab880b77124eeea02df3235335c8e5f9d41ce7dc61f0",
+            "hash": "0x6269ab04c43c42aeca0a14554bc4e0e9c2571bc2fd5ec89360bd08e082209f97",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6274,7 +6296,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-revert-tx_value_1-self_sponsored_tx]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-revert-tx_value_1-self_sponsored_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -6524,7 +6546,8 @@
                                 "v": "0x01",
                                 "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                                 "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -6537,12 +6560,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x40b480a80362269578f4f5a2f9122e95a316a1a07cbad2ea24d9435b8fbebd4a",
+            "hash": "0x35b2ac7a1fd121716bd25864a80bee599439ba83c5a29cf37eee53410eeb3b7c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6552,7 +6575,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-revert-tx_value_1-zero_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-revert-tx_value_1-zero_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -6808,7 +6831,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -6821,12 +6845,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x45a62a802e01bd955443bc4b6374da0ec044d40b0639d6894a0f3460991741a2",
+            "hash": "0xd2128213ab89c66ae92ccd95ca83f9a2fbb7afc8a68bba8555095c7a0ae8ce6d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6836,7 +6860,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-stop-tx_value_0-one_wei_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-stop-tx_value_0-one_wei_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -7101,7 +7125,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -7114,12 +7139,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x98c4b3a113e19f374d1c64a95d007482503364ab35d420ad64bdcda1cfb05797",
+            "hash": "0x6ad55ed3e3e8d0b87b8d70e99560c663f85fc7cb424383f08874be89b1062c58",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -7129,7 +7154,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-stop-tx_value_0-self_sponsored_tx]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-stop-tx_value_0-self_sponsored_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -7382,7 +7407,8 @@
                                 "v": "0x01",
                                 "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                                 "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -7395,12 +7421,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x447ca8ff9d86937d535f8ca23de1d1114623a43c04dc37aff948bc3cd122bc9f",
+            "hash": "0xa087b824f9393caf7b7e8e852c4b3a0a6f39f187649ae4eca19b497f774bb4a4",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -7410,7 +7436,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-stop-tx_value_0-zero_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-stop-tx_value_0-zero_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -7669,7 +7695,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -7682,12 +7709,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x13226fc2d16d9ece6e49196ea4a8aa54502faecd13ac2f4873c8410967195c02",
+            "hash": "0x7e6b5961d311010010abee1ca408f2fbacb487b41229ee535460c52e8979b747",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -7697,7 +7724,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-stop-tx_value_1-one_wei_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-stop-tx_value_1-one_wei_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -7963,7 +7990,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -7976,12 +8004,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x9cc686fc8a65da8489458fc8ca727fbd21c103522beba65094937ad10d792609",
+            "hash": "0xb4138f25659973ff15e0f1301222587190ec3a39ecd266882e27f9610401f4a4",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -7991,7 +8019,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-stop-tx_value_1-self_sponsored_tx]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-stop-tx_value_1-self_sponsored_tx]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -8245,7 +8273,8 @@
                                 "v": "0x01",
                                 "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                                 "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -8258,12 +8287,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x03e1c618058c5084a3fed469a8b25c38999b918d77363b6752a29bd413ee2fd4",
+            "hash": "0x0017f86d82be51b6873737551de212e3cd9aa1ffa9e1a00a087416163a9d6f20",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -8273,7 +8302,7 @@
             }
         }
     },
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test-stop-tx_value_1-zero_balance_authority]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_set_code_to_sstore[fork_Prague-blockchain_test_from_state_test-stop-tx_value_1-zero_balance_authority]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -8533,7 +8562,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -8546,12 +8576,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x6adebcb5f5449230f1f6be3b83f55dbb4308f1586ddaf6325794e14e553403c3",
+            "hash": "0xf210ef29c1e3b4bd412ae4d81b378ba60e86141bd27ef02ab469016517af7b2a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE in a set-code transaction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L131",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

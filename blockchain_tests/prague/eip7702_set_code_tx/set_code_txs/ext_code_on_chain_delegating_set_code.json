@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_ext_code_on_chain_delegating_set_code[fork_Prague-blockchain_test]": {
+    "tests/prague/eip7702_set_code_tx/test_set_code_txs.py::test_ext_code_on_chain_delegating_set_code[fork_Prague-blockchain_test_from_state_test]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -275,7 +275,8 @@
                                 "v": "0x01",
                                 "r": "0x2fdae69e3d7a08e437baa33b7d32781ea30f6cd671e38d700e0089ccb0be9f9d",
                                 "s": "0x204aea5f46d068028a6bea3d71ec0fdb995634117e1ea369277f2b2fecd2a024",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -284,7 +285,8 @@
                                 "v": "0x01",
                                 "r": "0x0c2ee9c1e1059b691b29ee396914a961a0e380c6c21c63a57a23412df3892aa5",
                                 "s": "0x478c980f27d508ffa8ec6aa3f61a5819c7d85c948924d5885d1518b1a98c0cb1",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -297,12 +299,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xd773f05c07163e26666fd9ec02f9d287a044b5d2489a13e53d12a587d3364799",
+            "hash": "0x83d91bcccf53b9441bb4913287603d6def83d6ddf21b2aca44bbbce164b551f1",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test different ext*code operations on a set-code address that references another delegated\n    address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.0.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1412",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1399",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
