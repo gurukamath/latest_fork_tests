@@ -50,16 +50,62 @@
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x02",
+                            "balance": "0x00",
+                            "code": "0xef00010100040200010032030001003d04000000008000047f45454545454545454545454545454545454545454545454545454545454545456000526020600060006000ec0060035500ef0001010004020001001103000100140400000000800003366000600037600051600455366000ee00ef00010100040200010001040000000080000000",
+                            "storage": {
+                                "0x03": "0x4512e61602d49aba37cfec55b732decf79ca7393"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x04edc2",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x4512e61602d49aba37cfec55b732decf79ca7393": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0xef000101000402000100010400200000800000004545454545454545454545454545454545454545454545454545454545454545",
+                            "storage": {
+                                "0x04": "0x4545454545454545454545454545454545454545454545454545454545454545"
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de8f9224",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0x67e1440be1ed45989dfc5820348f76c4ecb80c76512211085f31de8b490c39e9",
+            "hash": "0x139dc12e05a0dd301820933acf99b483d16fa960ebd808e4b0dcf3f97d322278",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Verifies CALLDATA passing through EOFCREATE",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L220",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nVerifies CALLDATA passing through EOFCREATE.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L261",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7620.md",
             "reference-spec-version": "52ddbcdddcf72dd72427c319f2beddeb468e1737"
         }

@@ -3,6 +3,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001c000040000000080000000",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_SECTION_BODIES_SIZE",
@@ -12,33 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0xeff908b3bd206fed88580ce6f3ae6ea9e2e2182d0aebc20bdaf47185a037f7f6",
+            "hash": "0xf6e8437646ef75b6d1160d7aa3ea00b51d11814530501e29cf609026931cda68",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Verify EOF container is invalid if any of sections declares above container size",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_container_size.py#L67",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
-            "reference-spec-version": "6b313505c75afa49a4f34de39c609ebebc7be87f"
-        }
-    },
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_container_size.py::test_section_after_end_of_container[fork_Osaka-eof_test-2nd_code_section]": {
-        "vectors": {
-            "0": {
-                "code": "0xef00010100080200020001c0000400000000800000008000000000",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.INVALID_SECTION_BODIES_SIZE",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0x3f44d36f2a38109efb53969fe6e134e44fc006d734256d03a9fdbd3a54e5a44e",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Verify EOF container is invalid if any of sections declares above container size",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_container_size.py#L67",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nVerify EOF container is invalid if any of sections declares above container size.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_container_size.py#L63",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "6b313505c75afa49a4f34de39c609ebebc7be87f"
         }
@@ -47,6 +27,7 @@
         "vectors": {
             "0": {
                 "code": "0xef00010100040200010001030001c00004000000008000000000",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_SECTION_BODIES_SIZE",
@@ -56,11 +37,36 @@
             }
         },
         "_info": {
-            "hash": "0x5e2a180c58ca44f5f20fef14fe523266e8837fdd048fe730c80b35e97287887d",
+            "hash": "0x9fa15965bab1e09d0ec31f0eb07c4bbdb0b4242e20339bdd74a92cf4b424b2c6",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Verify EOF container is invalid if any of sections declares above container size",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_container_size.py#L67",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nVerify EOF container is invalid if any of sections declares above container size.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_container_size.py#L63",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
+            "reference-spec-version": "6b313505c75afa49a4f34de39c609ebebc7be87f"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_container_size.py::test_section_after_end_of_container[fork_Osaka-eof_test-2nd_code_section]": {
+        "vectors": {
+            "0": {
+                "code": "0xef00010100080200020001c0000400000000800000008000000000",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.INVALID_SECTION_BODIES_SIZE",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0xee75c073ee0774ba41b7ed4e9ee09bf4234d959e74f8ff8f06181758ad40e56f",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nVerify EOF container is invalid if any of sections declares above container size.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_container_size.py#L63",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "6b313505c75afa49a4f34de39c609ebebc7be87f"
         }
@@ -69,6 +75,7 @@
         "vectors": {
             "0": {
                 "code": "0xef000101000402000100010300020001c0000400000000800000000000",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_SECTION_BODIES_SIZE",
@@ -78,11 +85,12 @@
             }
         },
         "_info": {
-            "hash": "0xa7bf333ac796aa7175e1b41ec4979da09db82a5c58541bb2b34c128ee650158c",
+            "hash": "0x443841dd6eacbe70e1f7864b307e4a8db021f13e3c1dbefb478de0ca8d404e87",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Verify EOF container is invalid if any of sections declares above container size",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_container_size.py#L67",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nVerify EOF container is invalid if any of sections declares above container size.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_container_size.py#L63",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "6b313505c75afa49a4f34de39c609ebebc7be87f"
         }

@@ -1,8 +1,9 @@
 {
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_retf_in_nonreturning[fork_Osaka-eof_test-code_prefix_-first_True]": {
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_retf_in_nonreturning[fork_Osaka-eof_test-PUSH0x0x80-first_False]": {
         "vectors": {
             "0": {
-                "code": "0xef000101000402000100010400000000800000e4",
+                "code": "0xef000101000802000200030081040000000080000000800080e500015f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5fe4",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_NON_RETURNING_FLAG",
@@ -12,77 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0x7584d75fcd7d0f39c4fb2bbdcb895e230eb842dc020679943873e3d61b72588a",
+            "hash": "0x300f845301ec513e265e0ce88a8a2553fcd6612a3602bb637a1a9ab02d8cf0d7",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test EOF validation failing because a non-returning section contains the RETF instruction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L114",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
-            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
-        }
-    },
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_retf_in_nonreturning[fork_Osaka-eof_test-code_prefix_-first_False]": {
-        "vectors": {
-            "0": {
-                "code": "0xef000101000802000200030001040000000080000000800000e50001e4",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.INVALID_NON_RETURNING_FLAG",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0xa2828a8e1739a1f59ca2801ca9befb123816d359f3d04904784a7992afaafb4c",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test EOF validation failing because a non-returning section contains the RETF instruction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L114",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
-            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
-        }
-    },
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_retf_in_nonreturning[fork_Osaka-eof_test-code_prefix_PUSH0-first_True]": {
-        "vectors": {
-            "0": {
-                "code": "0xef0001010004020001000204000000008000015fe4",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.INVALID_NON_RETURNING_FLAG",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0x9d071117728b44c60c380e3b36bdc7a0ff4743b082a48111fe09a8be6a239fa1",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test EOF validation failing because a non-returning section contains the RETF instruction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L114",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
-            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
-        }
-    },
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_retf_in_nonreturning[fork_Osaka-eof_test-code_prefix_PUSH0-first_False]": {
-        "vectors": {
-            "0": {
-                "code": "0xef000101000802000200030002040000000080000000800001e500015fe4",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.INVALID_NON_RETURNING_FLAG",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0x3a88b132f0cd20c13ac53cea71546e6bcd63b465e829f0f16e9119d0716e756c",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test EOF validation failing because a non-returning section contains the RETF instruction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L114",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOF validation failing due to non-returning section with the RETF instruction.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L110",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }
@@ -91,6 +27,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001008104000000008000805f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5fe4",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_NON_RETURNING_FLAG",
@@ -100,19 +37,21 @@
             }
         },
         "_info": {
-            "hash": "0xcde809d479a2a61d4d21c7c26cdab39461a8a56eded42b1a1f4abff0e74c692c",
+            "hash": "0x71d306f68811def5a930204a50ac4845e2816a15897bfc8edd0c72a1641c7314",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test EOF validation failing because a non-returning section contains the RETF instruction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L114",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOF validation failing due to non-returning section with the RETF instruction.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L110",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }
     },
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_retf_in_nonreturning[fork_Osaka-eof_test-PUSH0x0x80-first_False]": {
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_retf_in_nonreturning[fork_Osaka-eof_test-code_prefix_-first_False]": {
         "vectors": {
             "0": {
-                "code": "0xef000101000802000200030081040000000080000000800080e500015f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5fe4",
+                "code": "0xef000101000802000200030001040000000080000000800000e50001e4",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_NON_RETURNING_FLAG",
@@ -122,11 +61,84 @@
             }
         },
         "_info": {
-            "hash": "0xa5802b0ede3650a1cc0ec9d642ea03174a04b4cc0b063e08447535e1d7f3171b",
+            "hash": "0xcc62e3ab0312049461f8a492e92f6276ca64c749193e23eb83fcbf9935d11be5",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test EOF validation failing because a non-returning section contains the RETF instruction.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L114",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOF validation failing due to non-returning section with the RETF instruction.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L110",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
+            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_retf_in_nonreturning[fork_Osaka-eof_test-code_prefix_-first_True]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000402000100010400000000800000e4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.INVALID_NON_RETURNING_FLAG",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x2188d4ade90edd25a09134d18776f6ceacc2b654cf08ff0aff4b7e1b5e136ce0",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOF validation failing due to non-returning section with the RETF instruction.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L110",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
+            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_retf_in_nonreturning[fork_Osaka-eof_test-code_prefix_PUSH0-first_False]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200030002040000000080000000800001e500015fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.INVALID_NON_RETURNING_FLAG",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x879b3be5ebd19afd5f569fa3c09c43c23fd5b7b715de4fa16e2f67a643a680ab",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOF validation failing due to non-returning section with the RETF instruction.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L110",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
+            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_retf_in_nonreturning[fork_Osaka-eof_test-code_prefix_PUSH0-first_True]": {
+        "vectors": {
+            "0": {
+                "code": "0xef0001010004020001000204000000008000015fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.INVALID_NON_RETURNING_FLAG",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x8f7237033bfbf2d3bf47bd08b02d29abf115d6b6160f5bb8fb8f3e7a5ee487c7",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOF validation failing due to non-returning section with the RETF instruction.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L110",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }

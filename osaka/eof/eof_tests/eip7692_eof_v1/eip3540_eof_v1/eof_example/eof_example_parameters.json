@@ -1,50 +1,9 @@
 {
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py::test_eof_example_parameters[fork_Osaka-eof_test-code_section_code_-exception_None-data_section_bytes_b'\\x01']": {
-        "vectors": {
-            "0": {
-                "code": "0xef000101000402000100030400010000800001600a0001",
-                "results": {
-                    "Osaka": {
-                        "result": true
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0x236205d7c7ab3faa59e443d63f40831bd891a999613adfd82de48267c7e75c70",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Example of python EOF classes",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py#L124",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
-            "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
-        }
-    },
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py::test_eof_example_parameters[fork_Osaka-eof_test-code_section_code_-exception_None-data_section_bytes_b'\\xef']": {
-        "vectors": {
-            "0": {
-                "code": "0xef000101000402000100030400010000800001600a00ef",
-                "results": {
-                    "Osaka": {
-                        "result": true
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0xac525b187b5d550add15f9527ebeefdcae7cb8e72c8b9ca6177f4b0dfa61527f",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Example of python EOF classes",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py#L124",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
-            "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
-        }
-    },
     "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py::test_eof_example_parameters[fork_Osaka-eof_test-code_section_code_-exception_EOFException.MISSING_STOP_OPCODE-data_section_bytes_b'\\x01']": {
         "vectors": {
             "0": {
                 "code": "0xef000101000402000100020400010000800001600e01",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.MISSING_STOP_OPCODE",
@@ -54,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0xcd6ac29c86d9d4bc514c1d1fa6224c282d69ae3142ecf52eb4dbeaa217ca3d36",
+            "hash": "0x86a41a8e0f6a7231614bbc7b390c16d28c39cc72d826d8c5017e7d671deda2b2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Example of python EOF classes",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py#L124",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nExample of EOF example parameters.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py#L118",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
@@ -67,6 +27,7 @@
         "vectors": {
             "0": {
                 "code": "0xef000101000402000100020400010000800001600eef",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.MISSING_STOP_OPCODE",
@@ -76,11 +37,58 @@
             }
         },
         "_info": {
-            "hash": "0x986f27052acdc5173d4519ee71231ef63aab5e50fc46fce94bf0f5a2c94aa7af",
+            "hash": "0xe32eb833703420f9a1d2c7e7c350b1e071516fa8d8c24abc1229cd5b06c6d4b8",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Example of python EOF classes",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py#L124",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nExample of EOF example parameters.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py#L118",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
+            "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py::test_eof_example_parameters[fork_Osaka-eof_test-code_section_code_-exception_None-data_section_bytes_b'\\x01']": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000402000100030400010000800001600a0001",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "result": true
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x78cd02d728a4092092894c6de45fcb31a7c05e578cb89f85f54b2c2efb906b4b",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nExample of EOF example parameters.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py#L118",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
+            "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py::test_eof_example_parameters[fork_Osaka-eof_test-code_section_code_-exception_None-data_section_bytes_b'\\xef']": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000402000100030400010000800001600a00ef",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "result": true
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0xda025a80bd536097f0c1b1ad805f675b0afd9648ef25d48e11dd6cb6d56cbb84",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nExample of EOF example parameters.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_eof_example.py#L118",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }

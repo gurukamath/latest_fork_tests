@@ -1,30 +1,9 @@
 {
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_first_section_returning[fork_Osaka-eof_test-stop]": {
-        "vectors": {
-            "0": {
-                "code": "0xef00010100040200010001040000000000000000",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.INVALID_FIRST_SECTION_TYPE",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0x6e6e62aaac9bd8c76ebe530c438c4271b81a8cc691b3d2babba36b9e344f8554",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTest EOF validation failing because the first section is not non-returning.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L21",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
-            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
-        }
-    },
     "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_first_section_returning[fork_Osaka-eof_test-invalid0]": {
         "vectors": {
             "0": {
                 "code": "0xef000101000402000100010400000000000000fe",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_FIRST_SECTION_TYPE",
@@ -34,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0xf61d8a88feba067ea07e0d2846b4954dc40badcb8f7c6c746f2ed631ac9c6a62",
+            "hash": "0xa7c761ef3ad5005ebdea799d9dede8032e4be53b168d474bcbf7b12053cc51a1",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
             "description": "Test function documentation:\nTest EOF validation failing because the first section is not non-returning.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L21",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L19",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }
@@ -47,6 +27,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000304000000000000013050fe",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_FIRST_SECTION_TYPE",
@@ -56,33 +37,12 @@
             }
         },
         "_info": {
-            "hash": "0xa74821052d7f294cf358c868bf7c06e8d0ffda4dfddacf3812ef7fc638734493",
+            "hash": "0xc24d2afca2c08e30fce0065381acf94f41c6fec794d4ed5f098070aeddb0ff50",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
             "description": "Test function documentation:\nTest EOF validation failing because the first section is not non-returning.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L21",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
-            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
-        }
-    },
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_first_section_returning[fork_Osaka-eof_test-return]": {
-        "vectors": {
-            "0": {
-                "code": "0xef00010100040200010005040000000000000260006000f3",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.INVALID_FIRST_SECTION_TYPE",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0xa451cdef03c461fcbde2885790e539a8cd6275828167fb9d7c6f5afc8fdc8b9d",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTest EOF validation failing because the first section is not non-returning.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L21",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L19",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }
@@ -91,6 +51,7 @@
         "vectors": {
             "0": {
                 "code": "0xef000101000402000100010400000000000000e4",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_FIRST_SECTION_TYPE",
@@ -100,11 +61,12 @@
             }
         },
         "_info": {
-            "hash": "0xb6d032febb09f9d836c17ec8276c7a14ae36fafd03fc3200280d7e8ce29b6e9d",
+            "hash": "0x0c3f97aaff50676f91d18b149c2ab9f1c153038ca84808db9259c1908447af09",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
             "description": "Test function documentation:\nTest EOF validation failing because the first section is not non-returning.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L21",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L19",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }
@@ -113,6 +75,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000204000000000100015fe4",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_FIRST_SECTION_TYPE",
@@ -122,11 +85,60 @@
             }
         },
         "_info": {
-            "hash": "0xa9142643e2235545b318e10aaa22b7b52d4c36fe9a75e0794de809d1a2f1c87a",
+            "hash": "0xfd13ad50b8f78bb08e14e5da92a29071af615c4d3c15b3ede411430d1adcc69f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
             "description": "Test function documentation:\nTest EOF validation failing because the first section is not non-returning.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L21",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L19",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
+            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_first_section_returning[fork_Osaka-eof_test-return]": {
+        "vectors": {
+            "0": {
+                "code": "0xef00010100040200010005040000000000000260006000f3",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.INVALID_FIRST_SECTION_TYPE",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x12a561526152138d536159f97837221a09836edced07bf2a02bcb0f8a4fc27a6",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOF validation failing because the first section is not non-returning.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L19",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
+            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py::test_first_section_returning[fork_Osaka-eof_test-stop]": {
+        "vectors": {
+            "0": {
+                "code": "0xef00010100040200010001040000000000000000",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.INVALID_FIRST_SECTION_TYPE",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0xf427f8af8e87299a74e8a0860dddf4d4f5c7e64e5ce536e60468632e39ec9db1",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOF validation failing because the first section is not non-returning.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_nonreturning_validation.py#L19",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }

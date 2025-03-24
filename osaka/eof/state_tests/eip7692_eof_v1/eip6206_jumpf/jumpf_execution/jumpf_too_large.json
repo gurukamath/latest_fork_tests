@@ -1,5 +1,5 @@
 {
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_execution.py::test_jumpf_too_large[fork_Osaka-state_test]": {
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_execution.py::test_jumpf_too_large[fork_Osaka-eof_state_test]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -12,6 +12,12 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x8a0a19589531694250d570040a0c4b74576919b8": {
                 "nonce": "0x00",
                 "balance": "0x3635c9adc5dea00000",
                 "code": "0x",
@@ -30,30 +36,66 @@
             "data": [
                 "0xef000101000402000100030400000000800000e50401"
             ],
-            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
+            "secretKey": "0x9e7645d0cfd9c3a04eb7a9db59a4eb7d359f2e75c9164a9d6b9a7d54e1b6a36f",
             "to": ""
         },
         "post": {
             "Osaka": [
                 {
-                    "hash": "0xd05921cdb8e6b4d6474bcb44e87314535cfc61dcdc62aaf0625fc0f64d74547a",
+                    "hash": "0x29e00102e55656188b826aaa6475b72a8ed8dfd9934751ac44156eedaf449d77",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0xf862800a83989680808096ef000101000402000100030400000000800000e5040126a0f824d06804ed9b9d4b76045f16aa5749d40a5df36a1ea2c9fd9c4b5c19e1e7fba03682d3f6fdc74423c979882036b4f511ae27b6ef361144d3cd8972e2816a069d",
+                    "txbytes": "0xf862800a83989680808096ef000101000402000100030400000000800000e5040126a038f9c04c3154d684533a50a1efb2f600771ed9c3e6c35d447c38778ca3115baba0758ae5df44915637875553322ab9cb1cdfe28bd6e200a6ab491793f2da94cce3",
                     "indexes": {
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x026fd6",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x8a0a19589531694250d570040a0c4b74576919b8": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de97e08c",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x00",
+                            "balance": "0x3635c9adc5dea00000",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0xa01bed5e614b8be9915e56d3abdb933f49dafaab5c564f011e3538829704b51b",
+            "hash": "0x94a6727f865f957e4315b2eae6d1a870e7085d6399031034a3456e639b7e9bf3",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTests JUMPF jumping to a section outside the max section range",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_execution.py#L88",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTests JUMPF jumping to a section outside the max section range.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_execution.py#L259",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }

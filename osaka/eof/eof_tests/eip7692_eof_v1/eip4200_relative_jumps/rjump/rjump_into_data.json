@@ -3,6 +3,7 @@
         "vectors": {
             "0": {
                 "code": "0xef000101000402000100030400030000800000e00002aabbcc",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_RJUMP_DESTINATION",
@@ -12,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0xefb5e2a8f24dfd6f16947826e78b601fdfe9218b44fdd72352280ce17506468e",
+            "hash": "0xee1c3c250e56b97063ced779f4b19f0791e993b46a354380ec2984a7047837c8",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    EOF1I4200_0005 (Invalid) EOF code containing RJUMP with target outside code bounds\n    (Jumping into data section)",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjump.py#L178",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\n\n    EOF1I4200_0005 (Invalid) EOF code containing RJUMP with target outside code bounds\n    (Jumping into data section).",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjump.py#L152",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }

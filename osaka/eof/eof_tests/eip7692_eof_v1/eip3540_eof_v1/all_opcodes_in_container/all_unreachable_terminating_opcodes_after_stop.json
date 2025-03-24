@@ -1,8 +1,9 @@
 {
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py::test_all_unreachable_terminating_opcodes_after_stop[fork_Osaka-eof_test-opcode_STOP]": {
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py::test_all_unreachable_terminating_opcodes_after_stop[fork_Osaka-eof_test-opcode_INVALID]": {
         "vectors": {
             "0": {
-                "code": "0xef0001010004020001000204000000008000000000",
+                "code": "0xef0001010004020001000404000000008000025f5f00fe",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.UNREACHABLE_INSTRUCTIONS",
@@ -12,33 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0x440eeec4271b6ccd862371ab18c310f03a18e9aa1a42393665b7cb6d8c89f752",
+            "hash": "0x0b4969d24ecd2a46696e2bd63132367703b947dbbbc0239aeb2cd94feba61669",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test all terminating opcodes after stop.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L220",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
-            "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
-        }
-    },
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py::test_all_unreachable_terminating_opcodes_after_stop[fork_Osaka-eof_test-opcode_RETF]": {
-        "vectors": {
-            "0": {
-                "code": "0xef000101000802000200040002040000000080000000000000e300010000e4",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.UNREACHABLE_INSTRUCTIONS",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0xf8462d509ce07f5ece73f8e6a6cdba113b2012b30e721b4734ae45908c318b62",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test all terminating opcodes after stop.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L220",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest all terminating opcodes after stop.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L214",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
@@ -47,6 +27,7 @@
         "vectors": {
             "0": {
                 "code": "0xef00010100080200020004000104000000008000000080000000e5000100",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.UNREACHABLE_INSTRUCTIONS",
@@ -56,11 +37,36 @@
             }
         },
         "_info": {
-            "hash": "0xb64d46c9d17ec956cd19812e52cd2fe515b9d12fc3c0de36c03532fe89111594",
+            "hash": "0x0d7b6ab423ecb6b0bafe91056dcbe973899541f61490f91dcf4c147e9870db44",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test all terminating opcodes after stop.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L220",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest all terminating opcodes after stop.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L214",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
+            "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py::test_all_unreachable_terminating_opcodes_after_stop[fork_Osaka-eof_test-opcode_RETF]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040002040000000080000000000000e300010000e4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.UNREACHABLE_INSTRUCTIONS",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0xc71d32a1d641861779f33391ac7787a9f255b04d000ef4f32e3c8f0b0b16e8cb",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest all terminating opcodes after stop.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L214",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
@@ -69,6 +75,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000b030001003304000000008000046000600060006000ec0000ef00010100040200010007030001001404000000008000020060006000ee00ef00010100040200010001040000000080000000",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INCOMPATIBLE_CONTAINER_KIND",
@@ -78,11 +85,12 @@
             }
         },
         "_info": {
-            "hash": "0x555255e16875f90ccab02d37671125aa8f8d9426f5be7a59a1565266d0e7943d",
+            "hash": "0xbb66da00f2f175c90c38a38e43d47ba61a1457dc2292c967920d8541c1d00d75",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test all terminating opcodes after stop.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L220",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest all terminating opcodes after stop.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L214",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
@@ -91,6 +99,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000404000000008000025f5f00f3",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.UNREACHABLE_INSTRUCTIONS",
@@ -100,11 +109,12 @@
             }
         },
         "_info": {
-            "hash": "0xdea4493c04a1791ec3ad4d5834f61b7b070fb594155fff8f08c1f0206564995d",
+            "hash": "0x45dabfa428babe5dbb02d5aaeef7fbead2c9607db2ce2cdf669d998551891b50",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test all terminating opcodes after stop.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L220",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest all terminating opcodes after stop.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L214",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
@@ -113,6 +123,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000404000000008000025f5f00fd",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.UNREACHABLE_INSTRUCTIONS",
@@ -122,19 +133,21 @@
             }
         },
         "_info": {
-            "hash": "0x7a32270ed63cc8b1fb3c8a544e6e214ced8ae7fd3609b79c76b1452991d40580",
+            "hash": "0x11125a17891311a334aa001b61580b35e4ae14918ef37476c55f1dd0dd968694",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test all terminating opcodes after stop.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L220",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest all terminating opcodes after stop.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L214",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
     },
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py::test_all_unreachable_terminating_opcodes_after_stop[fork_Osaka-eof_test-opcode_INVALID]": {
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py::test_all_unreachable_terminating_opcodes_after_stop[fork_Osaka-eof_test-opcode_STOP]": {
         "vectors": {
             "0": {
-                "code": "0xef0001010004020001000404000000008000025f5f00fe",
+                "code": "0xef0001010004020001000204000000008000000000",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.UNREACHABLE_INSTRUCTIONS",
@@ -144,11 +157,12 @@
             }
         },
         "_info": {
-            "hash": "0xca7994809b0bb3ef090f1b4c90735d420bd3ce2dc23f02e876ab04c143881cdc",
+            "hash": "0x35afa1e375c86a21deb6a006ea916e35c1dc5002bcb2bc4cc44f1091ae96a755",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Test all terminating opcodes after stop.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L220",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest all terminating opcodes after stop.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_all_opcodes_in_container.py#L214",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }

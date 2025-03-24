@@ -3,6 +3,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001001104000000008000245fe10003e0000761201562015500e0fff6",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.STACK_HEIGHT_MISMATCH",
@@ -12,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0xd072c570e20d5fba41621112622c2fd08e1b3d4344f1e7284c61742560dd1690",
+            "hash": "0x8d4090ddbed7f0389aef5ffd9e96034903a970fee14506ce418e4656b87976ba",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Invalid backward jump, found via fuzzing coverage",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjump.py#L696",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nInvalid backward jump, found via fuzzing coverage.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjump.py#L1044",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }

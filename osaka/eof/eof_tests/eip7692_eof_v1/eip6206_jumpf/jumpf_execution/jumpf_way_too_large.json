@@ -3,6 +3,7 @@
         "vectors": {
             "0": {
                 "code": "0xef000101000402000100030400000000800000e5ffff",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_CODE_SECTION_INDEX",
@@ -12,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0x3cb9222c3b5e3d9ad65dc92c0cc68b91340155d036b0f1db13ecf5577d88c080",
+            "hash": "0xdf8e8a57f833bbedf2e16594892ca17d168d90ec03af538150a874709fac9b63",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTests JUMPF jumping to uint64.MAX",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_execution.py#L104",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTests JUMPF jumping to uint64.MAX.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_execution.py#L275",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }

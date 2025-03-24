@@ -3,6 +3,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000704000000008000016001e200ffff00",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_RJUMP_DESTINATION",
@@ -12,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0x2aa947f825619c802f6794a7d27894dbb9424c2f781ca9ea61e41d9af6540b8a",
+            "hash": "0x1797d9dedde7f8d33f7cce654fa78f3fb2af5529a149344b711048bd8acb88fe",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L500",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L441",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }
@@ -25,6 +27,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001020504000000008000016001e2ffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_RJUMP_DESTINATION",
@@ -34,11 +37,12 @@
             }
         },
         "_info": {
-            "hash": "0x7d7b997654b3fd894a47fec44aabbdfcbb02fcf93ce81d4145a83966c9685f57",
+            "hash": "0x622b86db31b0ba6a3b6f64130ec17a02484badae369fe699d36f8d3071b34c8e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L500",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L441",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }
@@ -47,6 +51,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001020504000000008000016001e2ff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffff00",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_RJUMP_DESTINATION",
@@ -56,11 +61,12 @@
             }
         },
         "_info": {
-            "hash": "0xb86e903de03356e3260c91e3d589251b7905e6e5aaaf5667bb5310521c8de113",
+            "hash": "0x75df2d690ff337d136009e0344cd173120f52c2cb41a870a37a252a07fa29a1b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L500",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L441",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }
@@ -69,6 +75,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000704000000008000016001e200fffd00",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_RJUMP_DESTINATION",
@@ -78,11 +85,12 @@
             }
         },
         "_info": {
-            "hash": "0xf209918101761a81dab3c3d2cebc0067b7c2b174ad6fdb564c32cee27f8b3215",
+            "hash": "0x146b5294fab193eed1e8c3647c8b48c5e6c58fc6c4a78fe10e5b8010c8199d2c",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L500",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L441",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }
@@ -91,6 +99,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001020504000000008000016001e2fffdff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_RJUMP_DESTINATION",
@@ -100,11 +109,12 @@
             }
         },
         "_info": {
-            "hash": "0x460728a0e7c83c14315319d0b2aa9d25dc5385f9d6bfa1b1e1f53c8b0f6c5cea",
+            "hash": "0xeb3725ceb14a52f3530d326859a6176b5391a44a19f846f251e8874ad7941057",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L500",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L441",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }
@@ -113,6 +123,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001020504000000008000016001e2ff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fdff00",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_RJUMP_DESTINATION",
@@ -122,11 +133,12 @@
             }
         },
         "_info": {
-            "hash": "0xdbafe0f4e49c50e122470d926f41b16c578637b3e318f40efa1839980ca7b81b",
+            "hash": "0xd455d326e6e1a9d5d65175c19b7708bb3ee7475a611f0ac0a88a3c743dc2d480",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L500",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nEOF1I4200_0036 (Invalid) EOF code containing RJUMPV with target same RJUMPV immediate.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L441",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }

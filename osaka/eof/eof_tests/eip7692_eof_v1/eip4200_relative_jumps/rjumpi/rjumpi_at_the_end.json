@@ -2,7 +2,8 @@
     "tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpi.py::test_rjumpi_at_the_end[fork_Osaka-eof_test]": {
         "vectors": {
             "0": {
-                "code": "0xef0001010004020001000b040000000080000260006000e1000100e1fffc",
+                "code": "0xef0001010004020001000904000000008000025f5fe1000100e1fffc",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.MISSING_STOP_OPCODE",
@@ -12,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0xc564ce6c3a1c6d42299b1aa91ea6086a41d223a120a5a9557a9f2e9ef004cf1d",
+            "hash": "0x3d374e9a97f4ca77441fac9dc0f9689aaf75c3ebe21474fb76b81281b9c4c0bf",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    https://github.com/ipsilon/eof/blob/main/spec/eof.md#stack-validation 4.i:\n    This implies that the last instruction may be a terminating instruction or RJUMP",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpi.py#L847",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\n\n    Test invalid RJUMPI as the end of a code section.\n    https://github.com/ipsilon/eof/blob/main/spec/eof.md#stack-validation 4.i:\n    This implies that the last instruction must be a terminating instruction or RJUMP.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpi.py#L1476",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }

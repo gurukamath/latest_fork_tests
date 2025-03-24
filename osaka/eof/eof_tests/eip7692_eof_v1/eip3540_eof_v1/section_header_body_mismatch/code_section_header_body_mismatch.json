@@ -1,30 +1,9 @@
 {
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py::test_code_section_header_body_mismatch[fork_Osaka-eof_test-drop_code_section_and_header]": {
-        "vectors": {
-            "0": {
-                "code": "0xef000101000802000100030400040000800001000000003050000bad60a7",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.INVALID_TYPE_SECTION_SIZE|EOFException.INVALID_SECTION_BODIES_SIZE",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0xedaaf7a5f5b9eee03b9bde784e782a8d489ed413d6f974d810283b6ac73500d7",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Inconsistent number of code sections (between types and code)",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L21",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
-            "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
-        }
-    },
     "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py::test_code_section_header_body_mismatch[fork_Osaka-eof_test-drop_code_header]": {
         "vectors": {
             "0": {
                 "code": "0xef000101000802000100030400040000800001000000003050003050000bad60a7",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_TYPE_SECTION_SIZE|EOFException.INVALID_SECTION_BODIES_SIZE",
@@ -34,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0x1a511d65f3ffa4b7211cfaecb9ec0f987bfc13c84a4e1b776dd506bc27e5dea3",
+            "hash": "0x69bd227928311460ace159013d9f75162e6705ed3afd462d81295a930e1a7df2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Inconsistent number of code sections (between types and code)",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L21",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nInconsistent number of code sections (between types and code).",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L18",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
@@ -47,6 +27,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010008020002000300030400040000800001000000003050000bad60a7",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.UNREACHABLE_CODE_SECTIONS|EOFException.TOPLEVEL_CONTAINER_TRUNCATED",
@@ -56,41 +37,21 @@
             }
         },
         "_info": {
-            "hash": "0x39f16a409f23ad37b5ec9b6a752dc3ed23bff29c3a4acbe824c16401567e96c6",
+            "hash": "0xaf1cb4c0a35896715956683eb5f6cb5e4fe9d605c70f318a8b34306762cc0e6d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Inconsistent number of code sections (between types and code)",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L21",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nInconsistent number of code sections (between types and code).",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L18",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
     },
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py::test_code_section_header_body_mismatch[fork_Osaka-eof_test-layout_ok_code_bad]": {
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py::test_code_section_header_body_mismatch[fork_Osaka-eof_test-drop_code_section_and_header]": {
         "vectors": {
             "0": {
-                "code": "0xef0001010008020002000300030400040000800001000000003050003050000bad60a7",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.UNREACHABLE_CODE_SECTIONS",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0xaed8afddbb5b6a11adf738e2cb3ec4999aff0aca9afc0015f0ec7b171b90dec3",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Inconsistent number of code sections (between types and code)",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L21",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
-            "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
-        }
-    },
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py::test_code_section_header_body_mismatch[fork_Osaka-eof_test-drop_types_header]": {
-        "vectors": {
-            "0": {
-                "code": "0xef0001010008020001000304000400008000013050000bad60a7",
+                "code": "0xef000101000802000100030400040000800001000000003050000bad60a7",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_TYPE_SECTION_SIZE|EOFException.INVALID_SECTION_BODIES_SIZE",
@@ -100,11 +61,12 @@
             }
         },
         "_info": {
-            "hash": "0x90d77114e13836b3248369f28ad5333bfd079093576ce42b1dde667b4edfbfbd",
+            "hash": "0x94574d29f24f509a9701579317bb0fa0ff3178b2ad6e1bd2dbd7a9acfa61643b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Inconsistent number of code sections (between types and code)",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L21",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nInconsistent number of code sections (between types and code).",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L18",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
@@ -113,6 +75,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000304000400008000013050000bad60a7",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "result": true
@@ -121,11 +84,60 @@
             }
         },
         "_info": {
-            "hash": "0x6c321529a4f84d74382d5d70cfb5244b27be1dc253143c9b6e7d70670129d2c3",
+            "hash": "0xa918cff7b9a2fbffb1a84b99c9541675ee5af583c8f146ea7e1dda18e6b1ebfe",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Inconsistent number of code sections (between types and code)",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L21",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nInconsistent number of code sections (between types and code).",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L18",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
+            "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py::test_code_section_header_body_mismatch[fork_Osaka-eof_test-drop_types_header]": {
+        "vectors": {
+            "0": {
+                "code": "0xef0001010008020001000304000400008000013050000bad60a7",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.INVALID_TYPE_SECTION_SIZE|EOFException.INVALID_SECTION_BODIES_SIZE",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x8c5b7a6bc758dc4713fb458e8ccd30e2d1b59c9bf14168a79df1b566432f82d6",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nInconsistent number of code sections (between types and code).",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L18",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
+            "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py::test_code_section_header_body_mismatch[fork_Osaka-eof_test-layout_ok_code_bad]": {
+        "vectors": {
+            "0": {
+                "code": "0xef0001010008020002000300030400040000800001000000003050003050000bad60a7",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.UNREACHABLE_CODE_SECTIONS",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x467195c821652cfebc15544c167dd551db3dec3548d7a8a74a4aafad2ffe1585",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nInconsistent number of code sections (between types and code).",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_header_body_mismatch.py#L18",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }

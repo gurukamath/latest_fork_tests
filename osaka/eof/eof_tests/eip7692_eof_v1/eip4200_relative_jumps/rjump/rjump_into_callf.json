@@ -3,6 +3,7 @@
         "vectors": {
             "0": {
                 "code": "0xef000101000802000200070006040000000080000000000002e00002e30001006001600155e4",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_RJUMP_DESTINATION",
@@ -12,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0x6f3c42965785f6be6192f69f4963fae7a2bcc1bbf4a9322995702d4bc46e5276",
+            "hash": "0x63ca67e218dfbe22c6f1998aa22d07f3bb1f0d5a32688a7d4169874a24d274ab",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nEOF1I4200_0013 (Invalid) EOF code containing RJUMP with target CALLF immediate",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjump.py#L513",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nEOF1I4200_0013 (Invalid) EOF code containing RJUMP with target CALLF immediate.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjump.py#L895",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }
@@ -25,6 +27,7 @@
         "vectors": {
             "0": {
                 "code": "0xef000101000802000200070006040000000080000000000002e00001e30001006001600155e4",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.INVALID_RJUMP_DESTINATION",
@@ -34,11 +37,12 @@
             }
         },
         "_info": {
-            "hash": "0xbcbe4f90a8edda959f8d28721914e0c39d4e8a414e9eab34d37ff65f7ffa04c8",
+            "hash": "0xc8563f0f93c0c19c9152854250e7ec8cb63e86b0f025272577f6ca371c3b7532",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nEOF1I4200_0013 (Invalid) EOF code containing RJUMP with target CALLF immediate",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjump.py#L513",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nEOF1I4200_0013 (Invalid) EOF code containing RJUMP with target CALLF immediate.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjump.py#L895",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }

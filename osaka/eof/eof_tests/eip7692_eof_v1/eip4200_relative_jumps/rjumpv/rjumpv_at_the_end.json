@@ -3,6 +3,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000e040000000080000260006000e10001006001e200fff9",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.MISSING_STOP_OPCODE",
@@ -12,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0xe2d10b5d9758a50111bbe10b1a2eafaa865b484dddaa363e6edf3b50646398cc",
+            "hash": "0xcff1b6cd2700ef224969344bc85335c4a5848897a2784b44eee43ff8fbf5ea14",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    https://github.com/ipsilon/eof/blob/main/spec/eof.md#stack-validation 4.i:\n    This implies that the last instruction may be a terminating instruction or RJUMP",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L1164",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\n\n    https://github.com/ipsilon/eof/blob/main/spec/eof.md#stack-validation 4.i:\n    This implies that the last instruction may be a terminating instruction or RJUMPV.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpv.py#L1090",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }

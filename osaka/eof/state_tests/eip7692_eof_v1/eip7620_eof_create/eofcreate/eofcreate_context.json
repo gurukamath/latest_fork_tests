@@ -50,16 +50,62 @@
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x02",
+                            "balance": "0x1110",
+                            "code": "0xef00010100040200010011030001003604000000008000046120156001556000600060006013ec0000ef0001010004020001000a030001001404000000008000023060055560006000ee00ef00010100040200010001040000000080000000",
+                            "storage": {
+                                "0x01": "0x2015"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x04a26b",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x9e681a70e0a96d116c2591d0d755aa2c6877e90b": {
+                            "nonce": "0x01",
+                            "balance": "0x13",
+                            "code": "0xef00010100040200010001040000000080000000",
+                            "storage": {
+                                "0x05": "0x9e681a70e0a96d116c2591d0d755aa2c6877e90b"
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de907c23",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0xec3c864cc3f9afd87f21dbcc9b7c1adf6a165e9ad55f627e429a57a8865be0c8",
+            "hash": "0x89c1808af42167bea6f17608a4de343dfa6a65a038cb2d1c8d91eceae654af89",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTest EOFCREATE's initcode context instructions",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L597",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOFCREATE's initcode context instructions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L672",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7620.md",
             "reference-spec-version": "52ddbcdddcf72dd72427c319f2beddeb468e1737"
         }
@@ -115,16 +161,62 @@
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x02",
+                            "balance": "0x1110",
+                            "code": "0xef00010100040200010011030001003604000000008000046120156001556000600060006013ec0000ef0001010004020001000a030001001404000000008000023360055560006000ee00ef00010100040200010001040000000080000000",
+                            "storage": {
+                                "0x01": "0x2015"
+                            }
+                        },
+                        "0x0b9cf377435f59115cefbc4095084aa781cd40df": {
+                            "nonce": "0x01",
+                            "balance": "0x13",
+                            "code": "0xef00010100040200010001040000000080000000",
+                            "storage": {
+                                "0x05": "0x1000"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x04a26b",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de907c23",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0x141896544e19bc2ed724087c2a1bbc9eb796977928a5b5c10dd5b3c37348ec9f",
+            "hash": "0xe88644cbed17225ceeea867b9b9d381dd2c4d59b4cda46c3e650232e3972ad6f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTest EOFCREATE's initcode context instructions",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L597",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOFCREATE's initcode context instructions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L672",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7620.md",
             "reference-spec-version": "52ddbcdddcf72dd72427c319f2beddeb468e1737"
         }
@@ -180,16 +272,62 @@
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x02",
+                            "balance": "0x1110",
+                            "code": "0xef00010100040200010011030001003604000000008000046120156001556000600060006013ec0000ef0001010004020001000a030001001404000000008000023460055560006000ee00ef00010100040200010001040000000080000000",
+                            "storage": {
+                                "0x01": "0x2015"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x04a26b",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de907c23",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xb020f48b66dbf33836c1baf2cdeb30ffdb311bf2": {
+                            "nonce": "0x01",
+                            "balance": "0x13",
+                            "code": "0xef00010100040200010001040000000080000000",
+                            "storage": {
+                                "0x05": "0x13"
+                            }
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0xf005a13abbfdcffb9cfb57cd65e70b150c826b23f84249a87c5cf9af62b4ccd0",
+            "hash": "0xe28ae9cab8ff51d70800f3ca8f6a3ec0ad7ef2787d4c8cc7f6c04c1172de127f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTest EOFCREATE's initcode context instructions",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L597",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOFCREATE's initcode context instructions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L672",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7620.md",
             "reference-spec-version": "52ddbcdddcf72dd72427c319f2beddeb468e1737"
         }
@@ -245,16 +383,62 @@
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x02",
+                            "balance": "0x1110",
+                            "code": "0xef00010100040200010011030001003604000000008000046120156001556000600060006013ec0000ef0001010004020001000a030001001404000000008000023260055560006000ee00ef00010100040200010001040000000080000000",
+                            "storage": {
+                                "0x01": "0x2015"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x04a26b",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa58c2e749b794dad8401913dec68b69592d35cc5": {
+                            "nonce": "0x01",
+                            "balance": "0x13",
+                            "code": "0xef00010100040200010001040000000080000000",
+                            "storage": {
+                                "0x05": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                            }
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de907c23",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0x730776e1b0fbd5a2901d23e8011da53a4edf7a9899b07233eca79d2bf217ceae",
+            "hash": "0xb357450f55f25b237dbab9ace175cc4f5e475da481299983a32a444cc0d6914f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTest EOFCREATE's initcode context instructions",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L597",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest EOFCREATE's initcode context instructions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L672",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7620.md",
             "reference-spec-version": "52ddbcdddcf72dd72427c319f2beddeb468e1737"
         }

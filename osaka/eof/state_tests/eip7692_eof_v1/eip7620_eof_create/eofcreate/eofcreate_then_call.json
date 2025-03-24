@@ -50,16 +50,63 @@
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x02",
+                            "balance": "0x00",
+                            "code": "0xef0001010004020001001e030001003804000000008000046000600060006000ec00600355600060006000600354f861201560015500ef00010100040200010006030001001a040000000080000260006000ee00ef00010100040200010007040000000080000261201560015500",
+                            "storage": {
+                                "0x01": "0x2015",
+                                "0x03": "0xedfe2111d464363de178d66a2d93cdedeabd4864"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x05b5ff",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de8cf6ae",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xedfe2111d464363de178d66a2d93cdedeabd4864": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0xef00010100040200010007040000000080000261201560015500",
+                            "storage": {
+                                "0x01": "0x2015"
+                            }
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0xf79aa907db1394cf8abeadc3c562a10db1c7174ec4f1766ccac560352f634478",
+            "hash": "0x356e432d689a342870f9333229d64cacf1499a0ffd9f7a54c713cdfd13b78773",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Verifies a simple EOFCREATE case, and then calls the deployed contract",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L83",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nVerifies a simple EOFCREATE case, and then calls the deployed contract.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7620_eof_create/test_eofcreate.py#L128",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7620.md",
             "reference-spec-version": "52ddbcdddcf72dd72427c319f2beddeb468e1737"
         }

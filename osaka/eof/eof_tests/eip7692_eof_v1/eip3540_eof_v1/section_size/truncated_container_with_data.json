@@ -1,21 +1,24 @@
 {
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_size.py::test_truncated_container_with_data[fork_Osaka-eof_test-truncation_len_0-exception_None]": {
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_size.py::test_truncated_container_with_data[fork_Osaka-eof_test-EOF1_truncated_section_3]": {
         "vectors": {
             "0": {
-                "code": "0xef000101000402000100010400020000800000feaabb",
+                "code": "0xef000101000402000100010400020000800000fe",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
-                        "result": true
+                        "exception": "EOFException.TOPLEVEL_CONTAINER_TRUNCATED",
+                        "result": false
                     }
                 }
             }
         },
         "_info": {
-            "hash": "0xfecf628e1a7cf052db60f8182959f7aa722873e165af0d95763311f556f3857e",
+            "hash": "0xb06b23e4b0d6c626ddd8a84d81222f5828e879aee0530252022373e0aef55c49",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    This test takes a valid container with data and removes some bytes from its tail.\n    Migrated from EOFTests/efValidation/EOF1_truncated_section_.json (cases with data section).",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_size.py#L207",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\n\n    Test takes a valid container with data and removes some bytes from its tail.\n    Migrated from EOFTests/efValidation/EOF1_truncated_section_.json (cases with data section).",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_size.py#L199",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
@@ -24,6 +27,7 @@
         "vectors": {
             "0": {
                 "code": "0xef000101000402000100010400020000800000feaa",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.TOPLEVEL_CONTAINER_TRUNCATED",
@@ -33,33 +37,35 @@
             }
         },
         "_info": {
-            "hash": "0x9e5a0e6bc7cd2446145e246784069368e406667a292bb2b2c38a9d52b60bedea",
+            "hash": "0x01238cf4011dce6aa92f85711544aa18968b1d3a9718a0bcc2058260858f41f1",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    This test takes a valid container with data and removes some bytes from its tail.\n    Migrated from EOFTests/efValidation/EOF1_truncated_section_.json (cases with data section).",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_size.py#L207",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\n\n    Test takes a valid container with data and removes some bytes from its tail.\n    Migrated from EOFTests/efValidation/EOF1_truncated_section_.json (cases with data section).",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_size.py#L199",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }
     },
-    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_size.py::test_truncated_container_with_data[fork_Osaka-eof_test-EOF1_truncated_section_3]": {
+    "tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_size.py::test_truncated_container_with_data[fork_Osaka-eof_test-truncation_len_0-exception_None]": {
         "vectors": {
             "0": {
-                "code": "0xef000101000402000100010400020000800000fe",
+                "code": "0xef000101000402000100010400020000800000feaabb",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
-                        "exception": "EOFException.TOPLEVEL_CONTAINER_TRUNCATED",
-                        "result": false
+                        "result": true
                     }
                 }
             }
         },
         "_info": {
-            "hash": "0xbdfcc41784ef1ef12f7de370a63458c63e73f2f29472012f7b7f92eaa9c978b3",
+            "hash": "0x3e3c1ef39898bfe7af174990ce18f39723b3b91d17c7336ce92d13817e337c25",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    This test takes a valid container with data and removes some bytes from its tail.\n    Migrated from EOFTests/efValidation/EOF1_truncated_section_.json (cases with data section).",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_size.py#L207",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\n\n    Test takes a valid container with data and removes some bytes from its tail.\n    Migrated from EOFTests/efValidation/EOF1_truncated_section_.json (cases with data section).",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip3540_eof_v1/test_section_size.py#L199",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md",
             "reference-spec-version": "8dcb0a8c1c0102c87224308028632cc986a61183"
         }

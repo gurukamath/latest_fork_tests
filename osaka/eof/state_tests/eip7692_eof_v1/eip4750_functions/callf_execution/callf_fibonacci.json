@@ -1,5 +1,5 @@
 {
-    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py::test_callf_fibonacci[fork_Osaka-state_test-n_0-result_1]": {
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py::test_callf_fibonacci[fork_Osaka-eof_state_test-n_0-result_1]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -12,6 +12,12 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x8a0a19589531694250d570040a0c4b74576919b8": {
                 "nonce": "0x00",
                 "balance": "0x3635c9adc5dea00000",
                 "code": "0x",
@@ -37,34 +43,78 @@
             "data": [
                 "0x0000000000000000000000000000000000000000000000000000000000000000"
             ],
-            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+            "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
+            "secretKey": "0x9e7645d0cfd9c3a04eb7a9db59a4eb7d359f2e75c9164a9d6b9a7d54e1b6a36f"
         },
         "post": {
             "Osaka": [
                 {
-                    "hash": "0x85269edc206a43a01417a5e9db3bd9b96065379d9a36a06467094d49837b0011",
+                    "hash": "0x1a22850ba502c107a4a44065f0bd7606362147942c8392e0a310fb3cca4963e9",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0xf880800a83e4e1c094000000000000000000000000000000000000100080a0000000000000000000000000000000000000000000000000000000000000000025a00e6572b2072a0e5520236d010be6303bdf2710888d0eb9cd9683e8ea4901bb09a066c88e5a64b02d353e2246af5ee2dadbb847a522bbff10a081b0d946d7b544c3",
+                    "txbytes": "0xf880800a83e4e1c094000000000000000000000000000000000000100080a0000000000000000000000000000000000000000000000000000000000000000026a0f886baf241cdf4c82c6783d3b6070a672fac8e2b7c012b4d1099a4576b121455a02c739986a13aa69aacd71ff9b59aa85f10a98c348bbc2c6c5114c0dc503e4812",
                     "indexes": {
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0xef0001010008020002000a001d040000000080000201010004600035e300016000550060028111e10004506001e460028103e3000160018203e30001019050e4",
+                            "storage": {
+                                "0x00": "0x01"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x01fafd",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x8a0a19589531694250d570040a0c4b74576919b8": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de99660a",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x00",
+                            "balance": "0x3635c9adc5dea00000",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0x4825d30461cc34b7a1fd9e0c91627e5f956ff0834edfba5f5c6580e75980b1bb",
+            "hash": "0xb13a90a754867244023dfc11cbc4b7e71fc1681a6267b261193cedbe42743feb",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTest fibonacci sequence implementation with recursive CALLF instructions",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py#L69",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest fibonacci sequence implementation with recursive CALLF instructions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py#L68",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
     },
-    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py::test_callf_fibonacci[fork_Osaka-state_test-n_1-result_1]": {
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py::test_callf_fibonacci[fork_Osaka-eof_state_test-n_1-result_1]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -77,6 +127,12 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x8a0a19589531694250d570040a0c4b74576919b8": {
                 "nonce": "0x00",
                 "balance": "0x3635c9adc5dea00000",
                 "code": "0x",
@@ -102,34 +158,78 @@
             "data": [
                 "0x0000000000000000000000000000000000000000000000000000000000000001"
             ],
-            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+            "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
+            "secretKey": "0x9e7645d0cfd9c3a04eb7a9db59a4eb7d359f2e75c9164a9d6b9a7d54e1b6a36f"
         },
         "post": {
             "Osaka": [
                 {
-                    "hash": "0xb1ac876545ad93a2e031e21ffd402d1e657ab4133255dc4ad9febb3cbbf52e7a",
+                    "hash": "0xa26923f1b14c04ec5268767b5b7b5ba958e5965ebe7aeaee6c5e6aa130bc6018",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0xf880800a83e4e1c094000000000000000000000000000000000000100080a0000000000000000000000000000000000000000000000000000000000000000125a0be90d5eceb26ebba4195b46e0d0511f1787532f6f52c110d509bed9e7d097858a06f9665143b445eca318a0b49957dcbd60dcae6b9dbb39dccca1ffa00b025fc04",
+                    "txbytes": "0xf880800a83e4e1c094000000000000000000000000000000000000100080a0000000000000000000000000000000000000000000000000000000000000000126a041afee865b0a3002caad07d3fa92dc9532534972070ae4c53adcb0abf86b9340a07a616823ff58b577aad75f82d6f9e3eb50d61df6a57d432069b1c0fc2aad2f36",
                     "indexes": {
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0xef0001010008020002000a001d040000000080000201010004600035e300016000550060028111e10004506001e460028103e3000160018203e30001019050e4",
+                            "storage": {
+                                "0x00": "0x01"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x01fb21",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x8a0a19589531694250d570040a0c4b74576919b8": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de996592",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x00",
+                            "balance": "0x3635c9adc5dea00000",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0xf8561a2e6cf69864a05e3e940f72114f37b52921b37f7e03cabf6a8ee3b83646",
+            "hash": "0x56d1a445f562bb0940319ecb7acf46b21af3c72c0389277b5cd23726a327a6ab",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTest fibonacci sequence implementation with recursive CALLF instructions",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py#L69",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest fibonacci sequence implementation with recursive CALLF instructions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py#L68",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
     },
-    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py::test_callf_fibonacci[fork_Osaka-state_test-n_13-result_233]": {
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py::test_callf_fibonacci[fork_Osaka-eof_state_test-n_13-result_233]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -142,6 +242,12 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x8a0a19589531694250d570040a0c4b74576919b8": {
                 "nonce": "0x00",
                 "balance": "0x3635c9adc5dea00000",
                 "code": "0x",
@@ -167,34 +273,78 @@
             "data": [
                 "0x000000000000000000000000000000000000000000000000000000000000000d"
             ],
-            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+            "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
+            "secretKey": "0x9e7645d0cfd9c3a04eb7a9db59a4eb7d359f2e75c9164a9d6b9a7d54e1b6a36f"
         },
         "post": {
             "Osaka": [
                 {
-                    "hash": "0x0ce2f6ff341e4c95ed7f2ca9b1c9685d9f0dbcb2198a4be9945cd9eae93bde71",
+                    "hash": "0x2918b0375cffa78213936a6eb01ab7a5778cb9ef04497fab6c070822085911d8",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0xf880800a83e4e1c094000000000000000000000000000000000000100080a0000000000000000000000000000000000000000000000000000000000000000d25a06344121d4f5c98865c8184bc321f7c4fce952e7d48656be13a99f2f14a38e083a03f8958cbc2295c0c68ff66b044e44ff0a0e47bb193273dc09cb2c37390d13323",
+                    "txbytes": "0xf880800a83e4e1c094000000000000000000000000000000000000100080a0000000000000000000000000000000000000000000000000000000000000000d26a0cf2c4e57b79f6bd71b687395591a48aa41f6777420574f7df9d5a7032d145a27a00c4fb90cc13cb0607fff911152b7073461815c60ad15f50dbc68a379b428d2b4",
                     "indexes": {
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0xef0001010008020002000a001d040000000080000201010004600035e300016000550060028111e10004506001e460028103e3000160018203e30001019050e4",
+                            "storage": {
+                                "0x00": "0xe9"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x02c199",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x8a0a19589531694250d570040a0c4b74576919b8": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de96d002",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x00",
+                            "balance": "0x3635c9adc5dea00000",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0x3dae2af9da392aa10417b8faf71a2ba97e95dc20bbb503dab80361581416765c",
+            "hash": "0x5dc8ea1f9306f0fd7fb07b85d9421ca322428037e527b152155f5f6185d0adf6",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTest fibonacci sequence implementation with recursive CALLF instructions",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py#L69",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest fibonacci sequence implementation with recursive CALLF instructions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py#L68",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
     },
-    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py::test_callf_fibonacci[fork_Osaka-state_test-n_27-result_196418]": {
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py::test_callf_fibonacci[fork_Osaka-eof_state_test-n_27-result_196418]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -207,6 +357,12 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x8a0a19589531694250d570040a0c4b74576919b8": {
                 "nonce": "0x00",
                 "balance": "0x3635c9adc5dea00000",
                 "code": "0x",
@@ -232,29 +388,73 @@
             "data": [
                 "0x000000000000000000000000000000000000000000000000000000000000001b"
             ],
-            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+            "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
+            "secretKey": "0x9e7645d0cfd9c3a04eb7a9db59a4eb7d359f2e75c9164a9d6b9a7d54e1b6a36f"
         },
         "post": {
             "Osaka": [
                 {
-                    "hash": "0xf10cb4aa3cc0584e5c5ccacc41efce15c99744f549b7d56176dc4eeac3a07062",
+                    "hash": "0xaab6e938f9972b44a28d5f1de2801717d010e03986a2cebc946fd1cb20ec93a5",
                     "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0xf880800a83e4e1c094000000000000000000000000000000000000100080a0000000000000000000000000000000000000000000000000000000000000001b25a09380c3053e7080b9edbcc35df7f2447726d62b2f13570fdbda44a566194d23f7a00bef7dbc00d4caa90eea5d521f29547deedecf3af4eae15d4e44d14284b4964c",
+                    "txbytes": "0xf880800a83e4e1c094000000000000000000000000000000000000100080a0000000000000000000000000000000000000000000000000000000000000001b25a008c6dc0fcbc867cde8787b16b5fdb907710c7c51fd3f53042040fdbfe71ed359a011dbbf8118db90cf4b57362a662a10f494d2a9d60d771ca872a92cee6ac4b21f",
                     "indexes": {
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0xef0001010008020002000a001d040000000080000201010004600035e300016000550060028111e10004506001e460028103e3000160018203e30001019050e4",
+                            "storage": {
+                                "0x00": "0x02ff42"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x029257bc",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x8a0a19589531694250d570040a0c4b74576919b8": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5d60d8638",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x00",
+                            "balance": "0x3635c9adc5dea00000",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0xd009b7771c8773fb58beff8edaaf18ec2105abcd15983831e7b115a3f1e8fd59",
+            "hash": "0x6ce130adc226a762254a75922b84dd6355fb8bce383b75b98b3bb3505c34694f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nTest fibonacci sequence implementation with recursive CALLF instructions",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py#L69",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTest fibonacci sequence implementation with recursive CALLF instructions.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_callf_execution.py#L68",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }

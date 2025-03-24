@@ -3,6 +3,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000504000000008000016000e0fffb",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.STACK_HEIGHT_MISMATCH",
@@ -12,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0x9949ffd60ebdc723e96726cd8e0c1a42c351a7fc08a5efd1b2b22e5f1d2904dc",
+            "hash": "0x6f1cd6ba7533da8417c7beebb8d4135c2f4e99cf42d79d0ca5fc5737690ecb8a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\nEOF code containing RJUMP with target instruction that causes stack height difference",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjump.py#L320",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nEOF code containing RJUMP with target instruction that causes stack height difference.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjump.py#L552",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }

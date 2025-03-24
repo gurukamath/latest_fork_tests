@@ -68,16 +68,67 @@
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0xef0001010004020001000c04000000008000036001600060003e60016000f3",
+                            "storage": {}
+                        },
+                        "0x0000000000000000000000000000000000001100": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x6001600060003e60016000f3",
+                            "storage": {}
+                        },
+                        "0x0000000000000000000000000000000000001200": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x600060006000600060006110005af16002553d6005556001600060003e600051600455600060006000600060006111005af16003553d60065500",
+                            "storage": {
+                                "0x02": "0x01",
+                                "0x05": "0x01"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x59f364",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5dd742a08",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0xc64d4e2bd08fb52b0a0662cf7ffab9be1c98bb363a3a59281442f21098993ec1",
+            "hash": "0x41902e665fd7e7608c6ac598f6bf3881d95e1989862296b69bf6ed377a2fa5c5",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
             "description": "Test function documentation:\n\n    Extends the RETURNDATACOPY test for correct out-of-bounds behavior, by checking if the\n    caller frame's context being EOF or legacy doesn't impact the execution logic of the\n    RETURNDATACOPY instance under test.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_returndataload.py#L270",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_returndataload.py#L273",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -145,16 +196,67 @@
                         "data": 0,
                         "gas": 0,
                         "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0xef0001010004020001000c04000000008000036001600060003e60016000f3",
+                            "storage": {}
+                        },
+                        "0x0000000000000000000000000000000000001100": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x6001600060003e60016000f3",
+                            "storage": {}
+                        },
+                        "0x0000000000000000000000000000000000001200": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0xef000101000402000100300400000000800004600060006000611000f86002553d6005556001600060003e600051600455600060006000611100f86003553d60065500",
+                            "storage": {
+                                "0x03": "0x02",
+                                "0x05": "0x01"
+                            }
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x5b45d1",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5dd6fc1f2",
+                            "code": "0x",
+                            "storage": {}
+                        }
                     }
                 }
             ]
         },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0xb44be9635be297e920ca39f8dfdc3f5ea54724883c3fc3fe2d0b17c722f0cdb9",
+            "hash": "0x7e2e77607b2ecb3292f387e7d491bf92f5b4e1d31251644759810720ef245639",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
             "description": "Test function documentation:\n\n    Extends the RETURNDATACOPY test for correct out-of-bounds behavior, by checking if the\n    caller frame's context being EOF or legacy doesn't impact the execution logic of the\n    RETURNDATACOPY instance under test.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_returndataload.py#L270",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_returndataload.py#L273",
+            "fixture_format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }

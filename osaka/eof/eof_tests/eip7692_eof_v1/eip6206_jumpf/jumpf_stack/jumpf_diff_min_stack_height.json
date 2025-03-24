@@ -1,74 +1,9 @@
 {
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py::test_jumpf_diff_min_stack_height[fork_Osaka-eof_test-less_stack]": {
-        "vectors": {
-            "0": {
-                "code": "0xef000101000c02000300040008000204000000008000010001000101000001e30001005fe100015fe5000250e4",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.STACK_UNDERFLOW",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0x2ee2dd474eb8abb4f9df05fc287a3b2e08dd32d1ceea7e0eacb80d267783c3c0",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Tests jumpf with a different min stack height",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L237",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
-            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
-        }
-    },
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py::test_jumpf_diff_min_stack_height[fork_Osaka-eof_test-same_stack]": {
-        "vectors": {
-            "0": {
-                "code": "0xef000101000c02000300040009000204000000008000010001000202010002e30001005f5fe100015fe5000250e4",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.STACK_UNDERFLOW",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0x8805c83df40958e83c5831cc0a85f3f2c2ff40f1d7ee251fab2b275e05d46fbc",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Tests jumpf with a different min stack height",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L237",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
-            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
-        }
-    },
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py::test_jumpf_diff_min_stack_height[fork_Osaka-eof_test-more_stack]": {
-        "vectors": {
-            "0": {
-                "code": "0xef000101000c0200030004000a000204000000008000010001000303020003e30001005f5f5fe100015fe5000250e4",
-                "results": {
-                    "Osaka": {
-                        "exception": "EOFException.JUMPF_DESTINATION_INCOMPATIBLE_OUTPUTS",
-                        "result": false
-                    }
-                }
-            }
-        },
-        "_info": {
-            "hash": "0xecbe1e0b08fb51a9f28de59a7e9d74739ba3db86cf107157716df29b07918cf3",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Tests jumpf with a different min stack height",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L237",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
-            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
-        }
-    },
     "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py::test_jumpf_diff_min_stack_height[fork_Osaka-eof_test-less_output]": {
         "vectors": {
             "0": {
                 "code": "0xef000101000c02000300040008000104000000008000010001000102020002e30001005fe100015fe50002e4",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.JUMPF_DESTINATION_INCOMPATIBLE_OUTPUTS",
@@ -78,19 +13,21 @@
             }
         },
         "_info": {
-            "hash": "0xd96410316856c468233def528a6b882de38031851f08a7802c20292206a6ffbe",
+            "hash": "0xc432880c83d8ed1a06f6b7bdecb08a318984f51ff99848af72e35cf1fc981a9a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Tests jumpf with a different min stack height",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L237",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTests jumpf with a different min stack height.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L232",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }
     },
-    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py::test_jumpf_diff_min_stack_height[fork_Osaka-eof_test-same_output]": {
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py::test_jumpf_diff_min_stack_height[fork_Osaka-eof_test-less_stack]": {
         "vectors": {
             "0": {
-                "code": "0xef000101000c02000300040008000104000000008000010001000101010001e30001005fe100015fe50002e4",
+                "code": "0xef000101000c02000300040008000204000000008000010001000101000001e30001005fe100015fe5000250e4",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.STACK_UNDERFLOW",
@@ -100,11 +37,12 @@
             }
         },
         "_info": {
-            "hash": "0xb19b8c8c23c0accd14e7ee8c9c9ead5765c32a65ce0c0dabdacc673a971e2430",
+            "hash": "0xb058ea8a1e09140a58dfe82fb01800c46860c8b93716643179e4aa62fe371148",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Tests jumpf with a different min stack height",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L237",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTests jumpf with a different min stack height.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L232",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }
@@ -113,6 +51,7 @@
         "vectors": {
             "0": {
                 "code": "0xef000101000c02000300040008000104000000008000010001000100000000e30001005fe100015fe50002e4",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.STACK_UNDERFLOW",
@@ -122,11 +61,84 @@
             }
         },
         "_info": {
-            "hash": "0xab1c06501dae3a3cc0feba61e613addcab03ec638baf72d5c6baa54db503b439",
+            "hash": "0x7a119b132474e89f3c51527ffdc3822f22df776674f381b518b73f6b5ba55ac4",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
-            "description": "Test function documentation:\n\n    Tests jumpf with a different min stack height",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L237",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTests jumpf with a different min stack height.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L232",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
+            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py::test_jumpf_diff_min_stack_height[fork_Osaka-eof_test-more_stack]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000c0200030004000a000204000000008000010001000303020003e30001005f5f5fe100015fe5000250e4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.JUMPF_DESTINATION_INCOMPATIBLE_OUTPUTS",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0xfef7490744adcf09ae8ef8c51b43db9103b0cf233725446a3987a6a9f6ce3e8e",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTests jumpf with a different min stack height.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L232",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
+            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py::test_jumpf_diff_min_stack_height[fork_Osaka-eof_test-same_output]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000c02000300040008000104000000008000010001000101010001e30001005fe100015fe50002e4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_UNDERFLOW",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0xe488650f64d44cc687631269b119b41b26e482f2f5fbf3f2a48f802a8e2d48c0",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTests jumpf with a different min stack height.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L232",
+            "fixture_format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
+            "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py::test_jumpf_diff_min_stack_height[fork_Osaka-eof_test-same_stack]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000c02000300040009000204000000008000010001000202010002e30001005f5fe100015fe5000250e4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_UNDERFLOW",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0xb7898158ee5b1f3119e7dadb01d631237270783908d20f990fc430a83bac26d6",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "description": "Test function documentation:\nTests jumpf with a different min stack height.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip6206_jumpf/test_jumpf_stack.py#L232",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6206.md",
             "reference-spec-version": "2f365ea0cd58faa6e26013ea77ce6d538175f7d0"
         }

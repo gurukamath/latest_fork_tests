@@ -3,6 +3,7 @@
         "vectors": {
             "0": {
                 "code": "0xef0001010004020001000b04000000008000025f5fe10003e10000e0fff5",
+                "containerKind": "RUNTIME",
                 "results": {
                     "Osaka": {
                         "exception": "EOFException.STACK_HEIGHT_MISMATCH",
@@ -12,11 +13,12 @@
             }
         },
         "_info": {
-            "hash": "0x765eb8eb64a572f31cc2967be5ef6b66c32a7ba28b7013f657b381d8a1d9930e",
+            "hash": "0x8fa49c5f9b2156772bc3eb09ecf1e349ff46299062c7dab6bd4c643b4327bdc8",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.13.0+commit.2f79e0dc",
+            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
             "description": "Test function documentation:\n\n    Test stack height check of the backward RJUMP\n    targeted by two RJUMPIs with the non-uniform stack height range.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.1.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpi.py#L979",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4200_relative_jumps/test_rjumpi.py#L1599",
+            "fixture_format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4200.md",
             "reference-spec-version": "17d4a8d12d2b5e0f2985c866376c16c8c6df7cba"
         }
