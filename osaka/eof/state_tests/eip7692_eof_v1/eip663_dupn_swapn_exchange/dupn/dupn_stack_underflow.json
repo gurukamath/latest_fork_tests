@@ -1,93 +1,4 @@
 {
-    "tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py::test_dupn_stack_underflow[fork_Osaka-state_test_from_eof_test-stack_height_0-max_stack_height_0]": {
-        "env": {
-            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-            "currentGasLimit": "0x016345785d8a0000",
-            "currentNumber": "0x01",
-            "currentTimestamp": "0x03e8",
-            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "currentDifficulty": "0x00",
-            "currentBaseFee": "0x07",
-            "currentExcessBlobGas": "0x00"
-        },
-        "pre": {
-            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "nonce": "0x00",
-                "balance": "0x3635c9adc5dea00000",
-                "code": "0x",
-                "storage": {}
-            }
-        },
-        "transaction": {
-            "nonce": "0x00",
-            "gasPrice": "0x0a",
-            "gasLimit": [
-                "0x989680"
-            ],
-            "value": [
-                "0x00"
-            ],
-            "data": [
-                "0xef000101000402000100060300010016040000000080000260006000ee00ef000101000402000100030400000000800000e60000"
-            ],
-            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-            "to": ""
-        },
-        "post": {
-            "Osaka": [
-                {
-                    "hash": "0x0141bd35fdb58a697ebad07e24ace3497131c62c4a05e85b067c9a46b2d1a819",
-                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                    "txbytes": "0xf880800a839896808080b4ef000101000402000100060300010016040000000080000260006000ee00ef000101000402000100030400000000800000e6000025a0159649cb165faccab37df5d3a3609e7e72ee9c400519884a9aa735f0e40f2c37a05c23e2d062126373b882b63e89748cb9a5811d81be7e0828e4dacd71801113ee",
-                    "indexes": {
-                        "data": 0,
-                        "gas": 0,
-                        "value": 0
-                    },
-                    "state": {
-                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
-                            "nonce": "0x00",
-                            "balance": "0x02733c",
-                            "code": "0x",
-                            "storage": {}
-                        },
-                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                            "nonce": "0x01",
-                            "balance": "0x3635c9adc5de97d538",
-                            "code": "0x",
-                            "storage": {}
-                        }
-                    }
-                }
-            ]
-        },
-        "config": {
-            "blobSchedule": {
-                "Cancun": {
-                    "target": "0x03",
-                    "max": "0x06",
-                    "baseFeeUpdateFraction": "0x32f0ed"
-                },
-                "Prague": {
-                    "target": "0x06",
-                    "max": "0x09",
-                    "baseFeeUpdateFraction": "0x4c6964"
-                }
-            },
-            "chainid": "0x01"
-        },
-        "_info": {
-            "hash": "0x173fa21a801a6cb35f3219441465c1bff220b8eb862722804cd25e31744f60fe",
-            "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
-            "description": "Test function documentation:\nTest case out of bounds DUPN immediate.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L45",
-            "fixture_format": "state_test",
-            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-663.md",
-            "reference-spec-version": "b658bb87fe039d29e9475d5cfaebca9b92e0fca2"
-        }
-    },
     "tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py::test_dupn_stack_underflow[fork_Osaka-state_test_from_eof_test-stack_height_0-max_stack_height_1]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -169,10 +80,10 @@
         "_info": {
             "hash": "0xb407ede5f400a175280c73dc895c988007cc66e99c43549adc3f2a9df10e42ff",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest case out of bounds DUPN immediate.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L45",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L55",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-663.md",
             "reference-spec-version": "b658bb87fe039d29e9475d5cfaebca9b92e0fca2"
         }
@@ -258,10 +169,10 @@
         "_info": {
             "hash": "0x83034f75524223d57d43188bdb5512f80901dcc8b63831fda771c0f0ad596663",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest case out of bounds DUPN immediate.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L45",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L55",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-663.md",
             "reference-spec-version": "b658bb87fe039d29e9475d5cfaebca9b92e0fca2"
         }
@@ -347,10 +258,10 @@
         "_info": {
             "hash": "0x9a91483dba5291c8c9b1cb4cef2df41aa5d9d699ff4e954ab9ef197012b44926",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest case out of bounds DUPN immediate.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L45",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L55",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-663.md",
             "reference-spec-version": "b658bb87fe039d29e9475d5cfaebca9b92e0fca2"
         }
@@ -436,10 +347,10 @@
         "_info": {
             "hash": "0xb3986534c8316684b4ae0cc67d08621504e33c846b167c3a9182e008e5546e0a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest case out of bounds DUPN immediate.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L45",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L55",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-663.md",
             "reference-spec-version": "b658bb87fe039d29e9475d5cfaebca9b92e0fca2"
         }
@@ -525,10 +436,10 @@
         "_info": {
             "hash": "0x5f63c351898548534654e574d1d4187daaee96e9f1af3382c4b993a36f79f974",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest case out of bounds DUPN immediate.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L45",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip663_dupn_swapn_exchange/test_dupn.py#L55",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-663.md",
             "reference-spec-version": "b658bb87fe039d29e9475d5cfaebca9b92e0fca2"
         }

@@ -15,10 +15,34 @@
         "_info": {
             "hash": "0x1980fab6f1b4bea44af2851e1c127b310b1c449ffec34ccb7790e8a546a1f28e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L191",
-            "fixture_format": "eof_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-callf_inputs_underflow_0]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000c02000300040005000204000000008000010001000102010002e30001005fe30002e450e4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_UNDERFLOW",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x085d5df33dbad4a0754f4fc9a3c06491f93b15b79301aec5563427a129a4f7b6",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
@@ -38,10 +62,10 @@
         "_info": {
             "hash": "0x075b42731855a774dec39245eb47d7c0de8f916a3c0897716a3ad0892aa3990e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L191",
-            "fixture_format": "eof_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
@@ -61,10 +85,10 @@
         "_info": {
             "hash": "0xd20fa2fee40a5a9723ee65f8bf728df25af0d859fe9aecf782257e5f9b9f73db",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L191",
-            "fixture_format": "eof_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
@@ -85,10 +109,10 @@
         "_info": {
             "hash": "0x7792430da54bca648f25673e719a567f6e73f94f1434399b60c62458ae915e90",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L191",
-            "fixture_format": "eof_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
@@ -109,10 +133,10 @@
         "_info": {
             "hash": "0x5b8796a2044a61e123dadca40fa1af5f8457592c3266cdde34a8a6bd7ed0ae73",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L191",
-            "fixture_format": "eof_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
@@ -133,10 +157,10 @@
         "_info": {
             "hash": "0xeaad186f0cc722cdf88d9b24141d1b148e6917682ecf102c85ff2507436d1656",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L191",
-            "fixture_format": "eof_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
@@ -156,10 +180,272 @@
         "_info": {
             "hash": "0xc5ca05508f39d5044c90aad0d40d1d7b44508a918f11542ee76b385ff4b4308c",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L191",
-            "fixture_format": "eof_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_stack_validation_0]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040003040000000080000200020002e30001005f5fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "result": true
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x45dc7c553307492f61b103ba8957f125d3c3cea9c6c10e5afee376ca17892371",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_stack_validation_1]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040002040000000080000200020001e30001005fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_UNDERFLOW",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x5745dc853b9dc4208c51056a78b312610364d95816966f288bce6bb7bd553eb2",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_stack_validation_2]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040004040000000080000200020003e30001005f5f5fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_HIGHER_THAN_OUTPUTS",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x41d7d4ef50de346c347322b7b7cd2fd85adb0144582b95683bffae8f7db3c5c4",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_stack_validation_3]": {
+        "vectors": {
+            "0": {
+                "code": "0xef00010100080200020005000d0400000000800002010200025fe3000100e1000760016001e000025f5fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "result": true
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x3607f557688ecb20c09d4ff903e78b9cacaa6fb55fc8f25b9294419ad3cc380b",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_variable_stack_0]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040009040000000080000500050003e30001005f6000e100025f5fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_UNDERFLOW",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x5fddaa657a2279ae931a76722d2bd4d985c0f51084fe6d94b01b00fde059c8e6",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_variable_stack_1]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040009040000000080000300030003e30001005f6000e100025f5fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_UNDERFLOW",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x4025786f0291df8f43cea1359a733d6d9a502c441f85e767beb514833eaf2c86",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_variable_stack_2]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040009040000000080000100010003e30001005f6000e100025f5fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_HIGHER_THAN_OUTPUTS",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x37f98eafd40545f817c8603394a40db76561c07ad9fd2408d3deb865d9c1a28b",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_variable_stack_3]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040009040000000080000000000003e30001005f6000e100025f5fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_HIGHER_THAN_OUTPUTS",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0xac933940d068892bd2dfd9295113e65469daad1662c7429753d197d158b77dfc",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_variable_stack_4]": {
+        "vectors": {
+            "0": {
+                "code": "0xef00010100080200020004000b040000000080000300030004e30001005f5f5f6000e100025050e4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_UNDERFLOW",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x2fe3d1c439a40ce9aaccc71414bcea626a22187b81cb11970cf3aa88d36664cb",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_variable_stack_5]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040008040000000080000100010003e30001005f6000e100015fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_HIGHER_THAN_OUTPUTS",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0xa7d8a5b45f4f18f2201e56da5f5afaac2bcb6f01512693da4760478e434e231a",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-retf_variable_stack_6]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040009040000000080000100010003e30001005f5f6000e1000150e4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_HIGHER_THAN_OUTPUTS",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x5730be6c6bcb544bd9603b4b5700b8925dd9d02d4b0e39432c69a48e095e5560",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
@@ -179,10 +465,10 @@
         "_info": {
             "hash": "0x77c6f923dbccc7e17bb2c3741cab57c789d2a472c371bcfa9088a072f374f742",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L191",
-            "fixture_format": "eof_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
@@ -203,10 +489,10 @@
         "_info": {
             "hash": "0xcf34fee013acec22aebcd0d78ba2272f6aa7524f40638ee6bb97c342788189f2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L191",
-            "fixture_format": "eof_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }
@@ -227,10 +513,58 @@
         "_info": {
             "hash": "0x559ec6303f52473a3f8d34918cd7354f0dfedb680ecf3a09ea3c3b473d138b0a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L191",
-            "fixture_format": "eof_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-stack_shorter_than_code_outputs_1]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040002040000000080000100020001e30001005fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.INVALID_MAX_STACK_HEIGHT",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0x9360a7c96aff99299bbb1c00e9960f49b3634e6eb27237b51548ab87cf24d3d0",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
+            "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
+        }
+    },
+    "tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py::test_eof_validity[fork_Osaka-eof_test-stack_shorter_than_code_outputs_2]": {
+        "vectors": {
+            "0": {
+                "code": "0xef000101000802000200040002040000000080000200020002e30001005fe4",
+                "containerKind": "RUNTIME",
+                "results": {
+                    "Osaka": {
+                        "exception": "EOFException.STACK_UNDERFLOW",
+                        "result": false
+                    }
+                }
+            }
+        },
+        "_info": {
+            "hash": "0xa18fd0f05406d620b2f1587dd415efe7d1fefc0bae911aed4ede92b74d730eaa",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
+            "description": "Test function documentation:\nTest EOF container validation for features around EIP-4750 / Functions / Code Sections.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip4750_functions/test_code_validation.py#L375",
+            "fixture-format": "eof_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4750.md",
             "reference-spec-version": "14400434e1199c57d912082127b1d22643788d11"
         }

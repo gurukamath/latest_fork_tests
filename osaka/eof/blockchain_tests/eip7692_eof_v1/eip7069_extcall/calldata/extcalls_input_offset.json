@@ -275,10 +275,10 @@
         "_info": {
             "hash": "0xae19b4d1d81ab81c95eb218115618b8ee273800c2a78ced630ee6a0c34333ee6",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -559,10 +559,10 @@
         "_info": {
             "hash": "0xb06c1104f0147340da6bd5cdaf02d3d658c772bb2d9384096225789b75aa409d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -843,10 +843,10 @@
         "_info": {
             "hash": "0xd1246cad35348b7b1d540f6d583a5c9941091f3964ad6f251699bc27618908df",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -1127,10 +1127,10 @@
         "_info": {
             "hash": "0x94ac93e15385027d994fc2edda7f03707a7a3c11c0f5129ba82b7c2b63996c5f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -1411,10 +1411,10 @@
         "_info": {
             "hash": "0xf2d1a843c8502ac0d987255046d3041672d8a1a789681f6964bb1efc95358eb0",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -1695,10 +1695,10 @@
         "_info": {
             "hash": "0xfa28c5b8de87f382f30546cff75c98b67592cb14089b1c0263c16d3abce5a82d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -1979,10 +1979,10 @@
         "_info": {
             "hash": "0xf5e1b8e03a50c9350141801a098ab8167edba780ca2c2c11aaa41370ea8147be",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -2263,10 +2263,10 @@
         "_info": {
             "hash": "0x122746597348285cb8af8a4186696c8f3459f1390d721cbb7405171aa110ab9e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -2547,10 +2547,10 @@
         "_info": {
             "hash": "0x5e89c1278158c85bee37c626ff29daf70ca8a4bb4f4b3a1b3f77d9d3c5e0534d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -2831,10 +2831,10 @@
         "_info": {
             "hash": "0x1a86b074f845503f88e9de5ab51344c01bd2e4bb8fad1bc43f0dfbd56f46a09f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -3115,10 +3115,10 @@
         "_info": {
             "hash": "0xd150c77d2d4afd811409b4c11314181041b410d3b9792b5160f5ccf367ff8ac9",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -3399,10 +3399,10 @@
         "_info": {
             "hash": "0xd966061c0a1afc7ffbc78463db034474b676e3b6b652e180f8e495eca58a6fa4",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -3683,10 +3683,10 @@
         "_info": {
             "hash": "0x3d13fe8299db351dedeae6116217a3da9480ee515e61cc3fb673d84126464aff",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -3967,10 +3967,10 @@
         "_info": {
             "hash": "0xafaa1c687280ad694aa6e948f94956a32e247ae64c6047dad1feca28202f5e53",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -4251,10 +4251,10 @@
         "_info": {
             "hash": "0xa4eada9e03c5d3322e0732c7965e4c6a79efa9051f846e09b528afd8a9e331da",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -4535,10 +4535,10 @@
         "_info": {
             "hash": "0xf3e4d55cc8a1d2ae1495dbb27a58f8fc9af67c494d33786166f713b190df528d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -4819,10 +4819,10 @@
         "_info": {
             "hash": "0xb966c86ef3aa45a160de2fc627759edd9cfb875bdbeaa6113af046a021579859",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -5103,10 +5103,10 @@
         "_info": {
             "hash": "0x2955b4308ad58ebeaf043277d490cba8b7e6ec15b065a844c7a98fd991ad3771",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -5387,10 +5387,10 @@
         "_info": {
             "hash": "0x07e55bb46428a3c8ad058706ae5052e0947aafe8bc73fd232245c605b5e70d10",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -5671,10 +5671,10 @@
         "_info": {
             "hash": "0x3b66664b1a94b72ed7643c0e0589873fe9a867cddda7fbe578bda5bf342d9c57",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -5955,10 +5955,10 @@
         "_info": {
             "hash": "0x38188ecb017d566b50e03c2dd012a1f2ba5d5aa5de389826b489574acd1adfca",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -6239,10 +6239,10 @@
         "_info": {
             "hash": "0xe594c415921d43662c6301582357b9abd4b8f79d4a016e9ea018a8e67c261bcb",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -6523,10 +6523,10 @@
         "_info": {
             "hash": "0xfbc42b9e59148e6675f1f92a83f151713a58d6ba7ee0a3c13974d7d5d76d4a30",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -6807,10 +6807,10 @@
         "_info": {
             "hash": "0x8664f330e108153f83895f04cb57dd8c1349b35253b55ccdca7adc7b7347bc62",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -7091,10 +7091,10 @@
         "_info": {
             "hash": "0x5599a9867ff905e6ce1dae5cc47ce72ca4d5145e2418ad8e4247c9b3f50f30d5",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -7375,10 +7375,10 @@
         "_info": {
             "hash": "0x3c16560fdcb23a36317142507107d100c9392e613708f4efe4517b9df885703a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -7659,10 +7659,10 @@
         "_info": {
             "hash": "0xef36b5fda0014c06c47004114824b4904f2ed69b0d7b4642650561c5e69cc2e9",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -7943,10 +7943,10 @@
         "_info": {
             "hash": "0xc3b64aae20764ffa4f8d47307b6d877fe473fd8f68a07532023c915ab4e47972",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -8227,10 +8227,10 @@
         "_info": {
             "hash": "0x220f2c7102d482abbb62cc1121af126d80a14423c4bbcac0f8d16bd835ec1a1a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -8511,10 +8511,10 @@
         "_info": {
             "hash": "0x11d77114c08c0983f091b4318836fd79c88c6ab02befce4ed3549df8e2869fba",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -8795,10 +8795,10 @@
         "_info": {
             "hash": "0x981b53baea57c5c76916e01d68b80a7939b4e55e8160c9e161887c16e2810375",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -9079,10 +9079,10 @@
         "_info": {
             "hash": "0xcdb6d273a0d2ac0249b16453fee81f6d6a217f728d504d204063fba1c7c6b8d3",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -9363,10 +9363,10 @@
         "_info": {
             "hash": "0x70413b6d4e77492c46ea3337fd00057d25436f841fbbdfa80661f5f5445c6d6a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -9647,10 +9647,10 @@
         "_info": {
             "hash": "0xc634a888614599016ea34234ef0a77cf4a73cafe5df6d0019776bd6daacaa998",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -9931,10 +9931,10 @@
         "_info": {
             "hash": "0xbcdc845ba80c8e9717636f623fe5385c7ef4654f6844ff72527c88e6eb0abe4b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -10215,10 +10215,10 @@
         "_info": {
             "hash": "0x10681c422ea15615e44a369f3606c6dfcc81b259c03228b04e638bf112be154d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -10499,10 +10499,10 @@
         "_info": {
             "hash": "0x4923207b803243906e356aaf931005f87f710aa8915b9aa6f0d390c2a19a44c8",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -10783,10 +10783,10 @@
         "_info": {
             "hash": "0x1d932935957e0178492c1790c0cdd771f80cdf39b3c172a2a1c83645174ded4a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -11067,10 +11067,10 @@
         "_info": {
             "hash": "0xb3cb440f854fe0dc21901da3e46291588f8993a709ac856b41ba73458c88e95c",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -11351,10 +11351,10 @@
         "_info": {
             "hash": "0xe99349f05b82f8e40cec5d76aefd9a8c731b26197ed045c1c16f07deb93f34c6",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -11635,10 +11635,10 @@
         "_info": {
             "hash": "0xe5ac408f67c499d64fe501be31ea0e11a500d7edf21709bf8a9b3229c175d812",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -11919,10 +11919,10 @@
         "_info": {
             "hash": "0xff4201b93012f6ca7f5f2adf2c0e05458a87472b74cdcaecfb39f1440a6569d5",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -12203,10 +12203,10 @@
         "_info": {
             "hash": "0x33c55b97d87defc6f826b159f1a2d0e732c7925809264bc05a40372063f7428d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -12487,10 +12487,10 @@
         "_info": {
             "hash": "0xde3318eb668f726613b6fdd2390968afaa2cacc4caf49f465830054ec2c1ffba",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -12771,10 +12771,10 @@
         "_info": {
             "hash": "0x27a46db976233f9c5c11abcce0128bab4adccc3dcd2bde1358aaed4169b3a5ec",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -13055,10 +13055,10 @@
         "_info": {
             "hash": "0x644f1a710b6d0df468a05db6e59cb229daeab21438fcdcf39c05b5ccad90b938",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -13339,10 +13339,10 @@
         "_info": {
             "hash": "0xc5241c4a305fbd2ca4962cc43b4cb6c81e233a451d88cf4f4d2c2d4c4ce4ffec",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -13623,10 +13623,10 @@
         "_info": {
             "hash": "0x8743b4f3caa2a04e855aefeb906f4d54d8e359ad3ee6b8b72e6886f9041bde53",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -13907,10 +13907,10 @@
         "_info": {
             "hash": "0x64d89b99cc7984e9f0c5950595a633976e104dc65e658770761a9c6d3e4f0606",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -14191,10 +14191,10 @@
         "_info": {
             "hash": "0xf2e7cd07681b0a5d3b228796a975345c3885a81291e08929c4331951f91ce520",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -14475,10 +14475,10 @@
         "_info": {
             "hash": "0x55e98bff9fa54edf70e8d160cb29502b5b1146e2906838732a8caca24990fe47",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -14759,10 +14759,10 @@
         "_info": {
             "hash": "0xb40e07aa92890545a92e2fee68e1bc4d0eb6c1ce3a8e67b2189993b2adc77cf7",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -15043,10 +15043,10 @@
         "_info": {
             "hash": "0xb30b293ea79ed595fe9824251b7794d23d2f08c495440a772e2210916cc40e5d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -15327,10 +15327,10 @@
         "_info": {
             "hash": "0x51de74858fab16ff2910a72cea170b95c77e4bee5a5db112337ccad599a60df9",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -15611,10 +15611,10 @@
         "_info": {
             "hash": "0xf4401fa84bae9e3cb81ae72e01da5e61d3bfb91395600fe54fcb6795a3a94a19",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -15895,10 +15895,10 @@
         "_info": {
             "hash": "0x1d03d2f546aef835b172fc81c9093c60418ebed4f896813a61d8ae3f24c726c2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -16179,10 +16179,10 @@
         "_info": {
             "hash": "0x9b121083bcb3ad5f6f5e25cc30cb522fd52fa721cbb4144dac458eeeee7757d7",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -16463,10 +16463,10 @@
         "_info": {
             "hash": "0xee54a6c200e5b46d0844c6a5bf2f96afa98f585feaaf3ad18c392f8f07000bd3",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -16747,10 +16747,10 @@
         "_info": {
             "hash": "0x5a1732b9b7bd7dfa63e69cfbf11d765defa5626bd16a2af897468bf3b44ce43b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -17031,10 +17031,10 @@
         "_info": {
             "hash": "0x7a4a87fb93235df30edd005eae9355836f8b80ace8ccadd4fce3d7dbf872d1d0",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -17315,10 +17315,10 @@
         "_info": {
             "hash": "0xae19b4d1d81ab81c95eb218115618b8ee273800c2a78ced630ee6a0c34333ee6",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -17599,10 +17599,10 @@
         "_info": {
             "hash": "0xb06c1104f0147340da6bd5cdaf02d3d658c772bb2d9384096225789b75aa409d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -17883,10 +17883,10 @@
         "_info": {
             "hash": "0xd1246cad35348b7b1d540f6d583a5c9941091f3964ad6f251699bc27618908df",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -18167,10 +18167,10 @@
         "_info": {
             "hash": "0x94ac93e15385027d994fc2edda7f03707a7a3c11c0f5129ba82b7c2b63996c5f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -18451,10 +18451,10 @@
         "_info": {
             "hash": "0xf2d1a843c8502ac0d987255046d3041672d8a1a789681f6964bb1efc95358eb0",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -18735,10 +18735,10 @@
         "_info": {
             "hash": "0xfa28c5b8de87f382f30546cff75c98b67592cb14089b1c0263c16d3abce5a82d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -19019,10 +19019,10 @@
         "_info": {
             "hash": "0x19a255af729e693817f2871538a4bf5692e12f8a0bbe3a56d9c95f359002c7d8",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -19303,10 +19303,10 @@
         "_info": {
             "hash": "0x635cc8f185e2c30aecdce14696cc1fce2635865b0904644d7cd9d2c11d3230eb",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -19587,10 +19587,10 @@
         "_info": {
             "hash": "0xe27769516c5bf39958a47eec8cfc930438de8d046c3e1e7d357c3862f4a332f0",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -19871,10 +19871,10 @@
         "_info": {
             "hash": "0x33ee91dedd7e9736e65e971b42e38223c28e4333bce27529ebacd93bc611787f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -20155,10 +20155,10 @@
         "_info": {
             "hash": "0x64eb722437cb7e68b36921853552028e7e96d0341367f60b88e646bd167f2b3b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -20439,10 +20439,10 @@
         "_info": {
             "hash": "0xb15cc8d773ce53d02906b9cd605c646fcda6484a9b9590df50e801050cf583b3",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -20723,10 +20723,10 @@
         "_info": {
             "hash": "0xf5e1b8e03a50c9350141801a098ab8167edba780ca2c2c11aaa41370ea8147be",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -21007,10 +21007,10 @@
         "_info": {
             "hash": "0x122746597348285cb8af8a4186696c8f3459f1390d721cbb7405171aa110ab9e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -21291,10 +21291,10 @@
         "_info": {
             "hash": "0x5e89c1278158c85bee37c626ff29daf70ca8a4bb4f4b3a1b3f77d9d3c5e0534d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -21575,10 +21575,10 @@
         "_info": {
             "hash": "0x1a86b074f845503f88e9de5ab51344c01bd2e4bb8fad1bc43f0dfbd56f46a09f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -21859,10 +21859,10 @@
         "_info": {
             "hash": "0xd150c77d2d4afd811409b4c11314181041b410d3b9792b5160f5ccf367ff8ac9",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -22143,10 +22143,10 @@
         "_info": {
             "hash": "0xd966061c0a1afc7ffbc78463db034474b676e3b6b652e180f8e495eca58a6fa4",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -22427,10 +22427,10 @@
         "_info": {
             "hash": "0xe8a33e4ee8fb4f2583bab5be05a82e804d0514c581793b538b69947eaba3450a",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -22711,10 +22711,10 @@
         "_info": {
             "hash": "0xc553f946469484694cddb6391830d7fbb14a3000375dc5aa13349472748047ae",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -22995,10 +22995,10 @@
         "_info": {
             "hash": "0x620efeac9dd75df8fd6dd944a29dd30c03b1c1714f49ed892b456c55d55901e2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -23279,10 +23279,10 @@
         "_info": {
             "hash": "0x30a8d009439a27701bcf21c4834ae2afafa9a5120c3f303e8f65e187fddab275",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -23563,10 +23563,10 @@
         "_info": {
             "hash": "0xd4e584ebf70b3c4dc3e694990b037da77ab70c68b27d47d37c209b7deeb9ca2f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -23847,10 +23847,10 @@
         "_info": {
             "hash": "0xb0e0c8d894e95c93689d1d0efbe9c41e55872b053f6f4a5ff73ff57e3fea142e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -24131,10 +24131,10 @@
         "_info": {
             "hash": "0xf993e404f587be064f71cd1d0e22b64148d543d999796387f4c68c8b0057d659",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -24415,10 +24415,10 @@
         "_info": {
             "hash": "0x5f0b4bc0c13a34216a4707c72f446c13c4ad367afe571ee520960ceae1f57bfd",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -24699,10 +24699,10 @@
         "_info": {
             "hash": "0x8815e39e3b4539b3a55128a1199f84011441c40afb3f1660f854f31f2c4d1a8e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -24983,10 +24983,10 @@
         "_info": {
             "hash": "0xce2025b2ad5f7f4368237839976cc26b11a050525763e68206968e92fa39463f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -25267,10 +25267,10 @@
         "_info": {
             "hash": "0xfbc95e933da32fce02258b322244c3732d9db724ab2fea09db4766348bff1035",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -25551,10 +25551,10 @@
         "_info": {
             "hash": "0x128952e09ba272acbceb64df4a6f975ca8669682f4ea6953600de78d641ad7fa",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -25835,10 +25835,10 @@
         "_info": {
             "hash": "0x07ed6ee02e6363402b7adbd2b773de888c9cb5a0d984b8a0a80de54ff1965c7f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -26119,10 +26119,10 @@
         "_info": {
             "hash": "0x02ee2924739589adeb6acc19e05a73b95e8b4bcb5581393c20328d26f7061c2d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -26403,10 +26403,10 @@
         "_info": {
             "hash": "0x63b847011d36caac8fa45059cc114ff59f6459f87e8bad2f2644b7c4501573c6",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -26687,10 +26687,10 @@
         "_info": {
             "hash": "0x392a60ca87fbd33ac63be49cd07a4c6110a9c25bd629ec8a28c3bf164e0e4686",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -26971,10 +26971,10 @@
         "_info": {
             "hash": "0x636abb21fcb697fa2f86c0500a2b4a1d32796899dd3daeb8734abe2858445a8d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
@@ -27255,10 +27255,10 @@
         "_info": {
             "hash": "0xf6508a72ef7e2e8912f353c4efa9282a0b8c9c28fbbf3e31ce68037ec3b87126",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evmone-t8n 0.14.0+commit.0be7b162",
+            "filling-transition-tool": "evmone-t8n 0.14.1+commit.462964c3",
             "description": "Test function documentation:\n\n    Tests call data into EXT*CALL including multiple offset conditions.\n\n    Returner returns a success value, which caller stores. If memory expansion cost is less than\n    2 billion gas call succeeds. Else whole transaction aborts, leaving canaries in memory.\n\n    The name id of `*-mem-cost` refers to the bit-length of the result of the calculated memory\n    expansion cost. Their length choice is designed to cause problems on shorter bit-length\n    representations with native integers.\n\n    The `offset_field` param indicates what part of the input data arguments are being tested,\n    either the offset of the data in memory or the size of the data in memory.\n\n    The `test_arg` param is the value passed into the field being tested (offset or size),\n    intending to trigger integer size bugs for that particular field.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.2.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/eip7692@v2.3.0/tests/osaka/eip7692_eof_v1/eip7069_extcall/test_calldata.py#L457",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7069.md",
             "reference-spec-version": "1795943aeacc86131d5ab6bb3d65824b3b1d4cad"
         }
