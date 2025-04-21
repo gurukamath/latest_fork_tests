@@ -125,7 +125,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks that include blob transactions with invalid blob counts.\n\n    - `blob count == 0` in type 3 transaction\n    - `blob count > MAX_BLOBS_PER_BLOCK` in type 3 transaction",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L866",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L884",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
@@ -205,7 +205,7 @@
         "blocks": [
             {
                 "rlp": "0xf9039df90242a09c823f5a5fff3d59eae97c2a49a6a32d7cdf474478e97fcd6fedb97e058052d3a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0ecf0818fee9f6dfa3e82e58c3a8597f555c8c6c01b1af5417ebc17c6ba73e8b1a04d9b4fc97ba9d7f0300f2a6ce60344c2962f9c65ad95ba028012a55709c57e24a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800188016345785d8a0000808203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421830e0000830e0000a00000000000000000000000000000000000000000000000000000000000000000f90153b9015003f9014c01808007825208948a0a19589531694250d570040a0c4b74576919b80180c001f8e7a00100000000000000000000000000000000000000000000000000000000000000a00100000000000000000000000000000000000000000000000000000000000001a00100000000000000000000000000000000000000000000000000000000000002a00100000000000000000000000000000000000000000000000000000000000003a00100000000000000000000000000000000000000000000000000000000000004a00100000000000000000000000000000000000000000000000000000000000005a0010000000000000000000000000000000000000000000000000000000000000601a02eda4743e1956071c638044e80c87b44638516eea4dac3d4850f648fb4bdf878a05eb65fcd3da7248a53f30844fb2e6f8d72fdfe717d9918493d555273a72524b1c0c0",
-                "expectException": "TransactionException.TYPE_3_TX_BLOB_COUNT_EXCEEDED",
+                "expectException": "TransactionException.TYPE_3_TX_MAX_BLOB_GAS_ALLOWANCE_EXCEEDED|TransactionException.TYPE_3_TX_BLOB_COUNT_EXCEEDED",
                 "rlp_decoded": {
                     "blockHeader": {
                         "parentHash": "0x9c823f5a5fff3d59eae97c2a49a6a32d7cdf474478e97fcd6fedb97e058052d3",
@@ -266,11 +266,11 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x654d26c9aa3e9e6ba3500b83a8bdab64cd856f44fcc73da5d7ebc9f14fee9da6",
+            "hash": "0xceff7bb4bf62dfd1f75139cbcf9df59897ad6e01bbabe27e30f09028c2b05950",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks that include blob transactions with invalid blob counts.\n\n    - `blob count == 0` in type 3 transaction\n    - `blob count > MAX_BLOBS_PER_BLOCK` in type 3 transaction",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L866",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L884",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
@@ -526,14 +526,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks that include blob transactions with invalid blob counts.\n\n    - `blob count == 0` in type 3 transaction\n    - `blob count > MAX_BLOBS_PER_BLOCK` in type 3 transaction",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L866",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L884",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
@@ -724,7 +724,7 @@
         "blocks": [
             {
                 "rlp": "0xf90422f90263a0d9ba7ea101cf50843d5335029defb0b12d61a6f8307e1e826092ba0af615efc2a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0e4f98a92649b4a8e0e47f4815ca0bff4b25de3e61a982db6518009b1650c26daa0152e2108c3dbdb373ba1e98dcd9b7f39c99fd8505a072707c4118c5af9b33c79a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800188016345785d8a0000808203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218314000083080000a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855f901b7b901b403f901b001808007825208948a0a19589531694250d570040a0c4b74576919b80180c001f9014aa00100000000000000000000000000000000000000000000000000000000000000a00100000000000000000000000000000000000000000000000000000000000001a00100000000000000000000000000000000000000000000000000000000000002a00100000000000000000000000000000000000000000000000000000000000003a00100000000000000000000000000000000000000000000000000000000000004a00100000000000000000000000000000000000000000000000000000000000005a00100000000000000000000000000000000000000000000000000000000000006a00100000000000000000000000000000000000000000000000000000000000007a00100000000000000000000000000000000000000000000000000000000000008a0010000000000000000000000000000000000000000000000000000000000000980a025b1e83ed3625b3bcf046ce97a5387bddafdfaafe521f51108e3c78a6fecc5b4a06e93f439320672f107fd1bd7e3da9e5690f4ee30160ee741a7eb653353042d70c0c0",
-                "expectException": "TransactionException.TYPE_3_TX_BLOB_COUNT_EXCEEDED",
+                "expectException": "TransactionException.TYPE_3_TX_MAX_BLOB_GAS_ALLOWANCE_EXCEEDED|TransactionException.TYPE_3_TX_BLOB_COUNT_EXCEEDED",
                 "rlp_decoded": {
                     "blockHeader": {
                         "parentHash": "0xd9ba7ea101cf50843d5335029defb0b12d61a6f8307e1e826092ba0af615efc2",
@@ -789,18 +789,18 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xc69d4d1f7360fba2a9cbdddb54a9fe456f6e247c477b70b1f315b8eaa928150a",
+            "hash": "0xf8756eab6a6de73a51df7bb57b8adb281c60a61c097d400e1b560b182f1f365f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks that include blob transactions with invalid blob counts.\n\n    - `blob count == 0` in type 3 transaction\n    - `blob count > MAX_BLOBS_PER_BLOCK` in type 3 transaction",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L866",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L884",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     }
